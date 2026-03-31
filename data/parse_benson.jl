@@ -37,7 +37,12 @@ function get_subgraph(inc, part)
             push!(simps, e)
         end
     end
-    return stochastic_incidence(simps)
+    vmap = Dict()
+    for (i, v) in enumerate(part)
+        vmap[v] = i
+    end
+    P = stochastic_incidence([[vmap[x] for x in s] for s in simps])
+    return stochastic_incidence([[vmap[x] for x in s] for s in simps])
 end
 
 function get_subgraphs(inc, target, imb)
@@ -55,6 +60,7 @@ function gen_graph()
         inc = stochastic_incidence(simps)
         sgs = get_subgraphs(inc, 15, 0.1)
         for (i, sg) in enumerate(sgs)
+            println(size(sg), " ", nnz(sg))
             numpy.save("data/$f/numpy/$(f)_$i.npy", Matrix(sg), false)
         end
     end
