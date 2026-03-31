@@ -29,12 +29,15 @@ function stochastic_incidence(simps)
 end
 
 function get_subgraph(inc, part)
-    n = size(inc, 1)
-    mask1 = zeros(n)
-    mask1[part] .= 1
-    acc = ceil.(Int, inc)' * mask1
-    es = findall(x -> x > 1, acc)
-    return (inc/Diagonal(acc))[part, es]
+    simps = Set()
+    rows = rowvals(inc)
+    for c in axes(inc, 2)
+        e = intersect(rows[nzrange(inc, c)], part)
+        if length(e) > 1
+            push!(simps, e)
+        end
+    end
+    return stochastic_incidence(simps)
 end
 
 function get_subgraphs(inc, target, imb)

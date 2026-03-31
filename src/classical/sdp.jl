@@ -71,6 +71,12 @@ end
 
 hr(M, nsamples) = sign.(M * randn(size(M, 2), nsamples))
 
+function best_hr(Q, X, nsamples, maximize=false)
+    S = hr(X, nsamples)
+    f = maximize ? maximum : minimum
+    return f(dot(Q * S[:, i], S[:, i]) for i in 1:nsamples)
+end
+
 function sdp_minmax(Qs, M; maxmin=false)
     f = maxmin ? maximum : minimum
     return f(dot(Q, asin.(M * M') / π) for Q in Qs)
