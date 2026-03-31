@@ -47,12 +47,12 @@ end
 
 
 function gen_graph()
-    for f in ["contact-high-school", "DAWN", "email-Enron", "email-Eu"]
+    for f in ["contact-high-school", "email-Enron"]
         simps = parser(f)
         inc = stochastic_incidence(simps)
         sgs = get_subgraphs(inc, 15, 0.1)
         for (i, sg) in enumerate(sgs)
-            numpy.ndarray.tofile(Matrix(sg), "data/$f/numpy/$(f)_$i.dat")
+            numpy.save("data/$f/numpy/$(f)_$i.npy", Matrix(sg), false)
         end
     end
 end
