@@ -1,27 +1,29 @@
 using Combinatorics, JuMP, Gurobi
 
+const GRB_ENV = Gurobi.Env()
+
 function max_qp(Q)
     N = size(Q, 2)
-    model = Model(Gurobi.Optimizer)
+    model = Model(() -> Gurobi.Optimizer(GRB_ENV))
     set_silent(model)
-    @variable(model, x[1:N], Binary)
+    @variable(model, x[1:N], Bin)
     y = 2x .- 1
-    @objective(model, Min, dot(Q * y, y))
+    @objective(model, Max, dot(Q * y, y))
     optimize!(model)
     assert_is_solved_and_feasible(model)
-    return value(x)
+    return value(x), objective_value(model)
 end
 
 function min_qp(Q1, Q2)
     N = size(Q1, 2)
-    model = Model(Gurobi.Optimizer)
+    model = Model(() -> Gurobi.Optimizer(GRB_ENV))
     set_silent(model)
-    @variable(model, x[1:N], Binary)
+    @variable(model, x[1:N], Bin)
     @objective(model, Min, dot(Q1 * y, y))
     @constraint(model, dot(Q2 * y, y) <= beta)
     optimize!(model)
     assert_is_solved_and_feasible(model)
-    return value(x)
+    return value(x), objective_value(model)
 end
 
 function minmax_expectation(Qs; maxmin=false)
@@ -35,12 +37,12 @@ function minmax_expectation(Qs; maxmin=false)
             Y[i, j] = dot(Q * x, x)
         end
     end
-    model = Model(Gurobi.Optimizer)
+    model = Model(() -> Gurobi.Optimizer(GRB_ENV))
     set_silent(model)
     @variable(model, p[1:2^n] >= 0)
-    @variable(model, t)
+    @variable(model, t >= 0)
     if maxmin
-        @objective(model, max, t)
+        @objective(model, Max, t)
         @constraint(model, Y * p .>= t)
         @constraint(model, sum(p) == 1)
     else

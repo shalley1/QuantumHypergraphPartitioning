@@ -69,7 +69,7 @@ function min_max_expected(Qs; maxmin=false)
     return svd_cholesky(value(X))
 end
 
-hr(M, nsamples) = sign.(M * randn(size(M, 2), nsamples))
+hr(M, nsamples) = sign.(M * randn(Xoshiro(42), size(M, 2), nsamples))
 
 function best_hr(Q, X, nsamples, maximize=false)
     S = hr(X, nsamples)
@@ -79,5 +79,5 @@ end
 
 function sdp_minmax(Qs, M; maxmin=false)
     f = maxmin ? maximum : minimum
-    return f(dot(Q, asin.(M * M') / π) for Q in Qs)
+    return f(dot(Q, asin.(round.(M' * M; sigdigits=8)) / π) for Q in Qs)
 end
