@@ -79,8 +79,8 @@ function best_hr(Q, X, nsamples, maximize=false)
 end
 
 function sdp_minmax(Qs, M; maxmin=false)
-    f = maxmin ? maximum : minimum
-    return f(dot(Q, asin.(round.(M' * M; sigdigits=8)) / π) for Q in Qs)
+    f = maxmin ? minimum : maximum
+    return f(dot(Q, (1 .- 2 * acos.(round.(M' * M; sigdigits=8)) ./ π)) for Q in Qs)
 end
 
 function sdp_pareto(Q1, Q2, steps, nsamples, maximize=false)

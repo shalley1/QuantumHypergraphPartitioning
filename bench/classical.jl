@@ -1,4 +1,4 @@
-using PyCall, Dates
+using PyCall, Dates, Graphs
 
 numpy = pyimport("numpy")
 
@@ -27,7 +27,7 @@ function run_tests()
             for f in readdir("data/$dataset/numpy/")
                 P = Matrix(numpy.load("data/$dataset/numpy/$f"))
                 w = ones(size(P, 2))
-                sdp_max, exact_max = sdp_test(P, w)
+                sdp_max, exact_max = max_test(P, w)
                 sdp_fair, exact_fair = fair_test(P, w)
                 write(log, "$f, $sdp_max, $exact_max, $sdp_fair, $exact_fair\n")
             end
