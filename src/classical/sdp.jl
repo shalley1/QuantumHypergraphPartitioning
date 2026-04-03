@@ -73,11 +73,21 @@ hr(M, nsamples) = sign.(M * randn(Xoshiro(42), size(M, 2), nsamples))
 
 function best_hr(Q, X, nsamples, maximize=false)
     S = hr(X, nsamples)
-    f = maximize ? maximum : minimum
-    return f(dot(Q * S[:, i], S[:, i]) for i in 1:nsamples)
+    g = maximize ? argmax : argmin
+    i = g(i -> dot(Q * S[:, i], S[:, i]), 1:nsamples)
+    return S[:, i], dot(Q * S[:, i], S[:, i])
 end
 
 function sdp_minmax(Qs, M; maxmin=false)
     f = maxmin ? maximum : minimum
     return f(dot(Q, asin.(round.(M' * M; sigdigits=8)) / π) for Q in Qs)
+end
+
+function sdp_pareto(Q1, Q2, steps, nsamples, maximize=false)
+    for α in (0:steps) / (steps)
+        Q = α * Q1 + (1 - α) * Q2
+        X = max_sdp(Q)
+        x, res = best_hr(Q, X, nsamples, maximize)
+        println("$α $(dot(Q1 * x, x)) $(dot(Q2 * x, x)) $res")
+    end
 end

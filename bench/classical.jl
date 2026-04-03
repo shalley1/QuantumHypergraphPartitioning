@@ -8,7 +8,7 @@ include("../src/classical/sdp.jl")
 
 function max_test(P, w)
     X_max = max_sdp(var(P, w))
-    sdp_max = best_hr(var(P, w), X_max, 3000, true)
+    _, sdp_max = best_hr(var(P, w), X_max, 3000, true)
     _, exact_max = max_qp(var(P, w))
     return sdp_max, exact_max
 end
