@@ -1,4 +1,4 @@
-using SparseArrays, KaHyPar, PyCall, LinearAlgebra
+using SparseArrays, KaHyPar, PyCall, LinearAlgebra, Laplacians
 
 numpy = pyimport("numpy")
 
@@ -62,6 +62,19 @@ function gen_graph()
         for (i, sg) in enumerate(sgs)
             println(size(sg), " ", nnz(sg))
             numpy.save("data/$f/numpy/$(f)_$i.npy", Matrix(sg), false)
+        end
+    end
+end
+
+function gen_sparse()
+    for dataset in ["contact-high-school", "email-Enron"]
+        for f in readdir("data/$dataset/numpy/")
+            P = Matrix(numpy.load("data/$dataset/numpy/$f"))
+            w = ones(size(P, 2))
+            M = imb(P, w)
+            M[diagind(M)] .= 0
+            M2 = sparsify(sparse(M))
+            numpy.save("data/$dataset/numpy/sparse_$f", Matrix(M2), false)
         end
     end
 end
