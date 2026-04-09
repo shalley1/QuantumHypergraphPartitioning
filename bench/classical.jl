@@ -37,17 +37,17 @@ function pareto_test(P1, P2, w1, w2, α)
 end
 
 function run_tests(tag, target)
-    open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$tag.csv", "a") do log
-        write(log, "f, sdp max, exact max, ratio\n")
+    open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$(tag)_$target.csv", "a") do log
+        write(log, "f, sdp max, exact max, ratio max, sdp fair, exact fair, ratio fair\n")
         for dataset in ["contact-high-school", "email-Enron"]
             for f in readdir("data/$dataset/numpy_$target/")
                 P = Matrix(numpy.load("data/$dataset/numpy_$target/$f"))
                 w = ones(size(P, 2)) # [length(nzrange(sparse(P), i))^2 for i in axes(P, 2)]
                 write(log, "$f, ")
                 sdp_max, exact_max = max_test(P, w)
-                write(log, "$sdp_max, $exact_max, $(sdp_max / exact_max)")
-                # sdp_fair, exact_fair = fair_test(P, w)
-                # write(log, "$sdp_fair, $exact_fair")
+                write(log, "$sdp_max, $exact_max, $(sdp_max / exact_max), ")
+                sdp_fair, exact_fair = fair_test(P, w)
+                write(log, "$sdp_fair, $exact_fair, $(sdp_fair / exact_fair)")
                 write(log, "\n")
                 # P1, w1 = P, w
                 # P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
