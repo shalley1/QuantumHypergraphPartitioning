@@ -1,6 +1,7 @@
 [deps]
 Clarabel = "61c947e1-3e6d-4ee4-985a-eec8c727bd6e"
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+FastChebInterp = "cf66c380-9a80-432c-aff8-4f9c79c0bdde"
 GraphIO = "aa1b3936-2fda-51b9-ab35-c553d3a640a2"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"

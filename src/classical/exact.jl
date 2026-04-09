@@ -11,7 +11,7 @@ function max_qp(Q)
     @objective(model, Max, dot(Q * y, y))
     optimize!(model)
     assert_is_solved_and_feasible(model)
-    return value(x), objective_value(model)
+    return value(y), objective_value(model)
 end
 
 function min_qp(Q1, Q2)

@@ -32,7 +32,8 @@ function get_subgraph(inc, part)
     simps = Set()
     rows = rowvals(inc)
     for c in axes(inc, 2)
-        e = intersect(rows[nzrange(inc, c)], part)
+        e = rows[nzrange(inc, c)]
+        issubset(e, part) || continue
         if length(e) > 1
             push!(simps, e)
         end
@@ -54,19 +55,21 @@ function get_subgraphs(inc, target, imb)
 end
 
 
-function gen_graph()
+function gen_graph(target)
     for f in ["contact-high-school", "email-Enron"]
         simps = parser(f)
         inc = stochastic_incidence(simps)
-        sgs = get_subgraphs(inc, 15, 0.1)
+        sgs = get_subgraphs(inc, target, 0.1)
+        mkpath("data/$f/numpy_$target/")
+        pad = length(string(length(sgs)))
         for (i, sg) in enumerate(sgs)
             println(size(sg), " ", nnz(sg))
-            numpy.save("data/$f/numpy/$(f)_$i.npy", Matrix(sg), false)
+            numpy.save("data/$f/numpy_$target/$(f)_$(lpad(string(i), pad, "0")).npy", Matrix(sg), false)
         end
     end
 end
 
-function gen_sparse()
+function gen_sparse(target)
     for dataset in ["contact-high-school", "email-Enron"]
         for f in readdir("data/$dataset/numpy/")
             P = Matrix(numpy.load("data/$dataset/numpy/$f"))
@@ -75,6 +78,29 @@ function gen_sparse()
             M[diagind(M)] .= 0
             M2 = sparsify(sparse(M))
             numpy.save("data/$dataset/numpy/sparse_$f", Matrix(M2), false)
+        end
+    end
+end
+
+function edge_counts()
+    for dataset in ["contact-high-school", "email-Enron"]
+        for f in readdir("data/$dataset/numpy/")
+            P = sparse(Matrix(numpy.load("data/$dataset/numpy/$f")))
+            w = ones(size(P, 2))
+            # println("$f $(size(P, 2)) $((nnz(P * P') - size(P, 1)) ÷ 2)")
+            a = [collect(nzrange(sparse(P), i)) for i in axes(P, 2)]
+            acc = 0
+            for i in axes(a, 1)
+                for j in axes(a, 2)
+                    if i != j && issubset(a[i], a[j])
+                        acc += 1
+                    end
+                end
+            end
+            println("$f $acc")
+            # for i in [length(nzrange(sparse(P), i)) for i in axes(P, 2)]
+            #     println("$f $i")
+            # end
         end
     end
 end
