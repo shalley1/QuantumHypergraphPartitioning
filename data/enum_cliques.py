@@ -12,7 +12,6 @@ def is_asymmetric_pynauty(G: nx.Graph) -> bool:
 
 def process(f):
     G = nx.convert_node_labels_to_integers(nx.read_edgelist(f, data=(("weight", float),)))
-    print(is_asymmetric_pynauty(G))
     clq = list(nx.enumerate_all_cliques(G))
     cliques = list(filter(lambda x: not any(map(lambda y: set(x) < set(y), clq)), clq))
     print([len(x) for x in cliques], len(cliques))
