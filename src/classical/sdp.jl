@@ -83,7 +83,7 @@ function sdp_minmax(Qs, M; maxmin=false)
     return f(dot(Q, expected_hr(M)) for Q in Qs)
 end
 
-expected_hr(M) = 1 .- 2 .* acos.(round.(M' * M; sigdigits=8)) ./ π
+expected_hr(M) = 2 .* asin.(round.(M' * M; sigdigits=8)) ./ π
 
 function sdp_pareto(Q1, Q2, steps, nsamples, maximize=false)
     for α in (0:steps) / (steps)

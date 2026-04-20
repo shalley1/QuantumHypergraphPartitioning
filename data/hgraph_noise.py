@@ -13,13 +13,13 @@ if __name__ == '__main__':
     clq = list(nx.enumerate_all_cliques(K))
     cliques = list(filter(lambda x: not any(map(lambda y: set(x) < set(y), clq)), clq))
     
-    p, d, o = 0.0, 3, 3
-    for idx in range(5):
+    p, d, o = 0.0, 0, 0
+    for idx in range(1):
         rng = np.random.default_rng(idx)
-        edges = list(filter(lambda  _: rng.random() > p,  cliques)) + poisson_edges(len(K), d, o, rng)
+        edges = list(filter(lambda  _: rng.random() > p,  cliques)) #  + poisson_edges(len(K), d, o, rng)
         Pi = np.zeros((len(K), len(edges)))
         for (i, e) in enumerate(edges):
             for v in e:
                 Pi[v, i] = 1 / len(e)
-        np.save(f"./data/noisy_karloff/6_3_1_{idx}.npy", Pi, False)
+        np.save(f"./data/karloff/6_3_1_{idx}.npy", Pi, False)
 

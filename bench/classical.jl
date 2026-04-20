@@ -28,26 +28,25 @@ function pareto_test(P1, P2, w1, w2, α)
     V = var(P2, w2)
     O = α .* M ./ eigmax(M) + (1 - α) .* V ./ eigmax(V)
     X_max = max_sdp(O)
-    sdp_x, _ = best_hr(O, X_max, 1000, true)
+    S = expected_hr(X_max)
     exact_x, _ = max_qp(O)
-    sdp_pareto1, sdp_pareto2 = r6(dot(M * sdp_x, sdp_x)), r6(dot(V * sdp_x, sdp_x))
-    # sdp_pareto1, sdp_pareto2 = r6(dot(M, expected_hr(X_max))), r6(dot(V, expected_hr(X_max)))
+    sdp_pareto1, sdp_pareto2 = r6(dot(M, S)), r6(dot(V, S))
     exact_pareto1, exact_pareto2 = r6(dot(M * exact_x, exact_x)), r6(dot(V * exact_x, exact_x))
     return sdp_pareto1, sdp_pareto2, exact_pareto1, exact_pareto2
 end
 
 function run_tests(tag, target)
     open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$(tag)_$target.csv", "a") do log
-        write(log, "f, sdp max, exact max, ratio max, sdp fair, exact fair, ratio fair\n")
-        for dataset in ["contact-high-school", "email-Enron"]
+        write(log, "f,sdp max,exact max,ratio max,sdp fair,exact fair,ratio fair\n")
+        for dataset in ["contact-high-school", "email-Enron"] # ["noisy_karloff"] #
             for f in readdir("data/$dataset/numpy_$target/")
                 P = Matrix(numpy.load("data/$dataset/numpy_$target/$f"))
                 w = ones(size(P, 2)) # [length(nzrange(sparse(P), i))^2 for i in axes(P, 2)]
-                write(log, "$f, ")
+                write(log, "$(splitext(f)[1]), ")
                 sdp_max, exact_max = max_test(P, w)
-                write(log, "$sdp_max, $exact_max, $(sdp_max / exact_max), ")
+                write(log, "$sdp_max,$exact_max,$(sdp_max / exact_max),")
                 sdp_fair, exact_fair = fair_test(P, w)
-                write(log, "$sdp_fair, $exact_fair, $(sdp_fair / exact_fair)")
+                write(log, "$sdp_fair,$exact_fair,$(sdp_fair / exact_fair)")
                 write(log, "\n")
                 # P1, w1 = P, w
                 # P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
@@ -56,6 +55,21 @@ function run_tests(tag, target)
                 #     write(log, "$f, $α, $sdp_pareto1, $sdp_pareto2, $exact_pareto1, $exact_pareto2\n")
                 # end
             end
+        end
+    end
+end
+
+
+function run_pareto(folder, fname)
+    open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$fname.csv", "a") do log
+        write(log, "α,sdp 1,sdp 2,exact 1,exact 2\n")
+        P = Matrix(numpy.load("$folder/$fname.npy"))
+        w = ones(size(P, 2)) # [length(nzrange(sparse(P), i))^2 for i in axes(P, 2)]
+        P1, w1 = P, w
+        P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
+        for α in range(0.63, 0.68, 20) # chebpoints(20, 0, 1)
+            sdp_pareto1, sdp_pareto2, exact_pareto1, exact_pareto2 = pareto_test(P1, P2, w1, w2, α)
+            write(log, "$α,$sdp_pareto1,$sdp_pareto2,$exact_pareto1,$exact_pareto2\n")
         end
     end
 end
