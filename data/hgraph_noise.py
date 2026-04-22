@@ -21,5 +21,5 @@ if __name__ == '__main__':
         for (i, e) in enumerate(edges):
             for v in e:
                 Pi[v, i] = 1 / len(e)
-        np.save(f"./data/karloff/6_3_1_{idx}.npy", Pi, False)
+        np.save(f"./data/karloff/numpy_20/6_3_1_{idx}.npy", Pi, False)
 

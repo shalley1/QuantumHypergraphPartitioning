@@ -1,5 +1,7 @@
 using SparseArrays, KaHyPar, PyCall, LinearAlgebra, Laplacians
 
+hgraph_classes = ["congress-bills"] # ["NDC-classes", "email-Enron", "contact-high-school"]
+
 numpy = pyimport("numpy")
 
 function parser(folder)
@@ -54,23 +56,25 @@ function get_subgraphs(inc, target, imb)
     return filter(x -> nnz(x) != 0, [get_subgraph(inc, findall(x -> x == i, parts)) for i in 0:nump])
 end
 
-
 function gen_graph(target)
-    for f in ["contact-high-school", "email-Enron"]
+    for f in hgraph_classes
         simps = parser(f)
         inc = stochastic_incidence(simps)
-        sgs = get_subgraphs(inc, target, 0.1)
+        sgs = get_subgraphs(inc, target, 0.3)
+        sgs = [A[reshape(sum(A; dims=2) .> 0, :), :] for A in sgs]
+        sgs = collect(filter(x -> size(x, 1) <= target, sgs))
         mkpath("data/$f/numpy_$target/")
         pad = length(string(length(sgs)))
         for (i, sg) in enumerate(sgs)
-            println(size(sg), " ", nnz(sg))
-            numpy.save("data/$f/numpy_$target/$(f)_$(lpad(string(i), pad, "0")).npy", Matrix(sg), false)
+            fname = "$(f)_$(lpad(string(i), pad, "0"))"
+            println(fname, " ", size(sg), " ", nnz(sg), " ", (nnz(sg * sg') - size(sg, 1)) ÷ 2)
+            numpy.save("data/$f/numpy_$target/$fname.npy", Matrix(sg), false)
         end
     end
 end
 
 function gen_sparse(target)
-    for dataset in ["contact-high-school", "email-Enron"]
+    for dataset in hgraph_classes
         for f in readdir("data/$dataset/numpy/")
             P = Matrix(numpy.load("data/$dataset/numpy/$f"))
             w = ones(size(P, 2))
@@ -83,11 +87,11 @@ function gen_sparse(target)
 end
 
 function edge_counts()
-    for dataset in ["contact-high-school", "email-Enron"]
+    for dataset in hgraph_classes
         for f in readdir("data/$dataset/numpy/")
             P = sparse(Matrix(numpy.load("data/$dataset/numpy/$f")))
             w = ones(size(P, 2))
-            # println("$f $(size(P, 2)) $((nnz(P * P') - size(P, 1)) ÷ 2)")
+            # println("$f $(size(P)) $((nnz(P * P') - size(P, 1)) ÷ 2)")
             a = [collect(nzrange(sparse(P), i)) for i in axes(P, 2)]
             acc = 0
             for i in axes(a, 1)
