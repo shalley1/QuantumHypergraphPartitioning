@@ -108,3 +108,22 @@ function edge_counts()
         end
     end
 end
+
+function gen_pareto()
+    P = Matrix(numpy.load("data/email-Enron/numpy_15/email-Enron_5.npy"))
+    w = ones(size(P, 2))
+    P1, w1 = P, w
+    P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
+    M = imb(P1, w1)
+    V = var(P2, w2)
+    mkpath("data/pareto/email-Enron_05/combined")
+    numpy.save("data/pareto/email-Enron_05/V.npy", Matrix(V), false)
+    numpy.save("data/pareto/email-Enron_05/M.npy", Matrix(M), false)
+    nsteps = 20
+
+    for (i, α) in enumerate(range(0, 1; length=nsteps))
+        O = α .* M ./ eigmax(M) + (1 - α) .* V ./ eigmax(V)
+        f = "$(lpad(string(i), length(string(nsteps)), "0")).npy"
+        numpy.save("data/pareto/email-Enron_05/combined/$f", O, false)
+    end
+end

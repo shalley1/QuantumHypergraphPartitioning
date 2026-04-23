@@ -67,7 +67,7 @@ if __name__ == '__main__':
     plt.savefig("plots/karloff_layers_max.pdf")
 
 
-    classicalpareto = pd.read_csv("bench/logs/2026-04-21_13-09-40_email-Enron_5.csv")
+    classicalpareto = pd.read_csv("bench/logs/2026-04-23_18-48-26_6_3_1_3.csv") # "bench/logs/2026-04-21_13-09-40_email-Enron_5.csv")
     pareto = classicalpareto
 
     fig, (ax1, ax2) = plt.subplots(figsize=rec, 
@@ -78,8 +78,8 @@ if __name__ == '__main__':
 
     ax1.set_xlabel("Variance")
     ax1.set_title(key)
-    ax1.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP")
-    ax1.plot(pareto["exact 1"], pareto["exact 2"], label="Exact")
+    ax1.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
+    ax1.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
 
     ax1.set_ylabel("Imbalance")
     ax1.legend()
@@ -90,10 +90,10 @@ if __name__ == '__main__':
 
     ax2.set_xlabel("Variance")
     ax2.set_title(key)
-    ax2.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP")
-    ax2.plot(pareto["exact 1"], pareto["exact 2"], label="Exact")
+    ax2.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
+    ax2.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
 
-    plt.savefig("plots/pareto.pdf")
+    plt.savefig("plots/pareto.png")
 
     # fig, axs = plt.subplots(figsize=(9,3), 
     #                     nrows=1, ncols=3,     # fix as above

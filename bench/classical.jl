@@ -35,6 +35,20 @@ function pareto_test(P1, P2, w1, w2, α)
     return sdp_pareto1, sdp_pareto2, exact_pareto1, exact_pareto2
 end
 
+function pareto_folder_test(fname)
+    M = Matrix(numpy.load("data/pareto/$fname/M.npy"))
+    V = Matrix(numpy.load("data/pareto/$fname/V.npy"))
+    for f in readdir("data/pareto/$fname/combined")
+        O = Matrix(numpy.load("data/pareto/$fname/combined/$f"))
+        X_max = max_sdp(O)
+        S = expected_hr(X_max)
+        exact_x, _ = max_qp(O)
+        sdp1, sdp2 = r6(dot(M, S)), r6(dot(V, S))
+        exact1, exact2 = r6(dot(M * exact_x, exact_x)), r6(dot(V * exact_x, exact_x))
+        println("$sdp1,$sdp2,$exact1,$exact2")
+    end
+end
+
 function run_tests(tag, target)
     open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$(tag)_$target.csv", "a") do log
         write(log, "f,sdp max,exact max,ratio max,sdp fair,exact fair,ratio fair\n")
@@ -61,7 +75,7 @@ function run_pareto(folder, fname)
         w = ones(size(P, 2)) # [length(nzrange(sparse(P), i))^2 for i in axes(P, 2)]
         P1, w1 = P, w
         P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
-        for α in chebpoints(20, 0, 1)
+        for α in range(0.5, 0.75; length=20) # chebpoints(20, 0, 1)
             sdp_pareto1, sdp_pareto2, exact_pareto1, exact_pareto2 = pareto_test(P1, P2, w1, w2, α)
             write(log, "$α,$sdp_pareto1,$sdp_pareto2,$exact_pareto1,$exact_pareto2\n")
         end
