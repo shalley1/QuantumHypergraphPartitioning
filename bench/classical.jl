@@ -38,14 +38,17 @@ end
 function pareto_folder_test(fname)
     M = Matrix(numpy.load("data/pareto/$fname/M.npy"))
     V = Matrix(numpy.load("data/pareto/$fname/V.npy"))
-    for f in readdir("data/pareto/$fname/combined")
-        O = Matrix(numpy.load("data/pareto/$fname/combined/$f"))
-        X_max = max_sdp(O)
-        S = expected_hr(X_max)
-        exact_x, _ = max_qp(O)
-        sdp1, sdp2 = r6(dot(M, S)), r6(dot(V, S))
-        exact1, exact2 = r6(dot(M * exact_x, exact_x)), r6(dot(V * exact_x, exact_x))
-        println("$sdp1,$sdp2,$exact1,$exact2")
+    open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$fname.csv", "a") do log
+        write(log, "sdp 1,sdp 2,exact 1,exact 2\n")
+        for f in readdir("data/pareto/$fname/combined")
+            O = Matrix(numpy.load("data/pareto/$fname/combined/$f"))
+            X_max = max_sdp(O)
+            S = expected_hr(X_max)
+            exact_x, _ = max_qp(O)
+            sdp1, sdp2 = r6(dot(M, S)), r6(dot(V, S))
+            exact1, exact2 = r6(dot(M * exact_x, exact_x)), r6(dot(V * exact_x, exact_x))
+            write(log, "$sdp1,$sdp2,$exact1,$exact2\n")
+        end
     end
 end
 

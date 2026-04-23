@@ -67,7 +67,7 @@ if __name__ == '__main__':
     plt.savefig("plots/karloff_layers_max.pdf")
 
 
-    classicalpareto = pd.read_csv("bench/logs/2026-04-23_18-48-26_6_3_1_3.csv") # "bench/logs/2026-04-21_13-09-40_email-Enron_5.csv")
+    classicalpareto = pd.read_csv("bench/logs/2026-04-23_19-36-37_email-Enron_05.csv") # "bench/logs/2026-04-21_13-09-40_email-Enron_5.csv")
     pareto = classicalpareto
 
     fig, (ax1, ax2) = plt.subplots(figsize=rec, 
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     ax1.set_ylabel("Imbalance")
     ax1.legend()
 
-    classicalpareto = pd.read_csv("bench/logs/2026-04-21_13-15-17_email-Enron_5.csv")
+    classicalpareto = pd.read_csv("bench/logs/2026-04-23_19-39-46_email-Enron_05.csv")
     pareto = classicalpareto
 
 
