@@ -78,7 +78,7 @@ function run_pareto(folder, fname)
         w = ones(size(P, 2)) # [length(nzrange(sparse(P), i))^2 for i in axes(P, 2)]
         P1, w1 = P, w
         P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
-        for α in range(0.5, 0.75; length=20) # chebpoints(20, 0, 1)
+        for α in [0.5263157894736842, 0.5789473684210527, 0.631578947368421, 0.6578947368421053, 0.6842105263157895, 0.7368421052631579] # range(0.6, 0.7; length=5) # chebpoints(20, 0, 1)
             sdp_pareto1, sdp_pareto2, exact_pareto1, exact_pareto2 = pareto_test(P1, P2, w1, w2, α)
             write(log, "$α,$sdp_pareto1,$sdp_pareto2,$exact_pareto1,$exact_pareto2\n")
         end

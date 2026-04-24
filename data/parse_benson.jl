@@ -119,9 +119,9 @@ function gen_pareto()
     mkpath("data/pareto/email-Enron_05/combined")
     numpy.save("data/pareto/email-Enron_05/V.npy", Matrix(V), false)
     numpy.save("data/pareto/email-Enron_05/M.npy", Matrix(M), false)
-    nsteps = 11
+    nsteps = 6
 
-    for (i, α) in enumerate(range(0, 1; length=nsteps))
+    for (i, α) in enumerate(range(0.75, 0.95; length=6))
         O = α .* M ./ eigmax(M) + (1 - α) .* V ./ eigmax(V)
         f = "$(lpad(string(i), length(string(nsteps)), "0")).npy"
         numpy.save("data/pareto/email-Enron_05/combined/$f", O, false)
