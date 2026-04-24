@@ -80,15 +80,19 @@ if __name__ == '__main__':
     ax1.set_title(key)
     ax1.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax1.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
+    ax1.plot(
+        [44.90196400000003, 44.960877750000016, 49.78700224999999, 52.05226930555554, 55.521994694444444, 57.654929277777775], 
+        [0.9825421875, 0.9805328125, 0.7396203125, 0.6062234375, 0.2708375, 0.0271546875], 
+        label="Quantum", marker='o')
 
-    ax1.set_ylabel("Imbalance")
+    ax1.set_ylabel("Variance")
     ax1.legend()
 
-    classicalpareto = pd.read_csv("bench/logs/2026-04-24_14-02-43_6_3_1_3.csv")
+    classicalpareto = pd.read_csv("bench/logs/2026-04-24_14-33-00_karloff_noisy.csv")
     pareto = classicalpareto
 
 
-    ax2.set_xlabel("Variance")
+    ax2.set_xlabel("Imbalance")
     ax2.set_title(key)
     ax2.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax2.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
