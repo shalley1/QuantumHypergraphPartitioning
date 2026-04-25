@@ -218,6 +218,11 @@ if __name__ == '__main__':
     ax2.set_title("congress-bills 23")
     ax2.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax2.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
+    ax2.plot(
+        [13.359111111111115, 13.98579166666667, 14.329986111111113, 15.06809166666667, 15.563894444444443, 16.077616666666664],
+        [0.9751795918367343, 0.9335795918367344, 0.9110877551020407, 0.8254571428571429, 0.7241326530612244, 0.5665632653061224],
+        label="Quantum", marker='o'
+    )
 
     plt.savefig("plots/pareto.pdf")
 

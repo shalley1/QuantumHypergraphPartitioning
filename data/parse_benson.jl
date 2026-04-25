@@ -127,3 +127,10 @@ function gen_pareto(folder, fname, alphas)
         numpy.save("data/pareto/$fname/combined/$f", O, false)
     end
 end
+
+function printstats(folder)
+    for f in readdir(folder)
+        P = Matrix(numpy.load("$folder/$f"))
+        println("$f $(size(P))")
+    end
+end
