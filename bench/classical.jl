@@ -56,12 +56,12 @@ test_fnames = ["poisson_16_12_3", "poisson_16_12_4", "poisson_16_12_5"]
 
 function folder_test(fnames, label)
     open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$label.csv", "a") do log
-        write(log, "f,sdp max,exact max,ratio max,sdp fair,exact fair,ratio fair\n")
+        write(log, "folder,f,sdp max,exact max,ratio max,sdp fair,exact fair,ratio fair\n")
         for fname in fnames
             for f in readdir("data/$fname/P")
                 P = Matrix(numpy.load("data/$fname/P/$f"))
                 w = Vector(numpy.load("data/$fname/w/$f"))
-                write(log, "$fname,")
+                write(log, "$fname,$f")
                 sdp_max, exact_max = max_test(P, w)
                 write(log, "$sdp_max,$exact_max,$(sdp_max / exact_max),")
                 sdp_fair, exact_fair = fair_test(P, w)
