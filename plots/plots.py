@@ -8,19 +8,40 @@ font = {'family' : 'sans-serif',
 plt.rc('font', **font)
 
 if __name__ == '__main__':
-    classicalreal = pd.read_csv("bench/logs/2026-04-20_02-25-06_classical_15.csv")
-    quantumreal = pd.read_csv("bench/logs/2026-04-14_11-02-57_quantum.csv")
+    classicalreal = pd.read_csv("bench/logs/2026-04-24_19-24-00_classical.csv")
+    quantumreal = pd.read_csv("bench/logs/2026-04-24_19-24-00_quantum.csv")
     real = pd.merge(classicalreal, quantumreal, on="f")
     real["cat"] = real["f"].map(lambda x: x.split("_")[0])
     real["id"] = real["f"].map(lambda x: x.split("_")[1])
+    greal = real.groupby("cat")
+
+    fig, axs = plt.subplots(figsize=rec, 
+                        nrows=1, ncols=2,     # fix as above
+                        gridspec_kw=dict(hspace=0.4)
+                        , sharey=True) # Much control of gridspec
+    fig.subplots_adjust(bottom=0.2)
+
+
     real["SDP Ratio"] = real["ratio fair"]
     real["Quantum Ratio"] = real["quantum fair p=3"] / real["exact fair"]
     real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
-    greal = real.groupby("cat")
 
-    classicalkarloff = pd.read_csv("bench/logs/2026-04-17_15-12-53_karloff_20.csv")
-    karloff = classicalkarloff
-    karloff["SDP Ratio"] = karloff["ratio fair"]
+    targets = zip(greal.groups.keys(), axs.flatten())
+    for i, (key, ax) in enumerate(targets):
+        ax.set_xlabel("SDP Ratio")
+        ax.set_title(key)
+        g = greal.get_group(key)
+        ax.scatter(g["SDP Ratio"], g["Quantum Ratio"])
+        ax.plot([real_min, 1], [real_min, 1], color="red", linestyle="--")
+
+    axs.flatten()[0].set_ylabel("Quantum Ratio")
+    # ax.legend()
+    plt.savefig("plots/fair.pdf")
+
+
+    real["SDP Ratio"] = real["ratio max"]
+    real["Quantum Ratio"] = real["quantum max p=3"] / real["exact max"]
+    real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
 
     fig, axs = plt.subplots(figsize=rec, 
                         nrows=1, ncols=2,     # fix as above
@@ -38,7 +59,58 @@ if __name__ == '__main__':
 
     axs.flatten()[0].set_ylabel("Quantum Ratio")
     # ax.legend()
-    plt.savefig("plots/fair.pdf")
+    plt.savefig("plots/max.pdf")
+
+
+
+
+
+
+
+    fig, (ax1, ax2) = plt.subplots(figsize=rec, 
+                        nrows=1, ncols=2,     # fix as above
+                        gridspec_kw=dict(hspace=0.4)) # Much control of gridspec
+    fig.subplots_adjust(bottom=0.2)
+
+
+    real["SDP Ratio"] = real["ratio fair"]
+    real["Quantum Ratio"] = real["quantum fair p=3"] / real["exact fair"]
+    real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
+
+    ax1.plot([real_min, 1], [real_min, 1], color="red", linestyle="--", label="Breakeven")
+    ax1.set_title("Least Expected Variance")
+    targets = greal.groups.keys()
+    for i, key in enumerate(targets):
+        ax1.set_xlabel("SDP Ratio")
+        g = greal.get_group(key)
+        ax1.scatter(g["SDP Ratio"], g["Quantum Ratio"], label=key)
+
+    ax1.set_ylabel("Quantum Ratio")
+
+
+    real["SDP Ratio"] = real["ratio max"]
+    real["Quantum Ratio"] = real["quantum max p=3"] / real["exact max"]
+    real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
+
+    ax2.plot([real_min, 1], [real_min, 1], color="red", linestyle="--", label="Breakeven")
+    ax2.set_title("Total Variance")
+    targets = greal.groups.keys()
+    for i, key in enumerate(targets):
+        ax2.set_xlabel("SDP Ratio")
+        g = greal.get_group(key)
+        ax2.scatter(g["SDP Ratio"], g["Quantum Ratio"], label=key)
+
+    ax2.legend()
+    plt.savefig("plots/max_fair.pdf")
+
+
+
+
+
+
+    classicalkarloff = pd.read_csv("bench/logs/2026-04-17_15-12-53_karloff_20.csv")
+    karloff = classicalkarloff
+    karloff["SDP Ratio"] = karloff["ratio fair"]
 
     fig, ax = plt.subplots(figsize=(3.5, 3.5), 
                         nrows=1, ncols=1) # Much control of gridspec
@@ -77,7 +149,7 @@ if __name__ == '__main__':
     fig.subplots_adjust(bottom=0.2)
 
     ax1.set_xlabel("Variance")
-    ax1.set_title(key)
+    ax1.set_title("email-Enron 5")
     ax1.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax1.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
     ax1.plot(
@@ -93,11 +165,11 @@ if __name__ == '__main__':
 
 
     ax2.set_xlabel("Imbalance")
-    ax2.set_title(key)
+    ax2.set_title("Noisy Karloff")
     ax2.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax2.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
 
-    plt.savefig("plots/pareto.png")
+    plt.savefig("plots/pareto.pdf")
 
     # fig, axs = plt.subplots(figsize=(9,3), 
     #                     nrows=1, ncols=3,     # fix as above
