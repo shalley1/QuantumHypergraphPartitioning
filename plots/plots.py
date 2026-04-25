@@ -108,6 +108,57 @@ if __name__ == '__main__':
 
 
 
+
+    # Start Poisson
+
+    classicalreal = pd.read_csv("bench/logs/2026-04-25_00-36-29_poisson.csv")
+    # quantumreal = pd.read_csv("bench/logs/2026-04-24_19-24-00_quantum.csv")
+    real = classicalreal # pd.merge(classicalreal, quantumreal, on="f")
+    real["cat"] = real["f"].map(lambda x: x.split("_")[0])
+    real["params"] = real["f"].map(lambda x: x.split("_", 1)[1])
+    greal = real.groupby("params")
+
+    fig, (ax1, ax2) = plt.subplots(figsize=rec, 
+                        nrows=1, ncols=2,     # fix as above
+                        gridspec_kw=dict(hspace=0.4)) # Much control of gridspec
+    fig.subplots_adjust(bottom=0.2)
+
+    real["SDP Ratio"] = real["ratio fair"]
+    real["Quantum Ratio"] = real["ratio fair"] # real["quantum fair p=3"] / real["exact fair"]
+    real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
+
+    ax1.plot([real_min, 1], [real_min, 1], color="red", linestyle="--", label="Breakeven")
+    ax1.set_title("Least Expected Variance")
+    targets = greal.groups.keys()
+    for i, key in enumerate(targets):
+        ax1.set_xlabel("SDP Ratio")
+        g = greal.get_group(key)
+        ax1.scatter(g["SDP Ratio"], g["Quantum Ratio"], label=fr'$\kappa = {key.split("_")[-1]}$')
+
+    ax1.set_ylabel("Quantum Ratio")
+
+
+    real["SDP Ratio"] = real["ratio max"]
+    real["Quantum Ratio"] = real["ratio max"] # real["quantum max p=3"] / real["exact max"]
+    real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
+
+    ax2.plot([real_min, 1], [real_min, 1], color="red", linestyle="--", label="Breakeven")
+    ax2.set_title("Total Variance")
+    targets = greal.groups.keys()
+    for i, key in enumerate(targets):
+        ax2.set_xlabel("SDP Ratio")
+        g = greal.get_group(key)
+        ax2.scatter(g["SDP Ratio"], g["Quantum Ratio"], label=fr'$\mu = {key.split("_")[-1]}$')
+
+    ax2.legend()
+    plt.savefig("plots/poisson.pdf")
+
+    # End Poisson
+
+
+
+
+
     classicalkarloff = pd.read_csv("bench/logs/2026-04-17_15-12-53_karloff_20.csv")
     karloff = classicalkarloff
     karloff["SDP Ratio"] = karloff["ratio fair"]
@@ -144,11 +195,10 @@ if __name__ == '__main__':
 
     fig, (ax1, ax2) = plt.subplots(figsize=rec, 
                         nrows=1, ncols=2,     # fix as above
-                        gridspec_kw=dict(hspace=0.4)
-                        , sharey=True) # Much control of gridspec
+                        gridspec_kw=dict(hspace=0.4)) # Much control of gridspec
     fig.subplots_adjust(bottom=0.2)
 
-    ax1.set_xlabel("Variance")
+    ax1.set_xlabel("Imbalance")
     ax1.set_title("email-Enron 5")
     ax1.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax1.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
@@ -160,12 +210,12 @@ if __name__ == '__main__':
     ax1.set_ylabel("Variance")
     ax1.legend()
 
-    classicalpareto = pd.read_csv("bench/logs/2026-04-24_14-33-00_karloff_noisy.csv")
+    classicalpareto = pd.read_csv("bench/logs/2026-04-25_01-47-51_congress-bills_23.csv")
     pareto = classicalpareto
 
 
     ax2.set_xlabel("Imbalance")
-    ax2.set_title("Noisy Karloff")
+    ax2.set_title("congress-bills 23")
     ax2.plot(pareto["sdp 1"], pareto["sdp 2"], label="SDP", marker='o')
     ax2.plot(pareto["exact 1"], pareto["exact 2"], label="Exact", marker='o')
 

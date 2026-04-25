@@ -92,14 +92,18 @@ function run_tests(tag, target)
 end
 
 
-function run_pareto(folder, fname)
+enron_alphas = [0.5263157894736842, 0.5789473684210527, 0.631578947368421, 0.6578947368421053, 0.6842105263157895, 0.7368421052631579]
+karloff_alphas = []
+congress_alphas = range(0.6, 0.9; length=6)
+
+function run_pareto(folder, fname, alphas)
     open("bench/logs/" * Dates.format(now(), "yyyy-mm-dd_HH-MM-SS") * "_$fname.csv", "a") do log
         write(log, "α,sdp 1,sdp 2,exact 1,exact 2\n")
         P = Matrix(numpy.load("$folder/$fname.npy"))
         w = ones(size(P, 2)) # [length(nzrange(sparse(P), i))^2 for i in axes(P, 2)]
         P1, w1 = P, w
         P2, w2 = ones(size(P1, 1), 1) ./ size(P1, 1), [1]
-        for α in [0.5263157894736842, 0.5789473684210527, 0.631578947368421, 0.6578947368421053, 0.6842105263157895, 0.7368421052631579] # range(0.6, 0.7; length=5) # chebpoints(20, 0, 1)
+        for α in alphas # range(0.6, 0.7; length=5) # chebpoints(20, 0, 1)
             sdp_pareto1, sdp_pareto2, exact_pareto1, exact_pareto2 = pareto_test(P1, P2, w1, w2, α)
             write(log, "$α,$sdp_pareto1,$sdp_pareto2,$exact_pareto1,$exact_pareto2\n")
         end
