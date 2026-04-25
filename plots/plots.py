@@ -111,11 +111,12 @@ if __name__ == '__main__':
 
     # Start Poisson
 
-    classicalreal = pd.read_csv("bench/logs/2026-04-25_00-36-29_poisson.csv")
-    # quantumreal = pd.read_csv("bench/logs/2026-04-24_19-24-00_quantum.csv")
-    real = classicalreal # pd.merge(classicalreal, quantumreal, on="f")
-    real["cat"] = real["f"].map(lambda x: x.split("_")[0])
-    real["params"] = real["f"].map(lambda x: x.split("_", 1)[1])
+    classicalreal = pd.read_csv("bench/logs/2026-04-25_12-24-22_poisson.csv")
+    classicalreal["params"] = classicalreal["folder"].map(lambda x: x.split("_", 1)[-1])
+    classicalreal["fid"] = classicalreal["folder"] + "_" + classicalreal["f"].astype(str)
+    quantumreal = pd.read_csv("2026-04-25_18-41-16_max_poisson.csv")
+    quantumreal["fid"] = quantumreal["folder"] + "_" + quantumreal["f"].astype(str)
+    real = pd.merge(classicalreal, quantumreal, on="fid")
     greal = real.groupby("params")
 
     fig, (ax1, ax2) = plt.subplots(figsize=rec, 
@@ -139,7 +140,7 @@ if __name__ == '__main__':
 
 
     real["SDP Ratio"] = real["ratio max"]
-    real["Quantum Ratio"] = real["ratio max"] # real["quantum max p=3"] / real["exact max"]
+    real["Quantum Ratio"] = real["quantum max p=3"] / real["exact max"]
     real_min = min(real["SDP Ratio"].min(), real["Quantum Ratio"].min())
 
     ax2.plot([real_min, 1], [real_min, 1], color="red", linestyle="--", label="Breakeven")
