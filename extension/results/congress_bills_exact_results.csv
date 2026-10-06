@@ -1,0 +1,51 @@
+dataset,instance,n_vertices,n_edges,target_ones,optimal_partition,optimal_cost,cut_indicators
+congress-bills,congress-bills_01,2,1,1,10    ,1,1    
+congress-bills,congress-bills_02,4,2,2,1010    ,0,00
+congress-bills,congress-bills_03,5,3,3,10011    ,0,000
+congress-bills,congress-bills_04,10,7,5,0100011101,1,0001000
+congress-bills,congress-bills_05,9,11,5,010101011,0,00000000000
+congress-bills,congress-bills_06,14,8,7,11100000011101    ,0,00000000
+congress-bills,congress-bills_07,18,10,9,010111011101000001,0,0000000000
+congress-bills,congress-bills_08,4,2,2,1100    ,0,00
+congress-bills,congress-bills_09,14,11,7,00100011011101,2,00000000011
+congress-bills,congress-bills_10,16,16,8,0111111010000100,2,0000000100000010
+congress-bills,congress-bills_11,6,4,3,100101    ,1,0001
+congress-bills,congress-bills_12,16,15,8,1100111100110000,2,001000010000000
+congress-bills,congress-bills_13,12,8,6,111010101000    ,1,00001000
+congress-bills,congress-bills_14,20,30,10,11110000110110100001,7,000010100110010000000100000100
+congress-bills,congress-bills_15,2,1,1,10    ,1,1    
+congress-bills,congress-bills_16,8,4,4,10001011    ,0,0000
+congress-bills,congress-bills_17,4,2,2,1001    ,0,00
+congress-bills,congress-bills_18,10,7,5,1010100011    ,1,0001000
+congress-bills,congress-bills_19,10,7,5,0001001111,1,0100000
+congress-bills,congress-bills_20,2,1,1,10    ,1,1    
+congress-bills,congress-bills_21,16,12,8,0001011101010101,1,000000000010
+congress-bills,congress-bills_22,4,2,2,1010    ,0,00
+congress-bills,congress-bills_23,14,17,7,10111100101000    ,5,00010010011001000
+congress-bills,congress-bills_24,10,7,5,1000110110    ,1,0100000
+congress-bills,congress-bills_25,2,1,1,10    ,1,1    
+congress-bills,congress-bills_26,17,16,9,01111010110001100,1,0000000000000100
+congress-bills,congress-bills_27,5,3,3,01110,0,000
+congress-bills,congress-bills_28,6,3,3,000111,1,001
+congress-bills,congress-bills_29,16,14,8,0000110110101110,1,00000000100000
+congress-bills,congress-bills_30,19,17,10,1011111110001010000,1,00000000010000000
+congress-bills,congress-bills_31,17,9,9,10101100001011101,0,000000000
+congress-bills,congress-bills_32,6,3,3,000111,1,100    
+congress-bills,congress-bills_33,18,21,9,000110111010100011,2,000001000000000100000
+congress-bills,congress-bills_34,14,12,7,01111010000110,1,100000000000    
+congress-bills,congress-bills_35,4,2,2,1100    ,0,00
+congress-bills,congress-bills_36,2,1,1,10    ,1,1    
+congress-bills,congress-bills_37,19,32,10,0111111001101000010,9,00000010111000101010010000010000
+congress-bills,congress-bills_38,16,45,8,0011011000011110,15,000100100001100000101010011110000000111000010
+congress-bills,congress-bills_39,20,78,10,00000101101101101011,30,000011000000010100000000110100110000100001110111001010101000011100000111111001
+congress-bills,congress-bills_40,13,23,7,1010011111000    ,7,10010001010000011010000
+congress-bills,congress-bills_41,20,71,10,11011100101001010100,29,00101110101100011000110000010111010110001000000001110010101010100001100
+congress-bills,congress-bills_42,11,7,6,00011100111,0,0000000
+congress-bills,congress-bills_43,13,12,7,1011000010111    ,2,000000001100
+congress-bills,congress-bills_44,19,19,10,0011100110101100101,2,0000001000000100000
+congress-bills,congress-bills_45,11,8,6,10110110001    ,1,00010000
+congress-bills,congress-bills_46,6,3,3,110001    ,1,100    
+congress-bills,congress-bills_47,6,3,3,000111,1,010
+congress-bills,congress-bills_48,19,19,10,0110010100011001111,1,0000000000000000100
+congress-bills,congress-bills_49,6,3,3,000111,1,010
+congress-bills,congress-bills_50,18,17,9,000101001001101111,0,00000000000000000

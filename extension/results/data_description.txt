@@ -1,0 +1,97 @@
+POISSON μ=3
+01.npy                    vertices=12 edges=15 max_edge=6
+02.npy                    vertices=12 edges=16 max_edge=5
+03.npy                    vertices=12 edges=16 max_edge=4
+04.npy                    vertices=12 edges=16 max_edge=5
+05.npy                    vertices=12 edges=16 max_edge=4
+06.npy                    vertices=12 edges=16 max_edge=5
+07.npy                    vertices=12 edges=16 max_edge=5
+08.npy                    vertices=12 edges=15 max_edge=4
+09.npy                    vertices=12 edges=16 max_edge=7
+10.npy                    vertices=12 edges=16 max_edge=7
+11.npy                    vertices=12 edges=16 max_edge=4
+12.npy                    vertices=12 edges=15 max_edge=5
+13.npy                    vertices=12 edges=16 max_edge=5
+14.npy                    vertices=12 edges=16 max_edge=5
+15.npy                    vertices=12 edges=16 max_edge=5
+16.npy                    vertices=12 edges=16 max_edge=5
+17.npy                    vertices=12 edges=16 max_edge=4
+18.npy                    vertices=12 edges=16 max_edge=5
+19.npy                    vertices=12 edges=15 max_edge=4
+20.npy                    vertices=12 edges=15 max_edge=4
+
+POISSON μ=4
+01.npy                    vertices=12 edges=16 max_edge=5
+02.npy                    vertices=12 edges=16 max_edge=7
+03.npy                    vertices=12 edges=16 max_edge=6
+04.npy                    vertices=12 edges=16 max_edge=7
+05.npy                    vertices=12 edges=16 max_edge=7
+06.npy                    vertices=12 edges=16 max_edge=6
+07.npy                    vertices=12 edges=16 max_edge=7
+08.npy                    vertices=12 edges=15 max_edge=6
+09.npy                    vertices=12 edges=16 max_edge=7
+10.npy                    vertices=12 edges=16 max_edge=8
+
+POISSON μ=5
+01.npy                    vertices=12 edges=16 max_edge=8
+02.npy                    vertices=12 edges=16 max_edge=10
+03.npy                    vertices=12 edges=16 max_edge=10
+04.npy                    vertices=12 edges=16 max_edge=8
+05.npy                    vertices=12 edges=15 max_edge=8
+06.npy                    vertices=12 edges=16 max_edge=9
+07.npy                    vertices=12 edges=16 max_edge=7
+08.npy                    vertices=12 edges=16 max_edge=8
+09.npy                    vertices=12 edges=16 max_edge=11
+10.npy                    vertices=12 edges=16 max_edge=10
+
+CONGRESS
+congress-bills_01.npy     vertices= 2 edges= 1 max_edge=2
+congress-bills_02.npy     vertices= 4 edges= 2 max_edge=2
+congress-bills_03.npy     vertices= 5 edges= 3 max_edge=2
+congress-bills_04.npy     vertices=10 edges= 7 max_edge=2
+congress-bills_05.npy     vertices= 9 edges=11 max_edge=3
+congress-bills_06.npy     vertices=14 edges= 8 max_edge=2
+congress-bills_07.npy     vertices=18 edges=10 max_edge=2
+congress-bills_08.npy     vertices= 4 edges= 2 max_edge=2
+congress-bills_09.npy     vertices=14 edges=11 max_edge=4
+congress-bills_10.npy     vertices=16 edges=16 max_edge=3
+congress-bills_11.npy     vertices= 6 edges= 4 max_edge=2
+congress-bills_12.npy     vertices=16 edges=15 max_edge=4
+congress-bills_13.npy     vertices=12 edges= 8 max_edge=3
+congress-bills_14.npy     vertices=20 edges=30 max_edge=5
+congress-bills_15.npy     vertices= 2 edges= 1 max_edge=2
+congress-bills_16.npy     vertices= 8 edges= 4 max_edge=2
+congress-bills_17.npy     vertices= 4 edges= 2 max_edge=2
+congress-bills_18.npy     vertices=10 edges= 7 max_edge=2
+congress-bills_19.npy     vertices=10 edges= 7 max_edge=3
+congress-bills_20.npy     vertices= 2 edges= 1 max_edge=2
+congress-bills_21.npy     vertices=16 edges=12 max_edge=3
+congress-bills_22.npy     vertices= 4 edges= 2 max_edge=2
+congress-bills_23.npy     vertices=14 edges=17 max_edge=4
+congress-bills_24.npy     vertices=10 edges= 7 max_edge=2
+congress-bills_25.npy     vertices= 2 edges= 1 max_edge=2
+congress-bills_26.npy     vertices=17 edges=16 max_edge=3
+congress-bills_27.npy     vertices= 5 edges= 3 max_edge=2
+congress-bills_28.npy     vertices= 6 edges= 3 max_edge=2
+congress-bills_29.npy     vertices=16 edges=14 max_edge=3
+congress-bills_30.npy     vertices=19 edges=17 max_edge=2
+congress-bills_31.npy     vertices=17 edges= 9 max_edge=5
+congress-bills_32.npy     vertices= 6 edges= 3 max_edge=2
+congress-bills_33.npy     vertices=18 edges=21 max_edge=4
+congress-bills_34.npy     vertices=14 edges=12 max_edge=3
+congress-bills_35.npy     vertices= 4 edges= 2 max_edge=2
+congress-bills_36.npy     vertices= 2 edges= 1 max_edge=2
+congress-bills_37.npy     vertices=19 edges=32 max_edge=4
+congress-bills_38.npy     vertices=16 edges=45 max_edge=4
+congress-bills_39.npy     vertices=20 edges=78 max_edge=5
+congress-bills_40.npy     vertices=13 edges=23 max_edge=4
+congress-bills_41.npy     vertices=20 edges=71 max_edge=5
+congress-bills_42.npy     vertices=11 edges= 7 max_edge=2
+congress-bills_43.npy     vertices=13 edges=12 max_edge=2
+congress-bills_44.npy     vertices=19 edges=19 max_edge=2
+congress-bills_45.npy     vertices=11 edges= 8 max_edge=2
+congress-bills_46.npy     vertices= 6 edges= 3 max_edge=2
+congress-bills_47.npy     vertices= 6 edges= 3 max_edge=2
+congress-bills_48.npy     vertices=19 edges=19 max_edge=3
+congress-bills_49.npy     vertices= 6 edges= 3 max_edge=2
+congress-bills_50.npy     vertices=18 edges=17 max_edge=3
