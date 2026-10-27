@@ -5,6 +5,9 @@ from itertools import combinations
 from scipy.optimize import minimize
 from math import comb
 import qaoa_aux 
+import os
+import glob
+import pandas as pd
 
 def U_B(beta,edge_list):
     for edge_idx, (u, v) in enumerate(edge_list):
@@ -117,9 +120,7 @@ def run_qaoa_modified(
         "n_wires": n_wires
     }
 
-import os
-import glob
-import pandas as pd
+
 folder_P = "../data/poisson_16_12_3/P"
 folder_w = "../data/poisson_16_12_3/w"
 p_files = sorted(glob.glob(f"{folder_P}/*.npy"))[:20]

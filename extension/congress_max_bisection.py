@@ -1,0 +1,172 @@
+from pennylane import numpy as np
+import pennylane as qml
+import itertools
+from itertools import combinations
+from scipy.optimize import minimize
+from math import comb
+import qaoa_aux 
+import os
+import glob
+import pandas as pd
+
+def U_B(beta,edge_list):
+    for edge_idx, (u, v) in enumerate(edge_list):
+        theta = beta[edge_idx]
+        qml.S(wires=u)
+        qml.SingleExcitationMinus(-2 * theta,wires=[u, v])
+        qml.adjoint(qml.S)(wires=u)
+def U_C(gamma,cost_terms):
+    # we have term index + cost terms so all the even numbered ZZ's
+    for term_idx, (_, wires, coeff) in enumerate(cost_terms):
+        theta = 2 * gamma[term_idx] * coeff
+        # example for 4 consectuve z's
+        #qml.PauliRot(theta, "ZZZZ", wires=[0,1,2,3])
+        # pennylane will decompose this into CNOT+RZ ladder 
+        qml.PauliRot(theta,"Z" * len(wires),wires=list(wires))
+
+def objective(gammas,betas,circuit,hyperedge_list,cost_terms,weights):
+    expectation_values = circuit(gammas, betas)
+    value = 0.0
+
+    # weighted constant term for each hyperedge
+    for edge_idx, edge in enumerate(hyperedge_list):
+        k = len(edge)
+        #w_e * 1 - (1/2^k-1)
+        value += weights[edge_idx] * (1 - 1 / (2 ** (k - 1)))
+
+    # coeff is weighted in build_cost_terms()
+    for term_idx, (_, _, coeff) in enumerate(cost_terms):
+        value += coeff * expectation_values[term_idx]
+
+    return value
+
+def run_qaoa_modified(
+    hyperedge_list,
+    n,
+    weights,
+    num_layers=1,
+    seed=42,
+    scaling_constant=0.1,
+    step_size=0.01,
+    max_trials=100
+):
+    n_wires=n
+    assert len(weights)==len(hyperedge_list)
+    # Build mixer edges and cost terms
+    edge_list = qaoa_aux.connected_clique_expansion(hyperedge_list,n)
+    cost_terms = qaoa_aux.build_cost_terms(hyperedge_list,weights)
+
+    # Balanced initial state
+    target_weight = n_wires // 2
+    initial_state = qaoa_aux.make_dicke_state(n_wires,target_weight)
+
+    dev = qml.device("lightning.qubit",wires=n_wires)
+    @qml.qnode(dev)
+    def circuit(gammas, betas):
+        qml.StatePrep(initial_state,wires=range(n_wires))
+
+        for layer in range(num_layers):
+            U_C(gammas[:, layer],cost_terms)
+            U_B(betas[:, layer],edge_list)
+
+        observables = []
+
+        for _, wires, _ in cost_terms:
+            z_term = qml.prod(*[qml.PauliZ(wire)for wire in wires])
+            observables.append(qml.expval(z_term))
+        return observables
+
+    # Random parameter initialization
+    rng = np.random.default_rng(seed)
+    beta_params = np.array(scaling_constant * rng.random((len(edge_list), num_layers)),requires_grad=True)
+    gamma_params = np.array(scaling_constant * rng.random((len(cost_terms), num_layers)),requires_grad=True)
+
+    opt = qml.AdamOptimizer(stepsize=step_size)
+    objective_values = []
+    initial_value = objective(gamma_params,beta_params,circuit,hyperedge_list,cost_terms,weights)
+    objective_values.append(initial_value)
+
+    print(f"Initial cut = {initial_value:.6f}")
+
+    # Optimization
+    for trial in range(max_trials):
+
+        gamma_params, beta_params = opt.step(
+            lambda g, b: -objective(
+                g,
+                b,
+                circuit,
+                hyperedge_list,
+                cost_terms,
+                weights
+            ),
+            gamma_params,
+            beta_params
+        )
+
+        current_value = objective(gamma_params,beta_params,circuit,hyperedge_list,cost_terms,weights)
+        objective_values.append(current_value)
+
+        if trial % 10 == 0:
+            print(f"Iteration {trial:3d} | "f"cut = {current_value:.6f}")
+
+    return {
+        "gammas": gamma_params,
+        "betas": beta_params,
+        "objective_values": objective_values,
+        "circuit": circuit,
+        "edge_list": edge_list,
+        "cost_terms": cost_terms,
+        "n_wires": n_wires
+    }
+
+
+folder = "/Users/stevehalley/Code/Github/QuantumHypergraphPartitioning/data/congress-bills/numpy_20"
+p_files = sorted(glob.glob(f"{folder}/*.npy"))
+
+results_max_bisection_congress = []
+
+for p_file in p_files:
+    
+    P = np.load(p_file)
+    instance = os.path.splitext(os.path.basename(p_file))[0]
+
+    edges = get_edge_list(P)
+    w = np.ones(len(edges))
+    hyperedge_list = qaoa_aux.matrix_to_hyperedges(P)
+    n = P.shape[0]
+
+    ###temp
+    if n>16:
+        continue
+    #circuit depth
+    for p in [3]:
+
+        print(f"\nRunning instance {instance} | p={p}")
+
+        result = run_qaoa_modified(hyperedge_list,weights=w,n=n,num_layers=p,seed=42,scaling_constant=5e-2,step_size=0.01,max_trials=300)
+
+        final_objective = float(result["objective_values"][-1])
+
+        initial_objective = float(result["objective_values"][0])
+
+        results_max_bisection_congress.append({
+            "dataset": "congress",
+            "objective":"max_bisection",
+            "instance": instance,
+            "p": p,
+            "n_vertices": n,
+            "n_hyperedges": len(hyperedge_list),
+            "initial_objective": initial_objective,
+            "final_objective": final_objective,
+
+            "gammas": np.array2string(np.asarray(result["gammas"]),separator=","),
+            "betas": np.array2string(np.asarray(result["betas"]),separator=",")
+        })
+        
+df = pd.DataFrame(results_max_bisection_congress)
+csv_path = "congress_qaoa_max_bisection_run2.csv"
+
+df.to_csv(csv_path,index=False)
+
+print(f"saved results to: {csv_path}")
