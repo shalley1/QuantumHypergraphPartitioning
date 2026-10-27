@@ -4,6 +4,7 @@ import itertools
 from itertools import combinations
 from scipy.optimize import minimize
 from math import comb
+import networkx as nx
 
 def make_dicke_state(n, k):
         if k < 0 or k > n:
@@ -35,6 +36,31 @@ def clique_expansion(hyperedges):
     for edge in hyperedges:
         for u, v in itertools.combinations(edge, 2):
             mixer_edges.add(tuple(sorted((u, v))))
+
+    return sorted(mixer_edges)
+
+
+
+def connected_clique_expansion(hyperedges, n):
+    # Original clique expansion
+    mixer_edges = set(clique_expansion(hyperedges))
+
+    # Construct mixer graph
+    G = nx.Graph()
+    G.add_nodes_from(range(n))
+    G.add_edges_from(mixer_edges)
+
+    # Find connected components
+    components = [
+        sorted(component)
+        for component in nx.connected_components(G)
+    ]
+
+    # Connect components with minimum additional edges
+    for A, B in zip(components[:-1], components[1:]):
+        u = A[0]
+        v = B[0]
+        mixer_edges.add(tuple(sorted((u, v))))
 
     return sorted(mixer_edges)
 def build_cost_terms(hyperedge_list,weights):
