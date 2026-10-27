@@ -40,6 +40,14 @@ def objective(gammas,betas,circuit,hyperedge_list,cost_terms,weights):
 
     return value
 
+def get_edge_list(P):
+    edges=[]
+    for idx in range(P.shape[1]):
+        #indices that are not 0
+        edge = tuple(np.flatnonzero(P[:,idx]))
+        edges.append(edge)
+    return edges
+
 def run_qaoa_modified(
     hyperedge_list,
     n,
