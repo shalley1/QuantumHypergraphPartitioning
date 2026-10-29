@@ -1,51 +1,51 @@
-objective,dataset,instance,n_vertices,n_edges,target_ones,optimal_partition,optimal_cost,cut_indicators
-max_bisection,congress-bills,congress-bills_01,2,1,1,01,1.0,1
-max_bisection,congress-bills,congress-bills_02,4,2,2,0011,2.0,11
-max_bisection,congress-bills,congress-bills_03,5,3,3,10110,3.0,111
-max_bisection,congress-bills,congress-bills_04,10,7,5,1100010011,6.0,1111011
-max_bisection,congress-bills,congress-bills_05,9,11,5,011010110,11.0,11111111111
-max_bisection,congress-bills,congress-bills_06,14,8,7,10100001111010,8.0,11111111
-max_bisection,congress-bills,congress-bills_07,18,10,9,110010110100011001,10.0,1111111111
-max_bisection,congress-bills,congress-bills_08,4,2,2,1010,2.0,11
-max_bisection,congress-bills,congress-bills_09,14,11,7,01110111000001,11.0,11111111111
-max_bisection,congress-bills,congress-bills_10,16,16,8,1101000100110110,15.0,1111110111111111
-max_bisection,congress-bills,congress-bills_11,6,4,3,010110,3.0,0111
-max_bisection,congress-bills,congress-bills_12,16,15,8,1111101000001010,14.0,111111111011111
-max_bisection,congress-bills,congress-bills_13,12,8,6,110011110000,8.0,11111111
-max_bisection,congress-bills,congress-bills_14,20,30,10,01010011010111000101,25.0,111111111111111001111110011110
-max_bisection,congress-bills,congress-bills_15,2,1,1,01,1.0,1
-max_bisection,congress-bills,congress-bills_16,8,4,4,11010010,4.0,1111
-max_bisection,congress-bills,congress-bills_17,4,2,2,0011,2.0,11
-max_bisection,congress-bills,congress-bills_18,10,7,5,1011000101,7.0,1111111
-max_bisection,congress-bills,congress-bills_19,10,7,5,0100111100,7.0,1111111
-max_bisection,congress-bills,congress-bills_20,2,1,1,01,1.0,1
-max_bisection,congress-bills,congress-bills_21,16,12,8,0111100101110000,12.0,111111111111
-max_bisection,congress-bills,congress-bills_22,4,2,2,0011,2.0,11
-max_bisection,congress-bills,congress-bills_23,14,17,7,00011011011010,16.0,01111111111111111
-max_bisection,congress-bills,congress-bills_24,10,7,5,0110111000,7.0,1111111
-max_bisection,congress-bills,congress-bills_25,2,1,1,01,1.0,1
-max_bisection,congress-bills,congress-bills_26,17,16,9,01101101101000011,16.0,1111111111111111
-max_bisection,congress-bills,congress-bills_27,5,3,3,01101,3.0,111
-max_bisection,congress-bills,congress-bills_28,6,3,3,001011,3.0,111
-max_bisection,congress-bills,congress-bills_29,16,14,8,0110010011010110,13.0,11111011111111
-max_bisection,congress-bills,congress-bills_30,19,17,10,0011011011101000101,16.0,01111111111111111
-max_bisection,congress-bills,congress-bills_31,17,9,9,11011101110010000,9.0,111111111
-max_bisection,congress-bills,congress-bills_32,6,3,3,010011,3.0,111
-max_bisection,congress-bills,congress-bills_33,18,21,9,000101001011011101,19.0,111111111101111111110
-max_bisection,congress-bills,congress-bills_34,14,12,7,11110001100001,11.0,111111111110
-max_bisection,congress-bills,congress-bills_35,4,2,2,1010,2.0,11
-max_bisection,congress-bills,congress-bills_36,2,1,1,01,1.0,1
-max_bisection,congress-bills,congress-bills_37,19,32,10,0010110110010011011,29.0,01111111011111111101111111111111
-max_bisection,congress-bills,congress-bills_38,16,45,8,0101001011100110,36.0,111111000101111101111111100111011110111111111
-max_bisection,congress-bills,congress-bills_39,20,78,10,11100011111110000000,59.0,111111010101111110111111111110111111110011001000011101011110011111111110101111
-max_bisection,congress-bills,congress-bills_40,13,23,7,1010100101101,18.0,11011111101110111010111
-max_bisection,congress-bills,congress-bills_41,20,71,10,01111010000110110100,54.0,10001111110101001111111110111111111111001111011111111111100111110101100
-max_bisection,congress-bills,congress-bills_42,11,7,6,11010010011,7.0,1111111
-max_bisection,congress-bills,congress-bills_43,13,12,7,0010011100111,12.0,111111111111
-max_bisection,congress-bills,congress-bills_44,19,19,10,0011011100011100110,16.0,1111111111111001110
-max_bisection,congress-bills,congress-bills_45,11,8,6,11100001110,7.0,11111101
-max_bisection,congress-bills,congress-bills_46,6,3,3,000111,3.0,111
-max_bisection,congress-bills,congress-bills_47,6,3,3,001011,3.0,111
-max_bisection,congress-bills,congress-bills_48,19,19,10,1000011011110101010,19.0,1111111111111111111
-max_bisection,congress-bills,congress-bills_49,6,3,3,001011,3.0,111
-max_bisection,congress-bills,congress-bills_50,18,17,9,001110101000101011,16.0,11111111111111101
+objective,dataset,instance,n_vertices,n_edges,target_ones,optimal_partition,optimal_cost,cut_indicators,
+max_bisection,congress-bills,congress-bills_01,2,1,1,01,1,1, 1 
+max_bisection,congress-bills,congress-bills_02,4,2,2,0011,2,11, 2 
+max_bisection,congress-bills,congress-bills_03,5,3,3,10110,3,111, 3 
+max_bisection,congress-bills,congress-bills_04,10,7,5,1100010011,6,1111011, 6 
+max_bisection,congress-bills,congress-bills_05,9,11,5,011010110,11,11111111111, 10 
+max_bisection,congress-bills,congress-bills_06,14,8,7,1.01E+13,8,11111111, 7 
+max_bisection,congress-bills,congress-bills_07,18,10,9,110010110100011001,10,1111111111,#N/A
+max_bisection,congress-bills,congress-bills_08,4,2,2,1010,2,11, 2 
+max_bisection,congress-bills,congress-bills_09,14,11,7,01110111000001,11,11111111111, 10 
+max_bisection,congress-bills,congress-bills_10,16,16,8,1101000100110110,15,1111110111111111, 13 
+max_bisection,congress-bills,congress-bills_11,6,4,3,010110,3,0111, 3 
+max_bisection,congress-bills,congress-bills_12,16,15,8,1111101000001010,14,1.11111E+14, 13 
+max_bisection,congress-bills,congress-bills_13,12,8,6,1.10011E+11,8,11111111, 7 
+max_bisection,congress-bills,congress-bills_14,20,30,10,01010011010111000101,25,111111111111111001111110011110,#N/A
+max_bisection,congress-bills,congress-bills_15,2,1,1,01,1,1, 1 
+max_bisection,congress-bills,congress-bills_16,8,4,4,11010010,4,1111, 4 
+max_bisection,congress-bills,congress-bills_17,4,2,2,0011,2,11, 2 
+max_bisection,congress-bills,congress-bills_18,10,7,5,1011000101,7,1111111, 7 
+max_bisection,congress-bills,congress-bills_19,10,7,5,0100111100,7,1111111, 7 
+max_bisection,congress-bills,congress-bills_20,2,1,1,01,1,1, 1 
+max_bisection,congress-bills,congress-bills_21,16,12,8,0111100101110000,12,1.11111E+11, 11 
+max_bisection,congress-bills,congress-bills_22,4,2,2,0011,2,11, 2 
+max_bisection,congress-bills,congress-bills_23,14,17,7,00011011011010,16,01111111111111111, 15 
+max_bisection,congress-bills,congress-bills_24,10,7,5,0110111000,7,1111111, 7 
+max_bisection,congress-bills,congress-bills_25,2,1,1,01,1,1, 1 
+max_bisection,congress-bills,congress-bills_26,17,16,9,01101101101000011,16,1111111111111111,#N/A
+max_bisection,congress-bills,congress-bills_27,5,3,3,01101,3,111, 3 
+max_bisection,congress-bills,congress-bills_28,6,3,3,001011,3,111, 3 
+max_bisection,congress-bills,congress-bills_29,16,14,8,0110010011010110,13,1.1111E+13, 12 
+max_bisection,congress-bills,congress-bills_30,19,17,10,0011011011101000101,16,01111111111111111,#N/A
+max_bisection,congress-bills,congress-bills_31,17,9,9,11011101110010000,9,111111111,#N/A
+max_bisection,congress-bills,congress-bills_32,6,3,3,010011,3,111, 3 
+max_bisection,congress-bills,congress-bills_33,18,21,9,000101001011011101,19,111111111101111111110,#N/A
+max_bisection,congress-bills,congress-bills_34,14,12,7,1.111E+13,11,1.11111E+11, 10 
+max_bisection,congress-bills,congress-bills_35,4,2,2,1010,2,11, 2 
+max_bisection,congress-bills,congress-bills_36,2,1,1,01,1,1, 1 
+max_bisection,congress-bills,congress-bills_37,19,32,10,0010110110010011011,29,01111111011111111101111111111111,#N/A
+max_bisection,congress-bills,congress-bills_38,16,45,8,0101001011100110,36,111111000101111101111111100111011110111111111, 36 
+max_bisection,congress-bills,congress-bills_39,20,78,10,11100011111110000000,59,111111010101111110111111111110111111110011001000011101011110011111111110101111,#N/A
+max_bisection,congress-bills,congress-bills_40,13,23,7,1.0101E+12,18,11011111101110111010111, 17 
+max_bisection,congress-bills,congress-bills_41,20,71,10,01111010000110110100,54,10001111110101001111111110111111111111001111011111111111100111110101100,#N/A
+max_bisection,congress-bills,congress-bills_42,11,7,6,11010010011,7,1111111, 6 
+max_bisection,congress-bills,congress-bills_43,13,12,7,0010011100111,12,1.11111E+11, 11 
+max_bisection,congress-bills,congress-bills_44,19,19,10,0011011100011100110,16,1111111111111001110,#N/A
+max_bisection,congress-bills,congress-bills_45,11,8,6,11100001110,7,11111101, 6 
+max_bisection,congress-bills,congress-bills_46,6,3,3,000111,3,111, 3 
+max_bisection,congress-bills,congress-bills_47,6,3,3,001011,3,111, 3 
+max_bisection,congress-bills,congress-bills_48,19,19,10,1000011011110101010,19,1111111111111111111,#N/A
+max_bisection,congress-bills,congress-bills_49,6,3,3,001011,3,111, 3 
+max_bisection,congress-bills,congress-bills_50,18,17,9,001110101000101011,16,11111111111111101,#N/A
