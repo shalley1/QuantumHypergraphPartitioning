@@ -4,6 +4,8 @@ import itertools
 from itertools import combinations
 from scipy.optimize import minimize
 from math import comb
+import sys
+sys.path.append("../")
 import qaoa_aux 
 import os
 import glob
@@ -200,7 +202,7 @@ for p_file in p_files:
         })
     
 df = pd.DataFrame(results_faircut_congress)
-csv_path = "congress_qaoa_faircut.csv"
+csv_path = "congress_qaoa_fair_max_bisection.csv"
 
 df.to_csv(csv_path,index=False)
 

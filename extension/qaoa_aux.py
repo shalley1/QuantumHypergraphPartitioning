@@ -58,6 +58,9 @@ def connected_clique_expansion(hyperedges, n):
 
     # Connect components with minimum additional edges
     for A, B in zip(components[:-1], components[1:]):
+        #we now are taking components are adding one edge between them(since they are disconnected)
+        # exampple: [A,b,c,D]=4 disconnected components
+        # we get [A,b,C],[B,C,D} --> (A,B),(B,C),(C,D), then add edge from A-->B, b-->c, and c-->d
         u = A[0]
         v = B[0]
         mixer_edges.add(tuple(sorted((u, v))))
