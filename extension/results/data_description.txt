@@ -95,3 +95,14 @@ congress-bills_47.npy     vertices= 6 edges= 3 max_edge=2
 congress-bills_48.npy     vertices=19 edges=19 max_edge=3
 congress-bills_49.npy     vertices= 6 edges= 3 max_edge=2
 congress-bills_50.npy     vertices=18 edges=17 max_edge=3
+
+email-Enron_1 n = 13 m = 15  avg edge size : 2.2
+email-Enron_2 n = 18 m = 68  avg edge size : 2.7941176470588234
+email-Enron_3 n = 18 m = 185 avg edge size : 2.962162162162162
+email-Enron_4 n = 13 m = 5  avg edge size : 2.0
+email-Enron_5 n = 16 m = 58  avg edge size : 2.8793103448275863
+email-Enron_6 n = 18 m = 132 avg edge size : 3.371212121212121
+email-Enron_7 n = 16 m = 104  avg edge size : 2.6826923076923075
+email-Enron_8 n = 16 m = 51  avg edge size : 2.4901960784313726
+email-Enron_9 n = 18 m = 170  avg edge size : 3.070588235294118
+
