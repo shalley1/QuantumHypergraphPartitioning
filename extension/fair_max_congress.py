@@ -1,4 +1,3 @@
-
 import os
 os.environ["OMP_NUM_THREADS"] = "4"
 from pennylane import numpy as np
