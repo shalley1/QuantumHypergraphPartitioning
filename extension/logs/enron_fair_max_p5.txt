@@ -1,0 +1,519 @@
+Dataset: enron
+Runtype: aon
+Loss: fair_max
+Mixer: complete
+============================================================
+Running email-Enron_1 | Dataset=enron
+Vertices=13 | Hyperedges=15
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (23, 5)
+Beta shape: (78, 5)
+Total parameters: 505
+Initial objective = 0.472990
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.485647 | patience = 0/100
+Iteration  10 | objective = 0.534389 | patience = 0/100
+Iteration  20 | objective = 0.580502 | patience = 0/100
+Iteration  30 | objective = 0.608733 | patience = 0/100
+Iteration  40 | objective = 0.629895 | patience = 1/100
+Iteration  50 | objective = 0.664239 | patience = 0/100
+Iteration  60 | objective = 0.672963 | patience = 2/100
+Iteration  70 | objective = 0.690735 | patience = 2/100
+Iteration  80 | objective = 0.710582 | patience = 0/100
+Iteration  90 | objective = 0.722825 | patience = 0/100
+Iteration 100 | objective = 0.732768 | patience = 0/100
+Iteration 110 | objective = 0.734304 | patience = 1/100
+Iteration 120 | objective = 0.748462 | patience = 0/100
+Iteration 130 | objective = 0.742709 | patience = 9/100
+Iteration 140 | objective = 0.744305 | patience = 4/100
+Iteration 150 | objective = 0.753736 | patience = 3/100
+Iteration 160 | objective = 0.756906 | patience = 4/100
+Iteration 170 | objective = 0.759807 | patience = 14/100
+Iteration 180 | objective = 0.766282 | patience = 24/100
+Iteration 190 | objective = 0.767372 | patience = 8/100
+Iteration 200 | objective = 0.761632 | patience = 18/100
+Iteration 210 | objective = 0.772241 | patience = 4/100
+Iteration 220 | objective = 0.767764 | patience = 14/100
+Iteration 230 | objective = 0.764516 | patience = 24/100
+Iteration 240 | objective = 0.746565 | patience = 34/100
+Iteration 250 | objective = 0.758666 | patience = 44/100
+Iteration 260 | objective = 0.764930 | patience = 54/100
+Iteration 270 | objective = 0.773569 | patience = 64/100
+Iteration 280 | objective = 0.767296 | patience = 5/100
+Iteration 290 | objective = 0.768548 | patience = 15/100
+Iteration 300 | objective = 0.774555 | patience = 25/100
+Iteration 310 | objective = 0.765092 | patience = 35/100
+Iteration 320 | objective = 0.765777 | patience = 45/100
+Iteration 330 | objective = 0.776441 | patience = 55/100
+Iteration 340 | objective = 0.769272 | patience = 65/100
+Iteration 350 | objective = 0.778245 | patience = 75/100
+Iteration 360 | objective = 0.776300 | patience = 8/100
+Iteration 370 | objective = 0.772760 | patience = 8/100
+Iteration 380 | objective = 0.757410 | patience = 18/100
+Iteration 390 | objective = 0.763051 | patience = 28/100
+Iteration 400 | objective = 0.770762 | patience = 38/100
+Iteration 410 | objective = 0.767506 | patience = 48/100
+Iteration 420 | objective = 0.777730 | patience = 4/100
+Iteration 430 | objective = 0.774063 | patience = 14/100
+Iteration 440 | objective = 0.769546 | patience = 24/100
+Iteration 450 | objective = 0.777757 | patience = 34/100
+Iteration 460 | objective = 0.768077 | patience = 44/100
+Iteration 470 | objective = 0.776221 | patience = 54/100
+Iteration 480 | objective = 0.777466 | patience = 64/100
+Iteration 490 | objective = 0.779995 | patience = 74/100
+Iteration 500 | objective = 0.782720 | patience = 4/100
+Iteration 510 | objective = 0.779797 | patience = 14/100
+Iteration 520 | objective = 0.782024 | patience = 24/100
+Iteration 530 | objective = 0.779221 | patience = 5/100
+Iteration 540 | objective = 0.777246 | patience = 15/100
+Iteration 550 | objective = 0.784899 | patience = 25/100
+Iteration 560 | objective = 0.776020 | patience = 35/100
+Iteration 570 | objective = 0.768580 | patience = 45/100
+Iteration 580 | objective = 0.783987 | patience = 55/100
+Iteration 590 | objective = 0.772418 | patience = 65/100
+Saved email-Enron_1 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_2 | Dataset=enron
+Vertices=18 | Hyperedges=68
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (724, 5)
+Beta shape: (153, 5)
+Total parameters: 4385
+Initial objective = 0.472565
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.473512 | patience = 0/100
+Iteration  10 | objective = 0.459007 | patience = 5/100
+Iteration  20 | objective = 0.476752 | patience = 15/100
+Iteration  30 | objective = 0.472180 | patience = 25/100
+Iteration  40 | objective = 0.490058 | patience = 5/100
+Iteration  50 | objective = 0.494297 | patience = 8/100
+Iteration  60 | objective = 0.506382 | patience = 0/100
+Iteration  70 | objective = 0.491731 | patience = 6/100
+Iteration  80 | objective = 0.498147 | patience = 16/100
+Iteration  90 | objective = 0.506264 | patience = 7/100
+Iteration 100 | objective = 0.516414 | patience = 2/100
+Iteration 110 | objective = 0.507215 | patience = 9/100
+Iteration 120 | objective = 0.515495 | patience = 4/100
+Iteration 130 | objective = 0.521088 | patience = 5/100
+Iteration 140 | objective = 0.533543 | patience = 0/100
+Iteration 150 | objective = 0.522526 | patience = 10/100
+Iteration 160 | objective = 0.524696 | patience = 20/100
+Iteration 170 | objective = 0.528722 | patience = 30/100
+Iteration 180 | objective = 0.521968 | patience = 40/100
+Iteration 190 | objective = 0.521541 | patience = 50/100
+Iteration 200 | objective = 0.536276 | patience = 0/100
+Iteration 210 | objective = 0.535438 | patience = 4/100
+Iteration 220 | objective = 0.534937 | patience = 14/100
+Iteration 230 | objective = 0.534047 | patience = 24/100
+Iteration 240 | objective = 0.526546 | patience = 34/100
+Iteration 250 | objective = 0.531824 | patience = 44/100
+Iteration 260 | objective = 0.535468 | patience = 54/100
+Iteration 270 | objective = 0.534923 | patience = 64/100
+Iteration 280 | objective = 0.535079 | patience = 74/100
+Iteration 290 | objective = 0.533957 | patience = 9/100
+Iteration 300 | objective = 0.534536 | patience = 19/100
+Iteration 310 | objective = 0.538406 | patience = 2/100
+Iteration 320 | objective = 0.535025 | patience = 7/100
+Iteration 330 | objective = 0.543687 | patience = 0/100
+Iteration 340 | objective = 0.549190 | patience = 1/100
+Iteration 350 | objective = 0.536128 | patience = 11/100
+Iteration 360 | objective = 0.536659 | patience = 21/100
+Iteration 370 | objective = 0.527735 | patience = 31/100
+Iteration 380 | objective = 0.538031 | patience = 41/100
+Iteration 390 | objective = 0.540312 | patience = 51/100
+Iteration 400 | objective = 0.538958 | patience = 61/100
+Iteration 410 | objective = 0.535160 | patience = 71/100
+Iteration 420 | objective = 0.544265 | patience = 81/100
+Iteration 430 | objective = 0.539507 | patience = 91/100
+Early stopping at iteration 440
+Saved email-Enron_2 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_3 | Dataset=enron
+Vertices=18 | Hyperedges=185
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (823, 5)
+Beta shape: (153, 5)
+Total parameters: 4880
+Initial objective = 0.383049
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.375978 | patience = 1/100
+Iteration  10 | objective = 0.446403 | patience = 3/100
+Iteration  20 | objective = 0.468640 | patience = 0/100
+Iteration  30 | objective = 0.497466 | patience = 0/100
+Iteration  40 | objective = 0.501941 | patience = 0/100
+Iteration  50 | objective = 0.505735 | patience = 0/100
+Iteration  60 | objective = 0.506766 | patience = 6/100
+Iteration  70 | objective = 0.511692 | patience = 0/100
+Iteration  80 | objective = 0.513939 | patience = 1/100
+Iteration  90 | objective = 0.518462 | patience = 1/100
+Iteration 100 | objective = 0.519639 | patience = 2/100
+Iteration 110 | objective = 0.521806 | patience = 0/100
+Iteration 120 | objective = 0.521684 | patience = 4/100
+Iteration 130 | objective = 0.524126 | patience = 7/100
+Iteration 140 | objective = 0.524677 | patience = 1/100
+Iteration 150 | objective = 0.523043 | patience = 11/100
+Iteration 160 | objective = 0.521765 | patience = 21/100
+Iteration 170 | objective = 0.523998 | patience = 2/100
+Iteration 180 | objective = 0.523525 | patience = 12/100
+Iteration 190 | objective = 0.524727 | patience = 22/100
+Iteration 200 | objective = 0.526689 | patience = 1/100
+Iteration 210 | objective = 0.525046 | patience = 11/100
+Iteration 220 | objective = 0.524028 | patience = 21/100
+Iteration 230 | objective = 0.525023 | patience = 31/100
+Iteration 240 | objective = 0.524813 | patience = 41/100
+Iteration 250 | objective = 0.524370 | patience = 51/100
+Iteration 260 | objective = 0.522731 | patience = 61/100
+Iteration 270 | objective = 0.523036 | patience = 71/100
+Iteration 280 | objective = 0.524406 | patience = 81/100
+Iteration 290 | objective = 0.525397 | patience = 91/100
+Early stopping at iteration 300
+Saved email-Enron_3 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_4 | Dataset=enron
+Vertices=13 | Hyperedges=5
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (5, 5)
+Beta shape: (78, 5)
+Total parameters: 415
+Initial objective = 0.475319
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.482475 | patience = 0/100
+Iteration  10 | objective = 0.548989 | patience = 0/100
+Iteration  20 | objective = 0.602530 | patience = 0/100
+Iteration  30 | objective = 0.634246 | patience = 0/100
+Iteration  40 | objective = 0.643383 | patience = 1/100
+Iteration  50 | objective = 0.643406 | patience = 11/100
+Iteration  60 | objective = 0.653318 | patience = 2/100
+Iteration  70 | objective = 0.648118 | patience = 12/100
+Iteration  80 | objective = 0.650099 | patience = 7/100
+Iteration  90 | objective = 0.651181 | patience = 17/100
+Iteration 100 | objective = 0.656334 | patience = 2/100
+Iteration 110 | objective = 0.654747 | patience = 12/100
+Iteration 120 | objective = 0.644997 | patience = 22/100
+Iteration 130 | objective = 0.650631 | patience = 32/100
+Iteration 140 | objective = 0.654279 | patience = 42/100
+Iteration 150 | objective = 0.653757 | patience = 52/100
+Iteration 160 | objective = 0.636505 | patience = 4/100
+Iteration 170 | objective = 0.654129 | patience = 14/100
+Iteration 180 | objective = 0.659794 | patience = 1/100
+Iteration 190 | objective = 0.653998 | patience = 2/100
+Iteration 200 | objective = 0.654322 | patience = 12/100
+Iteration 210 | objective = 0.656336 | patience = 22/100
+Iteration 220 | objective = 0.656199 | patience = 32/100
+Iteration 230 | objective = 0.658607 | patience = 42/100
+Iteration 240 | objective = 0.659490 | patience = 52/100
+Iteration 250 | objective = 0.660616 | patience = 62/100
+Iteration 260 | objective = 0.660319 | patience = 72/100
+Iteration 270 | objective = 0.661673 | patience = 82/100
+Iteration 280 | objective = 0.659775 | patience = 92/100
+Early stopping at iteration 289
+Saved email-Enron_4 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_5 | Dataset=enron
+Vertices=16 | Hyperedges=58
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (436, 5)
+Beta shape: (120, 5)
+Total parameters: 2780
+Initial objective = 0.434288
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.454071 | patience = 0/100
+Iteration  10 | objective = 0.452360 | patience = 5/100
+Iteration  20 | objective = 0.493707 | patience = 0/100
+Iteration  30 | objective = 0.490145 | patience = 10/100
+Iteration  40 | objective = 0.515583 | patience = 2/100
+Iteration  50 | objective = 0.534523 | patience = 1/100
+Iteration  60 | objective = 0.539661 | patience = 0/100
+Iteration  70 | objective = 0.538656 | patience = 4/100
+Iteration  80 | objective = 0.552626 | patience = 1/100
+Iteration  90 | objective = 0.559501 | patience = 1/100
+Iteration 100 | objective = 0.547074 | patience = 9/100
+Iteration 110 | objective = 0.556314 | patience = 19/100
+Iteration 120 | objective = 0.560750 | patience = 8/100
+Iteration 130 | objective = 0.581344 | patience = 0/100
+Iteration 140 | objective = 0.567382 | patience = 10/100
+Iteration 150 | objective = 0.588839 | patience = 2/100
+Iteration 160 | objective = 0.581631 | patience = 7/100
+Iteration 170 | objective = 0.582199 | patience = 17/100
+Iteration 180 | objective = 0.584493 | patience = 8/100
+Iteration 190 | objective = 0.582681 | patience = 4/100
+Iteration 200 | objective = 0.588702 | patience = 14/100
+Iteration 210 | objective = 0.586022 | patience = 24/100
+Iteration 220 | objective = 0.596903 | patience = 1/100
+Iteration 230 | objective = 0.592597 | patience = 4/100
+Iteration 240 | objective = 0.601221 | patience = 4/100
+Iteration 250 | objective = 0.597491 | patience = 14/100
+Iteration 260 | objective = 0.602344 | patience = 24/100
+Iteration 270 | objective = 0.595698 | patience = 34/100
+Iteration 280 | objective = 0.598550 | patience = 44/100
+Iteration 290 | objective = 0.574535 | patience = 54/100
+Iteration 300 | objective = 0.590315 | patience = 64/100
+Iteration 310 | objective = 0.607127 | patience = 74/100
+Iteration 320 | objective = 0.603037 | patience = 84/100
+Iteration 330 | objective = 0.599770 | patience = 94/100
+Iteration 340 | objective = 0.609024 | patience = 3/100
+Iteration 350 | objective = 0.611058 | patience = 13/100
+Iteration 360 | objective = 0.600918 | patience = 23/100
+Iteration 370 | objective = 0.591639 | patience = 33/100
+Iteration 380 | objective = 0.589332 | patience = 43/100
+Iteration 390 | objective = 0.612245 | patience = 53/100
+Iteration 400 | objective = 0.614507 | patience = 2/100
+Iteration 410 | objective = 0.615885 | patience = 12/100
+Iteration 420 | objective = 0.610386 | patience = 22/100
+Iteration 430 | objective = 0.606845 | patience = 32/100
+Iteration 440 | objective = 0.608660 | patience = 4/100
+Iteration 450 | objective = 0.601329 | patience = 14/100
+Iteration 460 | objective = 0.602873 | patience = 24/100
+Iteration 470 | objective = 0.607023 | patience = 34/100
+Iteration 480 | objective = 0.613381 | patience = 44/100
+Iteration 490 | objective = 0.604174 | patience = 54/100
+Iteration 500 | objective = 0.597366 | patience = 64/100
+Iteration 510 | objective = 0.606211 | patience = 74/100
+Iteration 520 | objective = 0.604139 | patience = 84/100
+Iteration 530 | objective = 0.604903 | patience = 94/100
+Iteration 540 | objective = 0.612918 | patience = 5/100
+Iteration 550 | objective = 0.608756 | patience = 15/100
+Iteration 560 | objective = 0.609352 | patience = 25/100
+Iteration 570 | objective = 0.612613 | patience = 35/100
+Iteration 580 | objective = 0.597618 | patience = 45/100
+Iteration 590 | objective = 0.607722 | patience = 8/100
+Saved email-Enron_5 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_6 | Dataset=enron
+Vertices=18 | Hyperedges=132
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (2468, 5)
+Beta shape: (153, 5)
+Total parameters: 13105
+Initial objective = 0.398528
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.449782 | patience = 0/100
+Iteration  10 | objective = 0.412405 | patience = 6/100
+Iteration  20 | objective = 0.458799 | patience = 0/100
+Iteration  30 | objective = 0.486923 | patience = 3/100
+Iteration  40 | objective = 0.498559 | patience = 2/100
+Iteration  50 | objective = 0.505577 | patience = 4/100
+Iteration  60 | objective = 0.504194 | patience = 14/100
+Iteration  70 | objective = 0.511232 | patience = 0/100
+Iteration  80 | objective = 0.518002 | patience = 0/100
+Iteration  90 | objective = 0.518160 | patience = 7/100
+Iteration 100 | objective = 0.522209 | patience = 0/100
+Iteration 110 | objective = 0.523813 | patience = 7/100
+Iteration 120 | objective = 0.521742 | patience = 8/100
+Iteration 130 | objective = 0.524190 | patience = 18/100
+Iteration 140 | objective = 0.526103 | patience = 28/100
+Iteration 150 | objective = 0.527032 | patience = 38/100
+Iteration 160 | objective = 0.523743 | patience = 48/100
+Iteration 170 | objective = 0.525075 | patience = 58/100
+Iteration 180 | objective = 0.528767 | patience = 5/100
+Iteration 190 | objective = 0.525091 | patience = 15/100
+Iteration 200 | objective = 0.528834 | patience = 25/100
+Iteration 210 | objective = 0.527209 | patience = 35/100
+Iteration 220 | objective = 0.525185 | patience = 45/100
+Iteration 230 | objective = 0.531189 | patience = 1/100
+Iteration 240 | objective = 0.529647 | patience = 11/100
+Iteration 250 | objective = 0.529764 | patience = 21/100
+Iteration 260 | objective = 0.527979 | patience = 31/100
+Iteration 270 | objective = 0.527077 | patience = 41/100
+Iteration 280 | objective = 0.530378 | patience = 51/100
+Iteration 290 | objective = 0.532466 | patience = 5/100
+Iteration 300 | objective = 0.527510 | patience = 15/100
+Iteration 310 | objective = 0.531136 | patience = 25/100
+Iteration 320 | objective = 0.528189 | patience = 35/100
+Iteration 330 | objective = 0.531031 | patience = 45/100
+Iteration 340 | objective = 0.534008 | patience = 4/100
+Iteration 350 | objective = 0.531674 | patience = 14/100
+Iteration 360 | objective = 0.528547 | patience = 24/100
+Iteration 370 | objective = 0.531754 | patience = 34/100
+Iteration 380 | objective = 0.534735 | patience = 44/100
+Iteration 390 | objective = 0.533516 | patience = 54/100
+Iteration 400 | objective = 0.531634 | patience = 64/100
+Iteration 410 | objective = 0.529239 | patience = 74/100
+Iteration 420 | objective = 0.528823 | patience = 84/100
+Iteration 430 | objective = 0.529360 | patience = 94/100
+Early stopping at iteration 437
+Saved email-Enron_6 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_7 | Dataset=enron
+Vertices=16 | Hyperedges=104
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (342, 5)
+Beta shape: (120, 5)
+Total parameters: 2310
+Initial objective = 0.316011
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.417209 | patience = 0/100
+Iteration  10 | objective = 0.453371 | patience = 0/100
+Iteration  20 | objective = 0.443689 | patience = 2/100
+Iteration  30 | objective = 0.459098 | patience = 4/100
+Iteration  40 | objective = 0.460363 | patience = 1/100
+Iteration  50 | objective = 0.486941 | patience = 2/100
+Iteration  60 | objective = 0.506811 | patience = 3/100
+Iteration  70 | objective = 0.501464 | patience = 13/100
+Iteration  80 | objective = 0.509305 | patience = 8/100
+Iteration  90 | objective = 0.517414 | patience = 1/100
+Iteration 100 | objective = 0.520384 | patience = 3/100
+Iteration 110 | objective = 0.525894 | patience = 1/100
+Iteration 120 | objective = 0.524391 | patience = 3/100
+Iteration 130 | objective = 0.528896 | patience = 4/100
+Iteration 140 | objective = 0.524970 | patience = 4/100
+Iteration 150 | objective = 0.525639 | patience = 14/100
+Iteration 160 | objective = 0.527928 | patience = 24/100
+Iteration 170 | objective = 0.530006 | patience = 34/100
+Iteration 180 | objective = 0.528247 | patience = 8/100
+Iteration 190 | objective = 0.527784 | patience = 18/100
+Iteration 200 | objective = 0.534467 | patience = 0/100
+Iteration 210 | objective = 0.531453 | patience = 3/100
+Iteration 220 | objective = 0.539163 | patience = 5/100
+Iteration 230 | objective = 0.538283 | patience = 15/100
+Iteration 240 | objective = 0.531971 | patience = 25/100
+Iteration 250 | objective = 0.532898 | patience = 35/100
+Iteration 260 | objective = 0.536547 | patience = 45/100
+Iteration 270 | objective = 0.534848 | patience = 55/100
+Iteration 280 | objective = 0.534558 | patience = 65/100
+Iteration 290 | objective = 0.536941 | patience = 2/100
+Iteration 300 | objective = 0.534460 | patience = 12/100
+Iteration 310 | objective = 0.540287 | patience = 22/100
+Iteration 320 | objective = 0.538898 | patience = 32/100
+Iteration 330 | objective = 0.533312 | patience = 8/100
+Iteration 340 | objective = 0.536252 | patience = 18/100
+Iteration 350 | objective = 0.531262 | patience = 28/100
+Iteration 360 | objective = 0.532751 | patience = 38/100
+Iteration 370 | objective = 0.537539 | patience = 48/100
+Iteration 380 | objective = 0.538124 | patience = 58/100
+Iteration 390 | objective = 0.529510 | patience = 68/100
+Iteration 400 | objective = 0.536543 | patience = 78/100
+Iteration 410 | objective = 0.536422 | patience = 88/100
+Iteration 420 | objective = 0.531907 | patience = 98/100
+Early stopping at iteration 423
+Saved email-Enron_7 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_8 | Dataset=enron
+Vertices=16 | Hyperedges=51
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (157, 5)
+Beta shape: (120, 5)
+Total parameters: 1385
+Initial objective = 0.456185
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.455179 | patience = 1/100
+Iteration  10 | objective = 0.479098 | patience = 1/100
+Iteration  20 | objective = 0.493680 | patience = 0/100
+Iteration  30 | objective = 0.500503 | patience = 2/100
+Iteration  40 | objective = 0.499634 | patience = 4/100
+Iteration  50 | objective = 0.505974 | patience = 1/100
+Iteration  60 | objective = 0.523633 | patience = 2/100
+Iteration  70 | objective = 0.541315 | patience = 0/100
+Iteration  80 | objective = 0.538033 | patience = 3/100
+Iteration  90 | objective = 0.551876 | patience = 0/100
+Iteration 100 | objective = 0.542483 | patience = 8/100
+Iteration 110 | objective = 0.564395 | patience = 0/100
+Iteration 120 | objective = 0.552054 | patience = 8/100
+Iteration 130 | objective = 0.541916 | patience = 18/100
+Iteration 140 | objective = 0.558856 | patience = 28/100
+Iteration 150 | objective = 0.553797 | patience = 38/100
+Iteration 160 | objective = 0.545235 | patience = 48/100
+Iteration 170 | objective = 0.561650 | patience = 58/100
+Iteration 180 | objective = 0.550804 | patience = 68/100
+Iteration 190 | objective = 0.568704 | patience = 0/100
+Iteration 200 | objective = 0.565089 | patience = 10/100
+Iteration 210 | objective = 0.561437 | patience = 4/100
+Iteration 220 | objective = 0.562913 | patience = 14/100
+Iteration 230 | objective = 0.556476 | patience = 24/100
+Iteration 240 | objective = 0.561916 | patience = 34/100
+Iteration 250 | objective = 0.562529 | patience = 1/100
+Iteration 260 | objective = 0.567515 | patience = 11/100
+Iteration 270 | objective = 0.562297 | patience = 21/100
+Iteration 280 | objective = 0.574191 | patience = 31/100
+Iteration 290 | objective = 0.559258 | patience = 41/100
+Iteration 300 | objective = 0.569087 | patience = 51/100
+Iteration 310 | objective = 0.572575 | patience = 61/100
+Iteration 320 | objective = 0.565214 | patience = 9/100
+Iteration 330 | objective = 0.566248 | patience = 19/100
+Iteration 340 | objective = 0.561268 | patience = 9/100
+Iteration 350 | objective = 0.573594 | patience = 19/100
+Iteration 360 | objective = 0.575885 | patience = 29/100
+Iteration 370 | objective = 0.577543 | patience = 6/100
+Iteration 380 | objective = 0.575317 | patience = 16/100
+Iteration 390 | objective = 0.562905 | patience = 26/100
+Iteration 400 | objective = 0.562283 | patience = 36/100
+Iteration 410 | objective = 0.566687 | patience = 46/100
+Iteration 420 | objective = 0.570106 | patience = 56/100
+Iteration 430 | objective = 0.570774 | patience = 66/100
+Iteration 440 | objective = 0.577950 | patience = 76/100
+Iteration 450 | objective = 0.578525 | patience = 3/100
+Iteration 460 | objective = 0.575231 | patience = 13/100
+Iteration 470 | objective = 0.570751 | patience = 23/100
+Iteration 480 | objective = 0.583422 | patience = 33/100
+Iteration 490 | objective = 0.571778 | patience = 7/100
+Iteration 500 | objective = 0.573850 | patience = 7/100
+Iteration 510 | objective = 0.576826 | patience = 17/100
+Iteration 520 | objective = 0.568726 | patience = 27/100
+Iteration 530 | objective = 0.570020 | patience = 37/100
+Iteration 540 | objective = 0.571916 | patience = 47/100
+Iteration 550 | objective = 0.567586 | patience = 57/100
+Iteration 560 | objective = 0.565811 | patience = 67/100
+Iteration 570 | objective = 0.570524 | patience = 77/100
+Iteration 580 | objective = 0.574499 | patience = 87/100
+Iteration 590 | objective = 0.570353 | patience = 97/100
+Early stopping at iteration 594
+Saved email-Enron_8 to results/enron_fair_max_p5.csv
+============================================================
+Running email-Enron_9 | Dataset=enron
+Vertices=18 | Hyperedges=170
+Runtype=aon | Loss=fair_max
+============================================================
+Gamma shape: (1320, 5)
+Beta shape: (153, 5)
+Total parameters: 7365
+Initial objective = 0.324600
+Runtype = aon | Loss = fair_max
+Iteration   0 | objective = 0.394015 | patience = 0/100
+Iteration  10 | objective = 0.446968 | patience = 9/100
+Iteration  20 | objective = 0.465667 | patience = 4/100
+Iteration  30 | objective = 0.485752 | patience = 4/100
+Iteration  40 | objective = 0.496235 | patience = 3/100
+Iteration  50 | objective = 0.508690 | patience = 3/100
+Iteration  60 | objective = 0.510475 | patience = 0/100
+Iteration  70 | objective = 0.511236 | patience = 7/100
+Iteration  80 | objective = 0.515942 | patience = 2/100
+Iteration  90 | objective = 0.516896 | patience = 1/100
+Iteration 100 | objective = 0.519941 | patience = 1/100
+Iteration 110 | objective = 0.519579 | patience = 11/100
+Iteration 120 | objective = 0.520893 | patience = 4/100
+Iteration 130 | objective = 0.520900 | patience = 14/100
+Iteration 140 | objective = 0.522151 | patience = 1/100
+Iteration 150 | objective = 0.524483 | patience = 0/100
+Iteration 160 | objective = 0.524691 | patience = 8/100
+Iteration 170 | objective = 0.524688 | patience = 5/100
+Iteration 180 | objective = 0.526598 | patience = 0/100
+Iteration 190 | objective = 0.525454 | patience = 10/100
+Iteration 200 | objective = 0.525473 | patience = 20/100
+Iteration 210 | objective = 0.524347 | patience = 30/100
+Iteration 220 | objective = 0.524913 | patience = 40/100
+Iteration 230 | objective = 0.526045 | patience = 50/100
+Iteration 240 | objective = 0.524946 | patience = 60/100
+Iteration 250 | objective = 0.525312 | patience = 70/100
+Iteration 260 | objective = 0.525804 | patience = 80/100
+Iteration 270 | objective = 0.525748 | patience = 90/100
+Iteration 280 | objective = 0.525670 | patience = 6/100
+Iteration 290 | objective = 0.525762 | patience = 16/100
+Iteration 300 | objective = 0.525623 | patience = 26/100
+Iteration 310 | objective = 0.525446 | patience = 36/100
+Iteration 320 | objective = 0.524547 | patience = 46/100
+Iteration 330 | objective = 0.523628 | patience = 56/100
+Iteration 340 | objective = 0.526410 | patience = 66/100
+Iteration 350 | objective = 0.526503 | patience = 76/100
+Iteration 360 | objective = 0.526246 | patience = 86/100
+Iteration 370 | objective = 0.524893 | patience = 96/100
+Early stopping at iteration 375
+Saved email-Enron_9 to results/enron_fair_max_p5.csv
+All experiments completed!

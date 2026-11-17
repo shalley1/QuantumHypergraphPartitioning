@@ -1,0 +1,1081 @@
+
+Running instance congress-bills_01 | p=4 | Runtype=Aon
+Gamma shape: (1, 4)
+Beta shape: (1, 4)
+Total parameters: 8
+Initial objective = 1.000000 | Runtype = aon
+Iteration   0 | objective = 1.000000
+Iteration  10 | objective = 1.000000
+Iteration  20 | objective = 1.000000
+Iteration  30 | objective = 1.000000
+Iteration  40 | objective = 1.000000
+Iteration  50 | objective = 1.000000
+Iteration  60 | objective = 1.000000
+Iteration  70 | objective = 1.000000
+Iteration  80 | objective = 1.000000
+Iteration  90 | objective = 1.000000
+Iteration 100 | objective = 1.000000
+Iteration 110 | objective = 1.000000
+Iteration 120 | objective = 1.000000
+Iteration 130 | objective = 1.000000
+Iteration 140 | objective = 1.000000
+Iteration 150 | objective = 1.000000
+Iteration 160 | objective = 1.000000
+Iteration 170 | objective = 1.000000
+Iteration 180 | objective = 1.000000
+Iteration 190 | objective = 1.000000
+Iteration 200 | objective = 1.000000
+Iteration 210 | objective = 1.000000
+Iteration 220 | objective = 1.000000
+Iteration 230 | objective = 1.000000
+Iteration 240 | objective = 1.000000
+Iteration 250 | objective = 1.000000
+Iteration 260 | objective = 1.000000
+Iteration 270 | objective = 1.000000
+Iteration 280 | objective = 1.000000
+Iteration 290 | objective = 1.000000
+
+Running instance congress-bills_01 | p=5 | Runtype=Aon
+Gamma shape: (1, 5)
+Beta shape: (1, 5)
+Total parameters: 10
+Initial objective = 1.000000 | Runtype = aon
+Iteration   0 | objective = 1.000000
+Iteration  10 | objective = 1.000000
+Iteration  20 | objective = 1.000000
+Iteration  30 | objective = 1.000000
+Iteration  40 | objective = 1.000000
+Iteration  50 | objective = 1.000000
+Iteration  60 | objective = 1.000000
+Iteration  70 | objective = 1.000000
+Iteration  80 | objective = 1.000000
+Iteration  90 | objective = 1.000000
+Iteration 100 | objective = 1.000000
+Iteration 110 | objective = 1.000000
+Iteration 120 | objective = 1.000000
+Iteration 130 | objective = 1.000000
+Iteration 140 | objective = 1.000000
+Iteration 150 | objective = 1.000000
+Iteration 160 | objective = 1.000000
+Iteration 170 | objective = 1.000000
+Iteration 180 | objective = 1.000000
+Iteration 190 | objective = 1.000000
+Iteration 200 | objective = 1.000000
+Iteration 210 | objective = 1.000000
+Iteration 220 | objective = 1.000000
+Iteration 230 | objective = 1.000000
+Iteration 240 | objective = 1.000000
+Iteration 250 | objective = 1.000000
+Iteration 260 | objective = 1.000000
+Iteration 270 | objective = 1.000000
+Iteration 280 | objective = 1.000000
+Iteration 290 | objective = 1.000000
+
+Running instance congress-bills_01 | p=6 | Runtype=Aon
+Gamma shape: (1, 6)
+Beta shape: (1, 6)
+Total parameters: 12
+Initial objective = 1.000000 | Runtype = aon
+Iteration   0 | objective = 1.000000
+Iteration  10 | objective = 1.000000
+Iteration  20 | objective = 1.000000
+Iteration  30 | objective = 1.000000
+Iteration  40 | objective = 1.000000
+Iteration  50 | objective = 1.000000
+Iteration  60 | objective = 1.000000
+Iteration  70 | objective = 1.000000
+Iteration  80 | objective = 1.000000
+Iteration  90 | objective = 1.000000
+Iteration 100 | objective = 1.000000
+Iteration 110 | objective = 1.000000
+Iteration 120 | objective = 1.000000
+Iteration 130 | objective = 1.000000
+Iteration 140 | objective = 1.000000
+Iteration 150 | objective = 1.000000
+Iteration 160 | objective = 1.000000
+Iteration 170 | objective = 1.000000
+Iteration 180 | objective = 1.000000
+Iteration 190 | objective = 1.000000
+Iteration 200 | objective = 1.000000
+Iteration 210 | objective = 1.000000
+Iteration 220 | objective = 1.000000
+Iteration 230 | objective = 1.000000
+Iteration 240 | objective = 1.000000
+Iteration 250 | objective = 1.000000
+Iteration 260 | objective = 1.000000
+Iteration 270 | objective = 1.000000
+Iteration 280 | objective = 1.000000
+Iteration 290 | objective = 1.000000
+
+Running instance congress-bills_02 | p=4 | Runtype=Aon
+Gamma shape: (2, 4)
+Beta shape: (6, 4)
+Total parameters: 32
+Initial objective = 0.611471 | Runtype = aon
+Iteration   0 | objective = 0.576612
+Iteration  10 | objective = 0.203259
+Iteration  20 | objective = 0.008871
+Iteration  30 | objective = 0.011240
+Iteration  40 | objective = 0.003374
+Iteration  50 | objective = 0.001674
+Iteration  60 | objective = 0.000178
+Iteration  70 | objective = 0.000322
+Iteration  80 | objective = 0.000016
+Iteration  90 | objective = 0.000027
+Iteration 100 | objective = 0.000015
+Iteration 110 | objective = 0.000001
+Iteration 120 | objective = 0.000000
+Iteration 130 | objective = 0.000001
+Iteration 140 | objective = 0.000000
+Iteration 150 | objective = 0.000000
+Iteration 160 | objective = 0.000000
+Iteration 170 | objective = 0.000000
+Iteration 180 | objective = 0.000000
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_02 | p=5 | Runtype=Aon
+Gamma shape: (2, 5)
+Beta shape: (6, 5)
+Total parameters: 40
+Initial objective = 0.596628 | Runtype = aon
+Iteration   0 | objective = 0.549082
+Iteration  10 | objective = 0.119035
+Iteration  20 | objective = 0.005029
+Iteration  30 | objective = 0.015735
+Iteration  40 | objective = 0.001160
+Iteration  50 | objective = 0.001308
+Iteration  60 | objective = 0.000722
+Iteration  70 | objective = 0.000002
+Iteration  80 | objective = 0.000071
+Iteration  90 | objective = 0.000037
+Iteration 100 | objective = 0.000004
+Iteration 110 | objective = 0.000000
+Iteration 120 | objective = 0.000001
+Iteration 130 | objective = 0.000001
+Iteration 140 | objective = 0.000000
+Iteration 150 | objective = 0.000000
+Iteration 160 | objective = 0.000000
+Iteration 170 | objective = 0.000000
+Iteration 180 | objective = 0.000000
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_02 | p=6 | Runtype=Aon
+Gamma shape: (2, 6)
+Beta shape: (6, 6)
+Total parameters: 48
+Initial objective = 0.599943 | Runtype = aon
+Iteration   0 | objective = 0.544513
+Iteration  10 | objective = 0.056546
+Iteration  20 | objective = 0.030097
+Iteration  30 | objective = 0.001937
+Iteration  40 | objective = 0.005990
+Iteration  50 | objective = 0.000592
+Iteration  60 | objective = 0.000135
+Iteration  70 | objective = 0.000253
+Iteration  80 | objective = 0.000082
+Iteration  90 | objective = 0.000008
+Iteration 100 | objective = 0.000000
+Iteration 110 | objective = 0.000001
+Iteration 120 | objective = 0.000001
+Iteration 130 | objective = 0.000000
+Iteration 140 | objective = 0.000000
+Iteration 150 | objective = 0.000000
+Iteration 160 | objective = 0.000000
+Iteration 170 | objective = 0.000000
+Iteration 180 | objective = 0.000000
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_03 | p=4 | Runtype=Aon
+Gamma shape: (3, 4)
+Beta shape: (10, 4)
+Total parameters: 52
+Initial objective = 0.584754 | Runtype = aon
+Iteration   0 | objective = 0.582328
+Iteration  10 | objective = 0.472222
+Iteration  20 | objective = 0.418170
+Iteration  30 | objective = 0.390726
+Iteration  40 | objective = 0.356283
+Iteration  50 | objective = 0.320107
+Iteration  60 | objective = 0.285355
+Iteration  70 | objective = 0.231009
+Iteration  80 | objective = 0.165225
+Iteration  90 | objective = 0.112034
+Iteration 100 | objective = 0.071171
+Iteration 110 | objective = 0.040883
+Iteration 120 | objective = 0.021635
+Iteration 130 | objective = 0.009681
+Iteration 140 | objective = 0.003963
+Iteration 150 | objective = 0.001331
+Iteration 160 | objective = 0.000314
+Iteration 170 | objective = 0.000047
+Iteration 180 | objective = 0.000008
+Iteration 190 | objective = 0.000009
+Iteration 200 | objective = 0.000007
+Iteration 210 | objective = 0.000003
+Iteration 220 | objective = 0.000001
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_03 | p=5 | Runtype=Aon
+Gamma shape: (3, 5)
+Beta shape: (10, 5)
+Total parameters: 65
+Initial objective = 0.561272 | Runtype = aon
+Iteration   0 | objective = 0.572910
+Iteration  10 | objective = 0.433424
+Iteration  20 | objective = 0.398908
+Iteration  30 | objective = 0.346157
+Iteration  40 | objective = 0.298824
+Iteration  50 | objective = 0.236620
+Iteration  60 | objective = 0.155054
+Iteration  70 | objective = 0.091111
+Iteration  80 | objective = 0.046071
+Iteration  90 | objective = 0.020050
+Iteration 100 | objective = 0.008339
+Iteration 110 | objective = 0.003923
+Iteration 120 | objective = 0.001705
+Iteration 130 | objective = 0.000745
+Iteration 140 | objective = 0.000271
+Iteration 150 | objective = 0.000083
+Iteration 160 | objective = 0.000025
+Iteration 170 | objective = 0.000006
+Iteration 180 | objective = 0.000001
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_03 | p=6 | Runtype=Aon
+Gamma shape: (3, 6)
+Beta shape: (10, 6)
+Total parameters: 78
+Initial objective = 0.559547 | Runtype = aon
+Iteration   0 | objective = 0.572113
+Iteration  10 | objective = 0.423667
+Iteration  20 | objective = 0.382977
+Iteration  30 | objective = 0.342436
+Iteration  40 | objective = 0.303972
+Iteration  50 | objective = 0.222454
+Iteration  60 | objective = 0.147810
+Iteration  70 | objective = 0.075591
+Iteration  80 | objective = 0.033928
+Iteration  90 | objective = 0.010741
+Iteration 100 | objective = 0.002375
+Iteration 110 | objective = 0.000717
+Iteration 120 | objective = 0.000170
+Iteration 130 | objective = 0.000106
+Iteration 140 | objective = 0.000052
+Iteration 150 | objective = 0.000019
+Iteration 160 | objective = 0.000005
+Iteration 170 | objective = 0.000002
+Iteration 180 | objective = 0.000001
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_04 | p=4 | Runtype=Aon
+Gamma shape: (7, 4)
+Beta shape: (45, 4)
+Total parameters: 208
+Initial objective = 0.525424 | Runtype = aon
+Iteration   0 | objective = 0.534301
+Iteration  10 | objective = 0.428939
+Iteration  20 | objective = 0.370086
+Iteration  30 | objective = 0.307621
+Iteration  40 | objective = 0.263319
+Iteration  50 | objective = 0.251296
+Iteration  60 | objective = 0.235719
+Iteration  70 | objective = 0.228763
+Iteration  80 | objective = 0.217589
+Iteration  90 | objective = 0.209242
+Iteration 100 | objective = 0.203428
+Iteration 110 | objective = 0.209354
+Iteration 120 | objective = 0.207173
+Iteration 130 | objective = 0.193952
+Iteration 140 | objective = 0.194051
+Iteration 150 | objective = 0.184480
+Iteration 160 | objective = 0.186734
+Iteration 170 | objective = 0.190608
+Iteration 180 | objective = 0.183532
+Iteration 190 | objective = 0.186630
+Iteration 200 | objective = 0.188580
+Iteration 210 | objective = 0.187924
+Iteration 220 | objective = 0.181964
+Iteration 230 | objective = 0.185247
+Iteration 240 | objective = 0.185052
+Iteration 250 | objective = 0.184696
+Iteration 260 | objective = 0.184834
+Iteration 270 | objective = 0.184128
+Iteration 280 | objective = 0.182962
+Iteration 290 | objective = 0.183816
+
+Running instance congress-bills_04 | p=5 | Runtype=Aon
+Gamma shape: (7, 5)
+Beta shape: (45, 5)
+Total parameters: 260
+Initial objective = 0.533916 | Runtype = aon
+Iteration   0 | objective = 0.525294
+Iteration  10 | objective = 0.394592
+Iteration  20 | objective = 0.310835
+Iteration  30 | objective = 0.261763
+Iteration  40 | objective = 0.235888
+Iteration  50 | objective = 0.230379
+Iteration  60 | objective = 0.209384
+Iteration  70 | objective = 0.198122
+Iteration  80 | objective = 0.202936
+Iteration  90 | objective = 0.196854
+Iteration 100 | objective = 0.197427
+Iteration 110 | objective = 0.194947
+Iteration 120 | objective = 0.192099
+Iteration 130 | objective = 0.187916
+Iteration 140 | objective = 0.192766
+Iteration 150 | objective = 0.184795
+Iteration 160 | objective = 0.187825
+Iteration 170 | objective = 0.188463
+Iteration 180 | objective = 0.178048
+Iteration 190 | objective = 0.182991
+Iteration 200 | objective = 0.189708
+Iteration 210 | objective = 0.181388
+Iteration 220 | objective = 0.190387
+Iteration 230 | objective = 0.188016
+Iteration 240 | objective = 0.184993
+Iteration 250 | objective = 0.179176
+Iteration 260 | objective = 0.181281
+Iteration 270 | objective = 0.178197
+Iteration 280 | objective = 0.182666
+Iteration 290 | objective = 0.183260
+
+Running instance congress-bills_04 | p=6 | Runtype=Aon
+Gamma shape: (7, 6)
+Beta shape: (45, 6)
+Total parameters: 312
+Initial objective = 0.523753 | Runtype = aon
+Iteration   0 | objective = 0.521857
+Iteration  10 | objective = 0.425510
+Iteration  20 | objective = 0.347753
+Iteration  30 | objective = 0.290441
+Iteration  40 | objective = 0.256295
+Iteration  50 | objective = 0.235720
+Iteration  60 | objective = 0.216192
+Iteration  70 | objective = 0.204982
+Iteration  80 | objective = 0.207561
+Iteration  90 | objective = 0.201852
+Iteration 100 | objective = 0.197682
+Iteration 110 | objective = 0.186738
+Iteration 120 | objective = 0.184385
+Iteration 130 | objective = 0.187591
+Iteration 140 | objective = 0.186589
+Iteration 150 | objective = 0.181623
+Iteration 160 | objective = 0.182069
+Iteration 170 | objective = 0.179397
+Iteration 180 | objective = 0.182443
+Iteration 190 | objective = 0.180494
+Iteration 200 | objective = 0.183801
+Iteration 210 | objective = 0.173205
+Iteration 220 | objective = 0.177070
+Iteration 230 | objective = 0.180218
+Iteration 240 | objective = 0.189188
+Iteration 250 | objective = 0.176716
+Iteration 260 | objective = 0.177592
+Iteration 270 | objective = 0.180742
+Iteration 280 | objective = 0.177755
+Iteration 290 | objective = 0.179906
+
+Running instance congress-bills_05 | p=4 | Runtype=Aon
+Gamma shape: (19, 4)
+Beta shape: (36, 4)
+Total parameters: 220
+Initial objective = 0.791360 | Runtype = aon
+Iteration   0 | objective = 0.785236
+Iteration  10 | objective = 0.550843
+Iteration  20 | objective = 0.419607
+Iteration  30 | objective = 0.353700
+Iteration  40 | objective = 0.323491
+Iteration  50 | objective = 0.306046
+Iteration  60 | objective = 0.299633
+Iteration  70 | objective = 0.273928
+Iteration  80 | objective = 0.269733
+Iteration  90 | objective = 0.245442
+Iteration 100 | objective = 0.221518
+Iteration 110 | objective = 0.214595
+Iteration 120 | objective = 0.205841
+Iteration 130 | objective = 0.199350
+Iteration 140 | objective = 0.199985
+Iteration 150 | objective = 0.200422
+Iteration 160 | objective = 0.188718
+Iteration 170 | objective = 0.191154
+Iteration 180 | objective = 0.179433
+Iteration 190 | objective = 0.174994
+Iteration 200 | objective = 0.174089
+Iteration 210 | objective = 0.177362
+Iteration 220 | objective = 0.180454
+Iteration 230 | objective = 0.164083
+Iteration 240 | objective = 0.164352
+Iteration 250 | objective = 0.159772
+Iteration 260 | objective = 0.147913
+Iteration 270 | objective = 0.139002
+Iteration 280 | objective = 0.133563
+Iteration 290 | objective = 0.122580
+
+Running instance congress-bills_05 | p=5 | Runtype=Aon
+Gamma shape: (19, 5)
+Beta shape: (36, 5)
+Total parameters: 275
+Initial objective = 0.768097 | Runtype = aon
+Iteration   0 | objective = 0.776616
+Iteration  10 | objective = 0.527627
+Iteration  20 | objective = 0.391828
+Iteration  30 | objective = 0.331391
+Iteration  40 | objective = 0.323344
+Iteration  50 | objective = 0.289418
+Iteration  60 | objective = 0.255419
+Iteration  70 | objective = 0.239834
+Iteration  80 | objective = 0.216799
+Iteration  90 | objective = 0.202717
+Iteration 100 | objective = 0.195524
+Iteration 110 | objective = 0.194941
+Iteration 120 | objective = 0.187513
+Iteration 130 | objective = 0.183630
+Iteration 140 | objective = 0.179638
+Iteration 150 | objective = 0.171019
+Iteration 160 | objective = 0.169707
+Iteration 170 | objective = 0.160328
+Iteration 180 | objective = 0.151465
+Iteration 190 | objective = 0.151184
+Iteration 200 | objective = 0.140178
+Iteration 210 | objective = 0.129914
+Iteration 220 | objective = 0.115283
+Iteration 230 | objective = 0.099285
+Iteration 240 | objective = 0.084524
+Iteration 250 | objective = 0.069256
+Iteration 260 | objective = 0.058280
+Iteration 270 | objective = 0.047967
+Iteration 280 | objective = 0.039981
+Iteration 290 | objective = 0.033925
+
+Running instance congress-bills_05 | p=6 | Runtype=Aon
+Gamma shape: (19, 6)
+Beta shape: (36, 6)
+Total parameters: 330
+Initial objective = 0.753940 | Runtype = aon
+Iteration   0 | objective = 0.763130
+Iteration  10 | objective = 0.446420
+Iteration  20 | objective = 0.360633
+Iteration  30 | objective = 0.304315
+Iteration  40 | objective = 0.288897
+Iteration  50 | objective = 0.273743
+Iteration  60 | objective = 0.239353
+Iteration  70 | objective = 0.241062
+Iteration  80 | objective = 0.224635
+Iteration  90 | objective = 0.209147
+Iteration 100 | objective = 0.202654
+Iteration 110 | objective = 0.200835
+Iteration 120 | objective = 0.200675
+Iteration 130 | objective = 0.178741
+Iteration 140 | objective = 0.169025
+Iteration 150 | objective = 0.154817
+Iteration 160 | objective = 0.152434
+Iteration 170 | objective = 0.138489
+Iteration 180 | objective = 0.128239
+Iteration 190 | objective = 0.113605
+Iteration 200 | objective = 0.098861
+Iteration 210 | objective = 0.087109
+Iteration 220 | objective = 0.070336
+Iteration 230 | objective = 0.059244
+Iteration 240 | objective = 0.043896
+Iteration 250 | objective = 0.034788
+Iteration 260 | objective = 0.027550
+Iteration 270 | objective = 0.020749
+Iteration 280 | objective = 0.016121
+Iteration 290 | objective = 0.012208
+
+Running instance congress-bills_06 | p=4 | Runtype=Aon
+Gamma shape: (8, 4)
+Beta shape: (91, 4)
+Total parameters: 396
+Initial objective = 0.513969 | Runtype = aon
+Iteration   0 | objective = 0.497789
+Iteration  10 | objective = 0.409558
+Iteration  20 | objective = 0.343742
+Iteration  30 | objective = 0.310648
+Iteration  40 | objective = 0.265070
+Iteration  50 | objective = 0.240373
+Iteration  60 | objective = 0.220593
+Iteration  70 | objective = 0.196404
+Iteration  80 | objective = 0.190035
+Iteration  90 | objective = 0.181258
+Iteration 100 | objective = 0.174523
+Iteration 110 | objective = 0.169810
+Iteration 120 | objective = 0.165730
+Iteration 130 | objective = 0.157750
+Iteration 140 | objective = 0.147380
+Iteration 150 | objective = 0.137737
+Iteration 160 | objective = 0.125543
+Iteration 170 | objective = 0.122431
+Iteration 180 | objective = 0.113545
+Iteration 190 | objective = 0.105942
+Iteration 200 | objective = 0.096864
+Iteration 210 | objective = 0.086083
+Iteration 220 | objective = 0.080484
+Iteration 230 | objective = 0.077299
+Iteration 240 | objective = 0.076802
+Iteration 250 | objective = 0.068531
+Iteration 260 | objective = 0.066113
+Iteration 270 | objective = 0.066780
+Iteration 280 | objective = 0.063828
+Iteration 290 | objective = 0.060859
+
+Running instance congress-bills_06 | p=5 | Runtype=Aon
+Gamma shape: (8, 5)
+Beta shape: (91, 5)
+Total parameters: 495
+Initial objective = 0.513723 | Runtype = aon
+Iteration   0 | objective = 0.490719
+Iteration  10 | objective = 0.372609
+Iteration  20 | objective = 0.299132
+Iteration  30 | objective = 0.250580
+Iteration  40 | objective = 0.213489
+Iteration  50 | objective = 0.209319
+Iteration  60 | objective = 0.189182
+Iteration  70 | objective = 0.179024
+Iteration  80 | objective = 0.165723
+Iteration  90 | objective = 0.157325
+Iteration 100 | objective = 0.150754
+Iteration 110 | objective = 0.144528
+Iteration 120 | objective = 0.142066
+Iteration 130 | objective = 0.121295
+Iteration 140 | objective = 0.105082
+Iteration 150 | objective = 0.096334
+Iteration 160 | objective = 0.086979
+Iteration 170 | objective = 0.084368
+Iteration 180 | objective = 0.079278
+Iteration 190 | objective = 0.076374
+Iteration 200 | objective = 0.069363
+Iteration 210 | objective = 0.065847
+Iteration 220 | objective = 0.061212
+Iteration 230 | objective = 0.060795
+Iteration 240 | objective = 0.061846
+Iteration 250 | objective = 0.055705
+Iteration 260 | objective = 0.053756
+Iteration 270 | objective = 0.053855
+Iteration 280 | objective = 0.052592
+Iteration 290 | objective = 0.052892
+
+Running instance congress-bills_06 | p=6 | Runtype=Aon
+Gamma shape: (8, 6)
+Beta shape: (91, 6)
+Total parameters: 594
+Initial objective = 0.526232 | Runtype = aon
+Iteration   0 | objective = 0.518930
+Iteration  10 | objective = 0.420542
+Iteration  20 | objective = 0.314365
+Iteration  30 | objective = 0.261547
+Iteration  40 | objective = 0.226221
+Iteration  50 | objective = 0.206460
+Iteration  60 | objective = 0.182446
+Iteration  70 | objective = 0.174100
+Iteration  80 | objective = 0.163525
+Iteration  90 | objective = 0.156078
+Iteration 100 | objective = 0.137516
+Iteration 110 | objective = 0.135533
+Iteration 120 | objective = 0.133505
+Iteration 130 | objective = 0.116465
+Iteration 140 | objective = 0.095020
+Iteration 150 | objective = 0.084365
+Iteration 160 | objective = 0.078893
+Iteration 170 | objective = 0.074987
+Iteration 180 | objective = 0.064172
+Iteration 190 | objective = 0.060948
+Iteration 200 | objective = 0.056997
+Iteration 210 | objective = 0.053481
+Iteration 220 | objective = 0.049062
+Iteration 230 | objective = 0.048092
+Iteration 240 | objective = 0.044721
+Iteration 250 | objective = 0.047010
+Iteration 260 | objective = 0.046486
+Iteration 270 | objective = 0.043301
+Iteration 280 | objective = 0.038594
+Iteration 290 | objective = 0.039766
+
+Running instance congress-bills_07 | p=4 | Runtype=Aon
+Gamma shape: (10, 4)
+Beta shape: (153, 4)
+Total parameters: 652
+Initial objective = 0.517084 | Runtype = aon
+Iteration   0 | objective = 0.499625
+Iteration  10 | objective = 0.426292
+Iteration  20 | objective = 0.344009
+Iteration  30 | objective = 0.301859
+Iteration  40 | objective = 0.273156
+Iteration  50 | objective = 0.241616
+Iteration  60 | objective = 0.241011
+Iteration  70 | objective = 0.202585
+Iteration  80 | objective = 0.183267
+Iteration  90 | objective = 0.188532
+Iteration 100 | objective = 0.181090
+Iteration 110 | objective = 0.172417
+Iteration 120 | objective = 0.172545
+Iteration 130 | objective = 0.165786
+Iteration 140 | objective = 0.176455
+Iteration 150 | objective = 0.152623
+Iteration 160 | objective = 0.151390
+Iteration 170 | objective = 0.142135
+Iteration 180 | objective = 0.144643
+Iteration 190 | objective = 0.143489
+Iteration 200 | objective = 0.137818
+Iteration 210 | objective = 0.135821
+Iteration 220 | objective = 0.148866
+Iteration 230 | objective = 0.139473
+Iteration 240 | objective = 0.124978
+Iteration 250 | objective = 0.131713
+Iteration 260 | objective = 0.118418
+Iteration 270 | objective = 0.114380
+Iteration 280 | objective = 0.107434
+Iteration 290 | objective = 0.104440
+
+Running instance congress-bills_07 | p=5 | Runtype=Aon
+Gamma shape: (10, 5)
+Beta shape: (153, 5)
+Total parameters: 815
+Initial objective = 0.528887 | Runtype = aon
+Iteration   0 | objective = 0.505893
+Iteration  10 | objective = 0.451960
+Iteration  20 | objective = 0.369433
+Iteration  30 | objective = 0.313288
+Iteration  40 | objective = 0.259479
+Iteration  50 | objective = 0.231068
+Iteration  60 | objective = 0.211196
+Iteration  70 | objective = 0.210317
+Iteration  80 | objective = 0.192849
+Iteration  90 | objective = 0.183745
+Iteration 100 | objective = 0.167706
+Iteration 110 | objective = 0.164186
+Iteration 120 | objective = 0.156570
+Iteration 130 | objective = 0.155189
+Iteration 140 | objective = 0.147791
+Iteration 150 | objective = 0.147073
+Iteration 160 | objective = 0.145668
+Iteration 170 | objective = 0.131845
+Iteration 180 | objective = 0.129206
+Iteration 190 | objective = 0.127289
+Iteration 200 | objective = 0.141003
+Iteration 210 | objective = 0.115675
+Iteration 220 | objective = 0.112938
+Iteration 230 | objective = 0.117415
+Iteration 240 | objective = 0.102985
+Iteration 250 | objective = 0.102775
+Iteration 260 | objective = 0.097597
+Iteration 270 | objective = 0.094115
+Iteration 280 | objective = 0.087059
+Iteration 290 | objective = 0.080685
+
+Running instance congress-bills_07 | p=6 | Runtype=Aon
+Gamma shape: (10, 6)
+Beta shape: (153, 6)
+Total parameters: 978
+Initial objective = 0.556299 | Runtype = aon
+Iteration   0 | objective = 0.552928
+Iteration  10 | objective = 0.418224
+Iteration  20 | objective = 0.358207
+Iteration  30 | objective = 0.316713
+Iteration  40 | objective = 0.278895
+Iteration  50 | objective = 0.228270
+Iteration  60 | objective = 0.217396
+Iteration  70 | objective = 0.208653
+Iteration  80 | objective = 0.194768
+Iteration  90 | objective = 0.180040
+Iteration 100 | objective = 0.183900
+Iteration 110 | objective = 0.169491
+Iteration 120 | objective = 0.162247
+Iteration 130 | objective = 0.163619
+Iteration 140 | objective = 0.156990
+Iteration 150 | objective = 0.151675
+Iteration 160 | objective = 0.160890
+Iteration 170 | objective = 0.155463
+Iteration 180 | objective = 0.159763
+Iteration 190 | objective = 0.151978
+Iteration 200 | objective = 0.139860
+Iteration 210 | objective = 0.138261
+Iteration 220 | objective = 0.126428
+Iteration 230 | objective = 0.113375
+Iteration 240 | objective = 0.120485
+Iteration 250 | objective = 0.113240
+Iteration 260 | objective = 0.103051
+Iteration 270 | objective = 0.106499
+Iteration 280 | objective = 0.097482
+Iteration 290 | objective = 0.091608
+
+Running instance congress-bills_08 | p=4 | Runtype=Aon
+Gamma shape: (2, 4)
+Beta shape: (6, 4)
+Total parameters: 32
+Initial objective = 0.625101 | Runtype = aon
+Iteration   0 | objective = 0.592959
+Iteration  10 | objective = 0.219038
+Iteration  20 | objective = 0.012080
+Iteration  30 | objective = 0.013567
+Iteration  40 | objective = 0.003767
+Iteration  50 | objective = 0.001457
+Iteration  60 | objective = 0.000485
+Iteration  70 | objective = 0.000281
+Iteration  80 | objective = 0.000016
+Iteration  90 | objective = 0.000053
+Iteration 100 | objective = 0.000004
+Iteration 110 | objective = 0.000002
+Iteration 120 | objective = 0.000002
+Iteration 130 | objective = 0.000000
+Iteration 140 | objective = 0.000000
+Iteration 150 | objective = 0.000000
+Iteration 160 | objective = 0.000000
+Iteration 170 | objective = 0.000000
+Iteration 180 | objective = 0.000000
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_08 | p=5 | Runtype=Aon
+Gamma shape: (2, 5)
+Beta shape: (6, 5)
+Total parameters: 40
+Initial objective = 0.597529 | Runtype = aon
+Iteration   0 | objective = 0.550229
+Iteration  10 | objective = 0.119720
+Iteration  20 | objective = 0.004759
+Iteration  30 | objective = 0.016044
+Iteration  40 | objective = 0.000978
+Iteration  50 | objective = 0.001507
+Iteration  60 | objective = 0.000645
+Iteration  70 | objective = 0.000003
+Iteration  80 | objective = 0.000089
+Iteration  90 | objective = 0.000036
+Iteration 100 | objective = 0.000003
+Iteration 110 | objective = 0.000001
+Iteration 120 | objective = 0.000001
+Iteration 130 | objective = 0.000001
+Iteration 140 | objective = 0.000000
+Iteration 150 | objective = 0.000000
+Iteration 160 | objective = 0.000000
+Iteration 170 | objective = 0.000000
+Iteration 180 | objective = 0.000000
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_08 | p=6 | Runtype=Aon
+Gamma shape: (2, 6)
+Beta shape: (6, 6)
+Total parameters: 48
+Initial objective = 0.584815 | Runtype = aon
+Iteration   0 | objective = 0.527066
+Iteration  10 | objective = 0.048430
+Iteration  20 | objective = 0.027888
+Iteration  30 | objective = 0.001426
+Iteration  40 | objective = 0.004910
+Iteration  50 | objective = 0.001210
+Iteration  60 | objective = 0.000055
+Iteration  70 | objective = 0.000130
+Iteration  80 | objective = 0.000094
+Iteration  90 | objective = 0.000032
+Iteration 100 | objective = 0.000007
+Iteration 110 | objective = 0.000001
+Iteration 120 | objective = 0.000000
+Iteration 130 | objective = 0.000000
+Iteration 140 | objective = 0.000000
+Iteration 150 | objective = 0.000000
+Iteration 160 | objective = 0.000000
+Iteration 170 | objective = 0.000000
+Iteration 180 | objective = 0.000000
+Iteration 190 | objective = 0.000000
+Iteration 200 | objective = 0.000000
+Iteration 210 | objective = 0.000000
+Iteration 220 | objective = 0.000000
+Iteration 230 | objective = 0.000000
+Iteration 240 | objective = 0.000000
+Iteration 250 | objective = 0.000000
+Iteration 260 | objective = 0.000000
+Iteration 270 | objective = 0.000000
+Iteration 280 | objective = 0.000000
+Iteration 290 | objective = 0.000000
+
+Running instance congress-bills_09 | p=4 | Runtype=Aon
+Gamma shape: (23, 4)
+Beta shape: (91, 4)
+Total parameters: 456
+Initial objective = 0.917508 | Runtype = aon
+Iteration   0 | objective = 0.909994
+Iteration  10 | objective = 0.757633
+Iteration  20 | objective = 0.604706
+Iteration  30 | objective = 0.488713
+Iteration  40 | objective = 0.444389
+Iteration  50 | objective = 0.405767
+Iteration  60 | objective = 0.393829
+Iteration  70 | objective = 0.399148
+Iteration  80 | objective = 0.377373
+Iteration  90 | objective = 0.367439
+Iteration 100 | objective = 0.359682
+Iteration 110 | objective = 0.353294
+Iteration 120 | objective = 0.341664
+Iteration 130 | objective = 0.341567
+Iteration 140 | objective = 0.327204
+Iteration 150 | objective = 0.330279
+Iteration 160 | objective = 0.317729
+Iteration 170 | objective = 0.325472
+Iteration 180 | objective = 0.307346
+Iteration 190 | objective = 0.315869
+Iteration 200 | objective = 0.305890
+Iteration 210 | objective = 0.296794
+Iteration 220 | objective = 0.302568
+Iteration 230 | objective = 0.295543
+Iteration 240 | objective = 0.301713
+Iteration 250 | objective = 0.293425
+Iteration 260 | objective = 0.301999
+Iteration 270 | objective = 0.290410
+Iteration 280 | objective = 0.290462
+Iteration 290 | objective = 0.287015
+
+Running instance congress-bills_09 | p=5 | Runtype=Aon
+Gamma shape: (23, 5)
+Beta shape: (91, 5)
+Total parameters: 570
+Initial objective = 0.918735 | Runtype = aon
+Iteration   0 | objective = 0.906462
+Iteration  10 | objective = 0.704264
+Iteration  20 | objective = 0.572278
+Iteration  30 | objective = 0.491348
+Iteration  40 | objective = 0.443102
+Iteration  50 | objective = 0.405572
+Iteration  60 | objective = 0.376456
+Iteration  70 | objective = 0.367684
+Iteration  80 | objective = 0.344831
+Iteration  90 | objective = 0.329341
+Iteration 100 | objective = 0.332552
+Iteration 110 | objective = 0.326091
+Iteration 120 | objective = 0.324354
+Iteration 130 | objective = 0.318714
+Iteration 140 | objective = 0.305254
+Iteration 150 | objective = 0.311367
+Iteration 160 | objective = 0.308005
+Iteration 170 | objective = 0.309125
+Iteration 180 | objective = 0.302412
+Iteration 190 | objective = 0.303742
+Iteration 200 | objective = 0.304276
+Iteration 210 | objective = 0.290505
+Iteration 220 | objective = 0.293197
+Iteration 230 | objective = 0.302701
+Iteration 240 | objective = 0.291414
+Iteration 250 | objective = 0.295098
+Iteration 260 | objective = 0.296028
+Iteration 270 | objective = 0.286957
+Iteration 280 | objective = 0.290122
+Iteration 290 | objective = 0.287186
+
+Running instance congress-bills_09 | p=6 | Runtype=Aon
+Gamma shape: (23, 6)
+Beta shape: (91, 6)
+Total parameters: 684
+Initial objective = 0.923871 | Runtype = aon
+Iteration   0 | objective = 0.906349
+Iteration  10 | objective = 0.678250
+Iteration  20 | objective = 0.535947
+Iteration  30 | objective = 0.473377
+Iteration  40 | objective = 0.441142
+Iteration  50 | objective = 0.396281
+Iteration  60 | objective = 0.398074
+Iteration  70 | objective = 0.354102
+Iteration  80 | objective = 0.352640
+Iteration  90 | objective = 0.337367
+Iteration 100 | objective = 0.330627
+Iteration 110 | objective = 0.321091
+Iteration 120 | objective = 0.329498
+Iteration 130 | objective = 0.306829
+Iteration 140 | objective = 0.315730
+Iteration 150 | objective = 0.306162
+Iteration 160 | objective = 0.311076
+Iteration 170 | objective = 0.318268
+Iteration 180 | objective = 0.292963
+Iteration 190 | objective = 0.301509
+Iteration 200 | objective = 0.305632
+Iteration 210 | objective = 0.297058
+Iteration 220 | objective = 0.291342
+Iteration 230 | objective = 0.278995
+Iteration 240 | objective = 0.283739
+Iteration 250 | objective = 0.298380
+Iteration 260 | objective = 0.294192
+Iteration 270 | objective = 0.288359
+Iteration 280 | objective = 0.297279
+Iteration 290 | objective = 0.310010
+
+Running instance congress-bills_10 | p=4 | Runtype=Aon
+Gamma shape: (18, 4)
+Beta shape: (120, 4)
+Total parameters: 552
+Initial objective = 0.755215 | Runtype = aon
+Iteration   0 | objective = 0.707894
+Iteration  10 | objective = 0.612035
+Iteration  20 | objective = 0.561290
+Iteration  30 | objective = 0.525215
+Iteration  40 | objective = 0.499416
+Iteration  50 | objective = 0.472627
+Iteration  60 | objective = 0.452862
+Iteration  70 | objective = 0.443683
+Iteration  80 | objective = 0.437713
+Iteration  90 | objective = 0.414195
+Iteration 100 | objective = 0.411713
+Iteration 110 | objective = 0.410429
+Iteration 120 | objective = 0.401758
+Iteration 130 | objective = 0.402942
+Iteration 140 | objective = 0.394635
+Iteration 150 | objective = 0.390862
+Iteration 160 | objective = 0.389994
+Iteration 170 | objective = 0.385553
+Iteration 180 | objective = 0.382667
+Iteration 190 | objective = 0.371309
+Iteration 200 | objective = 0.368065
+Iteration 210 | objective = 0.370149
+Iteration 220 | objective = 0.361693
+Iteration 230 | objective = 0.365017
+Iteration 240 | objective = 0.380049
+Iteration 250 | objective = 0.364942
+Iteration 260 | objective = 0.352529
+Iteration 270 | objective = 0.362248
+Iteration 280 | objective = 0.353050
+Iteration 290 | objective = 0.359148
+
+Running instance congress-bills_10 | p=5 | Runtype=Aon
+Gamma shape: (18, 5)
+Beta shape: (120, 5)
+Total parameters: 690
+Initial objective = 0.779681 | Runtype = aon
+Iteration   0 | objective = 0.725909
+Iteration  10 | objective = 0.599600
+Iteration  20 | objective = 0.532424
+Iteration  30 | objective = 0.493854
+Iteration  40 | objective = 0.478571
+Iteration  50 | objective = 0.459021
+Iteration  60 | objective = 0.444500
+Iteration  70 | objective = 0.433521
+Iteration  80 | objective = 0.448343
+Iteration  90 | objective = 0.434863
+Iteration 100 | objective = 0.418527
+Iteration 110 | objective = 0.406076
+Iteration 120 | objective = 0.408699
+Iteration 130 | objective = 0.400914
+Iteration 140 | objective = 0.402673
+Iteration 150 | objective = 0.409945
+Iteration 160 | objective = 0.406311
+Iteration 170 | objective = 0.397360
+Iteration 180 | objective = 0.383103
+Iteration 190 | objective = 0.377007
+Iteration 200 | objective = 0.376102
+Iteration 210 | objective = 0.372041
+Iteration 220 | objective = 0.383819
+Iteration 230 | objective = 0.355385
+Iteration 240 | objective = 0.374131
+Iteration 250 | objective = 0.359102
+Iteration 260 | objective = 0.367858
+Iteration 270 | objective = 0.362871
+Iteration 280 | objective = 0.362077
+Iteration 290 | objective = 0.351587
+
+Running instance congress-bills_10 | p=6 | Runtype=Aon
+Gamma shape: (18, 6)
+Beta shape: (120, 6)
+Total parameters: 828
+Initial objective = 0.774304 | Runtype = aon
+Iteration   0 | objective = 0.708903
+Iteration  10 | objective = 0.588734
+Iteration  20 | objective = 0.514379
+Iteration  30 | objective = 0.483611
+Iteration  40 | objective = 0.465843
+Iteration  50 | objective = 0.444511
+Iteration  60 | objective = 0.445798
+Iteration  70 | objective = 0.437150
+Iteration  80 | objective = 0.409820
+Iteration  90 | objective = 0.403397
+Iteration 100 | objective = 0.412791
+Iteration 110 | objective = 0.401765
+Iteration 120 | objective = 0.394879
+Iteration 130 | objective = 0.388420
+Iteration 140 | objective = 0.394509
+Iteration 150 | objective = 0.367750
+Iteration 160 | objective = 0.383349
+Iteration 170 | objective = 0.383023
+Iteration 180 | objective = 0.367104
+Iteration 190 | objective = 0.364449
+Iteration 200 | objective = 0.364375
+Iteration 210 | objective = 0.368586
+Iteration 220 | objective = 0.373342
+Iteration 230 | objective = 0.379644
+Iteration 240 | objective = 0.368707
+Iteration 250 | objective = 0.370727
+Iteration 260 | objective = 0.370684
+Iteration 270 | objective = 0.370872
+Iteration 280 | objective = 0.351079
+Iteration 290 | objective = 0.358865
+saved results to: congress_fair_min_bisection_aon_fc_mixer_expanded.csv

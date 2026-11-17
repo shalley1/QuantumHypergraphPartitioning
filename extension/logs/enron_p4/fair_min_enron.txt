@@ -1,0 +1,334 @@
+email-Enron_1 | Vertices: 13 | Hyperedges: 15 | Sizes: [2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 3, 2, 2, 2, 2]
+
+Running instance email-Enron_1 | p=4 | Runtype=Aon
+Gamma shape: (23, 4)
+Beta shape: (78, 4)
+Total parameters: 404
+Initial objective = 0.912799 | Runtype = aon
+Iteration   0 | objective = 0.893078
+Iteration  10 | objective = 0.685128
+Iteration  20 | objective = 0.563844
+Iteration  30 | objective = 0.534157
+Iteration  40 | objective = 0.502226
+Iteration  50 | objective = 0.478335
+Iteration  60 | objective = 0.458094
+Iteration  70 | objective = 0.444815
+Iteration  80 | objective = 0.448016
+Iteration  90 | objective = 0.448059
+Iteration 100 | objective = 0.431295
+Iteration 110 | objective = 0.435056
+Iteration 120 | objective = 0.425936
+Iteration 130 | objective = 0.428672
+Iteration 140 | objective = 0.423254
+Iteration 150 | objective = 0.435086
+Iteration 160 | objective = 0.417728
+Iteration 170 | objective = 0.422140
+Iteration 180 | objective = 0.413269
+Iteration 190 | objective = 0.415434
+Iteration 200 | objective = 0.415486
+Iteration 210 | objective = 0.417562
+Iteration 220 | objective = 0.410723
+Iteration 230 | objective = 0.413999
+Iteration 240 | objective = 0.402336
+Iteration 250 | objective = 0.406256
+Iteration 260 | objective = 0.410968
+Iteration 270 | objective = 0.400190
+Iteration 280 | objective = 0.411069
+Iteration 290 | objective = 0.406715
+email-Enron_2 | Vertices: 18 | Hyperedges: 68 | Sizes: [2, 2, 2, 3, 2, 2, 3, 2, 7, 3, 2, 2, 2, 2, 4, 2, 8, 2, 2, 2, 2, 2, 6, 2, 2, 2, 7, 2, 4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 2, 2, 6, 2, 2, 2, 2, 2, 3, 2, 2, 7, 2, 2, 2, 2, 4, 3, 3, 2, 8, 2, 2, 2, 2, 2, 2]
+
+Running instance email-Enron_2 | p=4 | Runtype=Aon
+Gamma shape: (724, 4)
+Beta shape: (153, 4)
+Total parameters: 3508
+Initial objective = 0.999404 | Runtype = aon
+Iteration   0 | objective = 0.997558
+Iteration  10 | objective = 0.959819
+Iteration  20 | objective = 0.897230
+Iteration  30 | objective = 0.847359
+Iteration  40 | objective = 0.830704
+Iteration  50 | objective = 0.818819
+Iteration  60 | objective = 0.809497
+Iteration  70 | objective = 0.814815
+Iteration  80 | objective = 0.787946
+Iteration  90 | objective = 0.793076
+Iteration 100 | objective = 0.791616
+Iteration 110 | objective = 0.775679
+Iteration 120 | objective = 0.777620
+Iteration 130 | objective = 0.763589
+Iteration 140 | objective = 0.766034
+Iteration 150 | objective = 0.765575
+Iteration 160 | objective = 0.765077
+Iteration 170 | objective = 0.755876
+Iteration 180 | objective = 0.757264
+Iteration 190 | objective = 0.751053
+Iteration 200 | objective = 0.751141
+Iteration 210 | objective = 0.744904
+Iteration 220 | objective = 0.753976
+Iteration 230 | objective = 0.743989
+Iteration 240 | objective = 0.756332
+Iteration 250 | objective = 0.740162
+Iteration 260 | objective = 0.740999
+Iteration 270 | objective = 0.742701
+Iteration 280 | objective = 0.761268
+Iteration 290 | objective = 0.746643
+email-Enron_3 | Vertices: 18 | Hyperedges: 185 | Sizes: [2, 2, 6, 3, 2, 3, 3, 2, 2, 4, 6, 2, 2, 3, 2, 2, 2, 3, 2, 3, 4, 3, 2, 3, 2, 5, 2, 2, 3, 3, 2, 5, 3, 5, 2, 2, 4, 2, 2, 3, 2, 3, 2, 5, 4, 2, 3, 2, 4, 5, 2, 2, 3, 5, 2, 6, 2, 3, 2, 4, 3, 3, 5, 3, 3, 3, 3, 4, 2, 4, 2, 2, 2, 3, 2, 3, 2, 4, 4, 4, 3, 4, 2, 4, 3, 2, 3, 2, 5, 2, 2, 4, 2, 2, 3, 2, 2, 2, 4, 3, 2, 4, 2, 4, 2, 4, 3, 2, 4, 4, 4, 2, 3, 5, 5, 2, 2, 2, 5, 2, 2, 3, 3, 3, 3, 2, 3, 2, 3, 3, 3, 5, 3, 3, 2, 3, 5, 2, 3, 3, 3, 2, 3, 2, 4, 4, 2, 6, 2, 3, 2, 2, 2, 3, 4, 3, 2, 4, 4, 4, 3, 2, 3, 2, 6, 2, 2, 5, 4, 3, 2, 4, 2, 4, 3, 2, 2, 3, 2, 3, 2, 3, 2, 2, 2]
+
+Running instance email-Enron_3 | p=4 | Runtype=Aon
+Gamma shape: (823, 4)
+Beta shape: (153, 4)
+Total parameters: 3904
+Initial objective = 0.980590 | Runtype = aon
+Iteration   0 | objective = 0.983709
+Iteration  10 | objective = 0.968348
+Iteration  20 | objective = 0.939788
+Iteration  30 | objective = 0.923122
+Iteration  40 | objective = 0.895286
+Iteration  50 | objective = 0.886194
+Iteration  60 | objective = 0.894202
+Iteration  70 | objective = 0.879840
+Iteration  80 | objective = 0.876068
+Iteration  90 | objective = 0.876751
+Iteration 100 | objective = 0.868609
+Iteration 110 | objective = 0.879935
+Iteration 120 | objective = 0.865851
+Iteration 130 | objective = 0.856003
+Iteration 140 | objective = 0.859342
+Iteration 150 | objective = 0.851338
+Iteration 160 | objective = 0.855989
+Iteration 170 | objective = 0.853844
+Iteration 180 | objective = 0.851238
+Iteration 190 | objective = 0.855510
+Iteration 200 | objective = 0.839051
+Iteration 210 | objective = 0.842879
+Iteration 220 | objective = 0.842582
+Iteration 230 | objective = 0.842806
+Iteration 240 | objective = 0.852872
+Iteration 250 | objective = 0.839730
+Iteration 260 | objective = 0.837584
+Iteration 270 | objective = 0.850521
+Iteration 280 | objective = 0.842235
+Iteration 290 | objective = 0.842637
+email-Enron_4 | Vertices: 13 | Hyperedges: 5 | Sizes: [2, 2, 2, 2, 2]
+
+Running instance email-Enron_4 | p=4 | Runtype=Aon
+Gamma shape: (5, 4)
+Beta shape: (78, 4)
+Total parameters: 332
+Initial objective = 0.508985 | Runtype = aon
+Iteration   0 | objective = 0.510856
+Iteration  10 | objective = 0.430119
+Iteration  20 | objective = 0.329690
+Iteration  30 | objective = 0.253230
+Iteration  40 | objective = 0.197359
+Iteration  50 | objective = 0.146700
+Iteration  60 | objective = 0.112367
+Iteration  70 | objective = 0.091642
+Iteration  80 | objective = 0.070375
+Iteration  90 | objective = 0.063342
+Iteration 100 | objective = 0.052606
+Iteration 110 | objective = 0.047633
+Iteration 120 | objective = 0.042964
+Iteration 130 | objective = 0.035769
+Iteration 140 | objective = 0.029040
+Iteration 150 | objective = 0.022447
+Iteration 160 | objective = 0.018460
+Iteration 170 | objective = 0.015261
+Iteration 180 | objective = 0.012386
+Iteration 190 | objective = 0.010020
+Iteration 200 | objective = 0.009127
+Iteration 210 | objective = 0.007799
+Iteration 220 | objective = 0.007609
+Iteration 230 | objective = 0.008376
+Iteration 240 | objective = 0.006634
+Iteration 250 | objective = 0.006219
+Iteration 260 | objective = 0.005798
+Iteration 270 | objective = 0.005733
+Iteration 280 | objective = 0.005207
+Iteration 290 | objective = 0.004999
+email-Enron_5 | Vertices: 16 | Hyperedges: 58 | Sizes: [2, 3, 2, 3, 3, 2, 2, 2, 3, 2, 2, 2, 2, 2, 3, 2, 4, 2, 8, 2, 2, 4, 5, 2, 2, 2, 2, 4, 3, 3, 3, 4, 8, 2, 2, 5, 2, 2, 2, 3, 3, 4, 5, 4, 2, 2, 2, 2, 2, 3, 4, 2, 2, 2, 2, 5, 4, 2]
+
+Running instance email-Enron_5 | p=4 | Runtype=Aon
+Gamma shape: (436, 4)
+Beta shape: (120, 4)
+Total parameters: 2224
+Initial objective = 0.999509 | Runtype = aon
+Iteration   0 | objective = 0.998061
+Iteration  10 | objective = 0.937674
+Iteration  20 | objective = 0.881519
+Iteration  30 | objective = 0.874718
+Iteration  40 | objective = 0.845439
+Iteration  50 | objective = 0.835817
+Iteration  60 | objective = 0.831849
+Iteration  70 | objective = 0.832364
+Iteration  80 | objective = 0.803147
+Iteration  90 | objective = 0.797762
+Iteration 100 | objective = 0.793453
+Iteration 110 | objective = 0.789290
+Iteration 120 | objective = 0.790231
+Iteration 130 | objective = 0.795985
+Iteration 140 | objective = 0.780654
+Iteration 150 | objective = 0.801554
+Iteration 160 | objective = 0.780062
+Iteration 170 | objective = 0.784656
+Iteration 180 | objective = 0.782375
+Iteration 190 | objective = 0.784437
+Iteration 200 | objective = 0.780762
+Iteration 210 | objective = 0.770398
+Iteration 220 | objective = 0.796204
+Iteration 230 | objective = 0.780879
+Iteration 240 | objective = 0.783060
+Iteration 250 | objective = 0.773109
+Iteration 260 | objective = 0.782416
+Iteration 270 | objective = 0.777495
+Iteration 280 | objective = 0.780218
+Iteration 290 | objective = 0.789709
+email-Enron_6 | Vertices: 18 | Hyperedges: 132 | Sizes: [5, 3, 2, 3, 2, 3, 4, 2, 4, 2, 3, 2, 4, 2, 2, 3, 2, 2, 2, 2, 8, 2, 2, 2, 2, 7, 4, 3, 2, 2, 6, 2, 3, 4, 7, 6, 2, 4, 2, 2, 2, 2, 2, 6, 4, 2, 3, 2, 3, 3, 3, 4, 2, 2, 2, 3, 4, 4, 2, 4, 2, 4, 2, 2, 5, 7, 4, 3, 2, 3, 6, 4, 2, 3, 2, 4, 2, 2, 2, 10, 2, 8, 5, 2, 2, 2, 6, 2, 3, 5, 2, 6, 2, 4, 7, 6, 8, 2, 2, 3, 10, 7, 2, 3, 3, 2, 2, 2, 4, 2, 4, 2, 3, 4, 2, 5, 2, 2, 2, 3, 2, 5, 2, 3, 3, 2, 2, 5, 6, 3, 3, 8]
+
+Running instance email-Enron_6 | p=4 | Runtype=Aon
+Gamma shape: (2468, 4)
+Beta shape: (153, 4)
+Total parameters: 10484
+Initial objective = 1.000000 | Runtype = aon
+Iteration   0 | objective = 1.000000
+Iteration  10 | objective = 1.000000
+Iteration  20 | objective = 1.000000
+Iteration  30 | objective = 1.000000
+Iteration  40 | objective = 1.000000
+Iteration  50 | objective = 1.000000
+Iteration  60 | objective = 1.000000
+Iteration  70 | objective = 1.000000
+Iteration  80 | objective = 1.000000
+Iteration  90 | objective = 1.000000
+Iteration 100 | objective = 1.000000
+Iteration 110 | objective = 1.000000
+Iteration 120 | objective = 1.000000
+Iteration 130 | objective = 1.000000
+Iteration 140 | objective = 1.000000
+Iteration 150 | objective = 1.000000
+Iteration 160 | objective = 1.000000
+Iteration 170 | objective = 1.000000
+Iteration 180 | objective = 1.000000
+Iteration 190 | objective = 1.000000
+Iteration 200 | objective = 1.000000
+Iteration 210 | objective = 1.000000
+Iteration 220 | objective = 1.000000
+Iteration 230 | objective = 1.000000
+Iteration 240 | objective = 1.000000
+Iteration 250 | objective = 1.000000
+Iteration 260 | objective = 1.000000
+Iteration 270 | objective = 1.000000
+Iteration 280 | objective = 1.000000
+Iteration 290 | objective = 1.000000
+email-Enron_7 | Vertices: 16 | Hyperedges: 104 | Sizes: [4, 5, 3, 2, 3, 3, 2, 2, 3, 3, 2, 3, 2, 2, 2, 2, 3, 3, 2, 2, 2, 3, 2, 2, 2, 6, 3, 2, 2, 3, 4, 2, 3, 3, 2, 5, 3, 3, 2, 2, 2, 2, 2, 5, 2, 3, 2, 4, 5, 2, 2, 3, 2, 3, 3, 4, 2, 2, 2, 2, 2, 3, 3, 2, 4, 2, 2, 3, 2, 4, 4, 6, 2, 4, 3, 2, 3, 3, 3, 2, 2, 2, 4, 3, 3, 2, 2, 2, 2, 4, 2, 3, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2]
+
+Running instance email-Enron_7 | p=4 | Runtype=Aon
+Gamma shape: (342, 4)
+Beta shape: (120, 4)
+Total parameters: 1848
+Initial objective = 0.931503 | Runtype = aon
+Iteration   0 | objective = 0.901588
+Iteration  10 | objective = 0.831135
+Iteration  20 | objective = 0.791383
+Iteration  30 | objective = 0.752828
+Iteration  40 | objective = 0.739124
+Iteration  50 | objective = 0.724739
+Iteration  60 | objective = 0.725268
+Iteration  70 | objective = 0.731564
+Iteration  80 | objective = 0.738100
+Iteration  90 | objective = 0.717655
+Iteration 100 | objective = 0.720681
+Iteration 110 | objective = 0.721678
+Iteration 120 | objective = 0.710572
+Iteration 130 | objective = 0.715600
+Iteration 140 | objective = 0.695753
+Iteration 150 | objective = 0.703068
+Iteration 160 | objective = 0.698910
+Iteration 170 | objective = 0.699789
+Iteration 180 | objective = 0.701982
+Iteration 190 | objective = 0.696398
+Iteration 200 | objective = 0.691309
+Iteration 210 | objective = 0.688457
+Iteration 220 | objective = 0.688784
+Iteration 230 | objective = 0.704682
+Iteration 240 | objective = 0.699542
+Iteration 250 | objective = 0.698138
+Iteration 260 | objective = 0.688379
+Iteration 270 | objective = 0.691741
+Iteration 280 | objective = 0.683055
+Iteration 290 | objective = 0.692154
+email-Enron_8 | Vertices: 16 | Hyperedges: 51 | Sizes: [2, 2, 2, 2, 2, 2, 6, 2, 4, 2, 2, 2, 2, 2, 2, 2, 3, 2, 5, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 2, 2, 3, 6, 2, 3, 3, 2, 3, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2]
+
+Running instance email-Enron_8 | p=4 | Runtype=Aon
+Gamma shape: (157, 4)
+Beta shape: (120, 4)
+Total parameters: 1108
+Initial objective = 0.958061 | Runtype = aon
+Iteration   0 | objective = 0.927933
+Iteration  10 | objective = 0.671250
+Iteration  20 | objective = 0.606848
+Iteration  30 | objective = 0.568312
+Iteration  40 | objective = 0.559211
+Iteration  50 | objective = 0.558671
+Iteration  60 | objective = 0.541736
+Iteration  70 | objective = 0.548557
+Iteration  80 | objective = 0.536159
+Iteration  90 | objective = 0.540819
+Iteration 100 | objective = 0.538297
+Iteration 110 | objective = 0.524162
+Iteration 120 | objective = 0.540478
+Iteration 130 | objective = 0.538330
+Iteration 140 | objective = 0.524816
+Iteration 150 | objective = 0.528189
+Iteration 160 | objective = 0.516427
+Iteration 170 | objective = 0.521236
+Iteration 180 | objective = 0.518301
+Iteration 190 | objective = 0.509348
+Iteration 200 | objective = 0.514829
+Iteration 210 | objective = 0.502094
+Iteration 220 | objective = 0.501893
+Iteration 230 | objective = 0.520536
+Iteration 240 | objective = 0.504853
+Iteration 250 | objective = 0.503231
+Iteration 260 | objective = 0.482796
+Iteration 270 | objective = 0.495062
+Iteration 280 | objective = 0.483133
+Iteration 290 | objective = 0.498576
+email-Enron_9 | Vertices: 18 | Hyperedges: 170 | Sizes: [3, 3, 6, 3, 2, 3, 2, 2, 3, 3, 3, 2, 2, 2, 5, 5, 2, 5, 3, 2, 2, 2, 2, 8, 2, 3, 2, 2, 2, 2, 3, 2, 4, 2, 2, 4, 3, 3, 2, 3, 2, 3, 2, 3, 2, 3, 3, 3, 2, 6, 3, 3, 4, 4, 2, 4, 4, 3, 2, 3, 3, 4, 4, 3, 2, 3, 3, 3, 7, 2, 2, 6, 4, 2, 2, 2, 3, 3, 2, 3, 4, 2, 2, 2, 5, 3, 5, 4, 5, 4, 5, 3, 2, 2, 3, 5, 2, 2, 8, 2, 5, 2, 7, 6, 2, 3, 3, 2, 2, 6, 3, 5, 2, 2, 2, 3, 3, 2, 3, 4, 2, 8, 2, 3, 3, 6, 3, 4, 6, 5, 2, 3, 2, 2, 4, 2, 7, 2, 2, 3, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 4, 2, 4, 2, 2, 4, 3, 5, 2, 2, 3, 2, 2]
+
+Running instance email-Enron_9 | p=4 | Runtype=Aon
+Gamma shape: (1320, 4)
+Beta shape: (153, 4)
+Total parameters: 5892
+Initial objective = 0.999411 | Runtype = aon
+Iteration   0 | objective = 0.998929
+Iteration  10 | objective = 0.958589
+Iteration  20 | objective = 0.952302
+Iteration  30 | objective = 0.922998
+Iteration  40 | objective = 0.907512
+Iteration  50 | objective = 0.901430
+Iteration  60 | objective = 0.898991
+Iteration  70 | objective = 0.867940
+Iteration  80 | objective = 0.867047
+Iteration  90 | objective = 0.863140
+Iteration 100 | objective = 0.856693
+Iteration 110 | objective = 0.850896
+Iteration 120 | objective = 0.849105
+Iteration 130 | objective = 0.848208
+Iteration 140 | objective = 0.837433
+Iteration 150 | objective = 0.856947
+Iteration 160 | objective = 0.844549
+Iteration 170 | objective = 0.841537
+Iteration 180 | objective = 0.840730
+Iteration 190 | objective = 0.830880
+Iteration 200 | objective = 0.829524
+Iteration 210 | objective = 0.832295
+Iteration 220 | objective = 0.828315
+Iteration 230 | objective = 0.849958
+Iteration 240 | objective = 0.831779
+Iteration 250 | objective = 0.833864
+Iteration 260 | objective = 0.828222
+Iteration 270 | objective = 0.827285
+Iteration 280 | objective = 0.826681
+Iteration 290 | objective = 0.838875
+saved results to: enron_fair_min_bisection_aon_fc_mixer_p4.csv

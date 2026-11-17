@@ -39,7 +39,8 @@ def clique_expansion(hyperedges):
 
     return sorted(mixer_edges)
 
-
+def complete_graph_mixer(n):
+    return list(itertools.combinations(range(n), 2))
 
 def connected_clique_expansion(hyperedges, n):
     # Original clique expansion

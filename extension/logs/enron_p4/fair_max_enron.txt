@@ -1,0 +1,73 @@
+email-Enron_1 | Vertices: 13 | Hyperedges: 15 | Sizes: [2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 3, 2, 2, 2, 2]
+
+Running instance email-Enron_1 | p=4 | Runtype=Aon
+Gamma shape: (23, 4)
+Beta shape: (78, 4)
+Total parameters: 404
+Initial fair cut = 0.486532
+Final fair cut = 0.764463
+email-Enron_2 | Vertices: 18 | Hyperedges: 68 | Sizes: [2, 2, 2, 3, 2, 2, 3, 2, 7, 3, 2, 2, 2, 2, 4, 2, 8, 2, 2, 2, 2, 2, 6, 2, 2, 2, 7, 2, 4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 2, 2, 6, 2, 2, 2, 2, 2, 3, 2, 2, 7, 2, 2, 2, 2, 4, 3, 3, 2, 8, 2, 2, 2, 2, 2, 2]
+
+Running instance email-Enron_2 | p=4 | Runtype=Aon
+Gamma shape: (724, 4)
+Beta shape: (153, 4)
+Total parameters: 3508
+Initial fair cut = 0.457477
+Final fair cut = 0.523141
+email-Enron_3 | Vertices: 18 | Hyperedges: 185 | Sizes: [2, 2, 6, 3, 2, 3, 3, 2, 2, 4, 6, 2, 2, 3, 2, 2, 2, 3, 2, 3, 4, 3, 2, 3, 2, 5, 2, 2, 3, 3, 2, 5, 3, 5, 2, 2, 4, 2, 2, 3, 2, 3, 2, 5, 4, 2, 3, 2, 4, 5, 2, 2, 3, 5, 2, 6, 2, 3, 2, 4, 3, 3, 5, 3, 3, 3, 3, 4, 2, 4, 2, 2, 2, 3, 2, 3, 2, 4, 4, 4, 3, 4, 2, 4, 3, 2, 3, 2, 5, 2, 2, 4, 2, 2, 3, 2, 2, 2, 4, 3, 2, 4, 2, 4, 2, 4, 3, 2, 4, 4, 4, 2, 3, 5, 5, 2, 2, 2, 5, 2, 2, 3, 3, 3, 3, 2, 3, 2, 3, 3, 3, 5, 3, 3, 2, 3, 5, 2, 3, 3, 3, 2, 3, 2, 4, 4, 2, 6, 2, 3, 2, 2, 2, 3, 4, 3, 2, 4, 4, 4, 3, 2, 3, 2, 6, 2, 2, 5, 4, 3, 2, 4, 2, 4, 3, 2, 2, 3, 2, 3, 2, 3, 2, 2, 2]
+
+Running instance email-Enron_3 | p=4 | Runtype=Aon
+Gamma shape: (823, 4)
+Beta shape: (153, 4)
+Total parameters: 3904
+Initial fair cut = 0.386954
+Final fair cut = 0.525228
+email-Enron_4 | Vertices: 13 | Hyperedges: 5 | Sizes: [2, 2, 2, 2, 2]
+
+Running instance email-Enron_4 | p=4 | Runtype=Aon
+Gamma shape: (5, 4)
+Beta shape: (78, 4)
+Total parameters: 332
+Initial fair cut = 0.486721
+Final fair cut = 0.662630
+email-Enron_5 | Vertices: 16 | Hyperedges: 58 | Sizes: [2, 3, 2, 3, 3, 2, 2, 2, 3, 2, 2, 2, 2, 2, 3, 2, 4, 2, 8, 2, 2, 4, 5, 2, 2, 2, 2, 4, 3, 3, 3, 4, 8, 2, 2, 5, 2, 2, 2, 3, 3, 4, 5, 4, 2, 2, 2, 2, 2, 3, 4, 2, 2, 2, 2, 5, 4, 2]
+
+Running instance email-Enron_5 | p=4 | Runtype=Aon
+Gamma shape: (436, 4)
+Beta shape: (120, 4)
+Total parameters: 2224
+Initial fair cut = 0.443860
+Final fair cut = 0.607629
+email-Enron_6 | Vertices: 18 | Hyperedges: 132 | Sizes: [5, 3, 2, 3, 2, 3, 4, 2, 4, 2, 3, 2, 4, 2, 2, 3, 2, 2, 2, 2, 8, 2, 2, 2, 2, 7, 4, 3, 2, 2, 6, 2, 3, 4, 7, 6, 2, 4, 2, 2, 2, 2, 2, 6, 4, 2, 3, 2, 3, 3, 3, 4, 2, 2, 2, 3, 4, 4, 2, 4, 2, 4, 2, 2, 5, 7, 4, 3, 2, 3, 6, 4, 2, 3, 2, 4, 2, 2, 2, 10, 2, 8, 5, 2, 2, 2, 6, 2, 3, 5, 2, 6, 2, 4, 7, 6, 8, 2, 2, 3, 10, 7, 2, 3, 3, 2, 2, 2, 4, 2, 4, 2, 3, 4, 2, 5, 2, 2, 2, 3, 2, 5, 2, 3, 3, 2, 2, 5, 6, 3, 3, 8]
+
+Running instance email-Enron_6 | p=4 | Runtype=Aon
+Gamma shape: (2468, 4)
+Beta shape: (153, 4)
+Total parameters: 10484
+Initial fair cut = 0.403004
+Final fair cut = 0.535109
+email-Enron_7 | Vertices: 16 | Hyperedges: 104 | Sizes: [4, 5, 3, 2, 3, 3, 2, 2, 3, 3, 2, 3, 2, 2, 2, 2, 3, 3, 2, 2, 2, 3, 2, 2, 2, 6, 3, 2, 2, 3, 4, 2, 3, 3, 2, 5, 3, 3, 2, 2, 2, 2, 2, 5, 2, 3, 2, 4, 5, 2, 2, 3, 2, 3, 3, 4, 2, 2, 2, 2, 2, 3, 3, 2, 4, 2, 2, 3, 2, 4, 4, 6, 2, 4, 3, 2, 3, 3, 3, 2, 2, 2, 4, 3, 3, 2, 2, 2, 2, 4, 2, 3, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2]
+
+Running instance email-Enron_7 | p=4 | Runtype=Aon
+Gamma shape: (342, 4)
+Beta shape: (120, 4)
+Total parameters: 1848
+Initial fair cut = 0.365566
+Final fair cut = 0.534608
+email-Enron_8 | Vertices: 16 | Hyperedges: 51 | Sizes: [2, 2, 2, 2, 2, 2, 6, 2, 4, 2, 2, 2, 2, 2, 2, 2, 3, 2, 5, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 2, 2, 3, 6, 2, 3, 3, 2, 3, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2]
+
+Running instance email-Enron_8 | p=4 | Runtype=Aon
+Gamma shape: (157, 4)
+Beta shape: (120, 4)
+Total parameters: 1108
+Initial fair cut = 0.440070
+Final fair cut = 0.566841
+email-Enron_9 | Vertices: 18 | Hyperedges: 170 | Sizes: [3, 3, 6, 3, 2, 3, 2, 2, 3, 3, 3, 2, 2, 2, 5, 5, 2, 5, 3, 2, 2, 2, 2, 8, 2, 3, 2, 2, 2, 2, 3, 2, 4, 2, 2, 4, 3, 3, 2, 3, 2, 3, 2, 3, 2, 3, 3, 3, 2, 6, 3, 3, 4, 4, 2, 4, 4, 3, 2, 3, 3, 4, 4, 3, 2, 3, 3, 3, 7, 2, 2, 6, 4, 2, 2, 2, 3, 3, 2, 3, 4, 2, 2, 2, 5, 3, 5, 4, 5, 4, 5, 3, 2, 2, 3, 5, 2, 2, 8, 2, 5, 2, 7, 6, 2, 3, 3, 2, 2, 6, 3, 5, 2, 2, 2, 3, 3, 2, 3, 4, 2, 8, 2, 3, 3, 6, 3, 4, 6, 5, 2, 3, 2, 2, 4, 2, 7, 2, 2, 3, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 4, 2, 4, 2, 2, 4, 3, 5, 2, 2, 3, 2, 2]
+
+Running instance email-Enron_9 | p=4 | Runtype=Aon
+Gamma shape: (1320, 4)
+Beta shape: (153, 4)
+Total parameters: 5892
+Initial fair cut = 0.322498
+Final fair cut = 0.528130
+saved results to: enron_fair_max_bisection_aon_fc_mixer_p4.csv

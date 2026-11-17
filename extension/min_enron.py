@@ -9,7 +9,8 @@ import qaoa_aux
 import os
 import glob
 import pandas as pd
-folder_P = "/Users/stevehalley/Code/Github/QuantumHypergraphPartitioning/data/email-Enron/numpy_15"
+from pathlib import Path
+
 def U_B(beta,edge_list):
     for edge_idx, (u, v) in enumerate(edge_list):
         theta = beta[edge_idx]
@@ -70,7 +71,7 @@ def run_qaoa(
 
     # Build mixer edges and cost terms
     cost_edge_list = qaoa_aux.clique_expansion(hyperedge_list)
-    mixer_edge_list = qaoa_aux.connected_clique_expansion(hyperedge_list, n)
+    mixer_edge_list = qaoa_aux.complete_graph_mixer(n)
     cost_terms = qaoa_aux.build_cost_terms(hyperedge_list,weights)
 
     # Balanced initial state
@@ -235,24 +236,41 @@ def get_edge_list(P):
         edges.append(edge)
     return edges
 
-p_files = sorted(glob.glob(f"{folder_P}/*.npy"))
-
+folder = "/Users/stevehalley/Code/Github/QuantumHypergraphPartitioning/data/email-Enron/numpy_15"
+p_files = sorted(Path(folder).glob("*.npy"))
 
 results_aon = []
-results_mc=[]
-
 for p_file in p_files:
 
-    instance = os.path.splitext(os.path.basename(p_file))[0]
-    # Load hypergraph
+    instance = p_file.stem
+
+    # Load normalized hypergraph incidence matrix
     P = np.load(p_file)
-    edges = get_edge_list(P)
-    w = np.ones(len(edges))
-    hyperedge_list = qaoa_aux.matrix_to_hyperedges(P)
+
+    # Rows = vertices, columns = hyperedges
     n = P.shape[0]
 
+    # Extract hyperedges from columns
+    hyperedge_list = [
+        [int(v) for v in np.flatnonzero(P[:, j])]
+        for j in range(P.shape[1])
+    ]
+
+    # Check for empty hyperedges
+    if any(len(edge) == 0 for edge in hyperedge_list):
+        raise ValueError(f"{instance} contains empty hyperedges")
+
+    # Assume unit hyperedge weights
+    w = np.ones(len(hyperedge_list))
+
+    print(
+        f"{instance} | Vertices: {n} | "
+        f"Hyperedges: {len(hyperedge_list)} | "
+        f"Sizes: {[len(e) for e in hyperedge_list]}"
+    )
+#circuit depth
     #circuit depth
-    for p in [3]:
+    for p in [4]:
 
         print(f"\nRunning instance {instance} | p={p} | Runtype=AON")
 
@@ -276,7 +294,7 @@ for p_file in p_files:
         
 df_aon = pd.DataFrame(results_aon)
 # df_mc = pd.DataFrame(results_mc)
-csv_path_aon = "enron_min_bisection_aon.csv"
+csv_path_aon = "enron_min_bisection_aon_fc_mixer_p4.csv"
 # csv_path_mc = "poisson_16_12_4_min_bisection_mc.csv"
 
 df_aon.to_csv(csv_path_aon,index=False)

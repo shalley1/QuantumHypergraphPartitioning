@@ -1,0 +1,211 @@
+
+Running instance congress-bills_01 | p=4 | Runtype=Aon
+Gamma shape: (1, 4)
+Beta shape: (1, 4)
+Total parameters: 8
+Initial fair cut = 1.000000
+Final fair cut = 1.000000
+
+Running instance congress-bills_01 | p=5 | Runtype=Aon
+Gamma shape: (1, 5)
+Beta shape: (1, 5)
+Total parameters: 10
+Initial fair cut = 1.000000
+Final fair cut = 1.000000
+
+Running instance congress-bills_01 | p=6 | Runtype=Aon
+Gamma shape: (1, 6)
+Beta shape: (1, 6)
+Total parameters: 12
+Initial fair cut = 1.000000
+Final fair cut = 1.000000
+
+Running instance congress-bills_02 | p=4 | Runtype=Aon
+Gamma shape: (2, 4)
+Beta shape: (6, 4)
+Total parameters: 32
+Initial fair cut = 0.611471
+Final fair cut = 1.000000
+
+Running instance congress-bills_02 | p=5 | Runtype=Aon
+Gamma shape: (2, 5)
+Beta shape: (6, 5)
+Total parameters: 40
+Initial fair cut = 0.596628
+Final fair cut = 1.000000
+
+Running instance congress-bills_02 | p=6 | Runtype=Aon
+Gamma shape: (2, 6)
+Beta shape: (6, 6)
+Total parameters: 48
+Initial fair cut = 0.599943
+Final fair cut = 1.000000
+
+Running instance congress-bills_03 | p=4 | Runtype=Aon
+Gamma shape: (3, 4)
+Beta shape: (10, 4)
+Total parameters: 52
+Initial fair cut = 0.575255
+Final fair cut = 1.000000
+
+Running instance congress-bills_03 | p=5 | Runtype=Aon
+Gamma shape: (3, 5)
+Beta shape: (10, 5)
+Total parameters: 65
+Initial fair cut = 0.539050
+Final fair cut = 1.000000
+
+Running instance congress-bills_03 | p=6 | Runtype=Aon
+Gamma shape: (3, 6)
+Beta shape: (10, 6)
+Total parameters: 78
+Initial fair cut = 0.537072
+Final fair cut = 1.000000
+
+Running instance congress-bills_04 | p=4 | Runtype=Aon
+Gamma shape: (7, 4)
+Beta shape: (45, 4)
+Total parameters: 208
+Initial fair cut = 0.498133
+Final fair cut = 0.812971
+
+Running instance congress-bills_04 | p=5 | Runtype=Aon
+Gamma shape: (7, 5)
+Beta shape: (45, 5)
+Total parameters: 260
+Initial fair cut = 0.484099
+Final fair cut = 0.820705
+
+Running instance congress-bills_04 | p=6 | Runtype=Aon
+Gamma shape: (7, 6)
+Beta shape: (45, 6)
+Total parameters: 312
+Initial fair cut = 0.471459
+Final fair cut = 0.813940
+
+Running instance congress-bills_05 | p=4 | Runtype=Aon
+Gamma shape: (19, 4)
+Beta shape: (36, 4)
+Total parameters: 220
+Initial fair cut = 0.481308
+Final fair cut = 0.873972
+
+Running instance congress-bills_05 | p=5 | Runtype=Aon
+Gamma shape: (19, 5)
+Beta shape: (36, 5)
+Total parameters: 275
+Initial fair cut = 0.458533
+Final fair cut = 0.899554
+
+Running instance congress-bills_05 | p=6 | Runtype=Aon
+Gamma shape: (19, 6)
+Beta shape: (36, 6)
+Total parameters: 330
+Initial fair cut = 0.453515
+Final fair cut = 0.904349
+
+Running instance congress-bills_06 | p=4 | Runtype=Aon
+Gamma shape: (8, 4)
+Beta shape: (91, 4)
+Total parameters: 396
+Initial fair cut = 0.479048
+Final fair cut = 0.980255
+
+Running instance congress-bills_06 | p=5 | Runtype=Aon
+Gamma shape: (8, 5)
+Beta shape: (91, 5)
+Total parameters: 495
+Initial fair cut = 0.477187
+Final fair cut = 0.989114
+
+Running instance congress-bills_06 | p=6 | Runtype=Aon
+Gamma shape: (8, 6)
+Beta shape: (91, 6)
+Total parameters: 594
+Initial fair cut = 0.494535
+Final fair cut = 0.985989
+
+Running instance congress-bills_07 | p=4 | Runtype=Aon
+Gamma shape: (10, 4)
+Beta shape: (153, 4)
+Total parameters: 652
+Initial fair cut = 0.480591
+Final fair cut = 0.908746
+
+Running instance congress-bills_07 | p=5 | Runtype=Aon
+Gamma shape: (10, 5)
+Beta shape: (153, 5)
+Total parameters: 815
+Initial fair cut = 0.496091
+Final fair cut = 0.917541
+
+Running instance congress-bills_07 | p=6 | Runtype=Aon
+Gamma shape: (10, 6)
+Beta shape: (153, 6)
+Total parameters: 978
+Initial fair cut = 0.507092
+Final fair cut = 0.922798
+
+Running instance congress-bills_08 | p=4 | Runtype=Aon
+Gamma shape: (2, 4)
+Beta shape: (6, 4)
+Total parameters: 32
+Initial fair cut = 0.625101
+Final fair cut = 1.000000
+
+Running instance congress-bills_08 | p=5 | Runtype=Aon
+Gamma shape: (2, 5)
+Beta shape: (6, 5)
+Total parameters: 40
+Initial fair cut = 0.597529
+Final fair cut = 1.000000
+
+Running instance congress-bills_08 | p=6 | Runtype=Aon
+Gamma shape: (2, 6)
+Beta shape: (6, 6)
+Total parameters: 48
+Initial fair cut = 0.584815
+Final fair cut = 1.000000
+
+Running instance congress-bills_09 | p=4 | Runtype=Aon
+Gamma shape: (23, 4)
+Beta shape: (91, 4)
+Total parameters: 456
+Initial fair cut = 0.490385
+Final fair cut = 0.946176
+
+Running instance congress-bills_09 | p=5 | Runtype=Aon
+Gamma shape: (23, 5)
+Beta shape: (91, 5)
+Total parameters: 570
+Initial fair cut = 0.488830
+Final fair cut = 0.963015
+
+Running instance congress-bills_09 | p=6 | Runtype=Aon
+Gamma shape: (23, 6)
+Beta shape: (91, 6)
+Total parameters: 684
+Initial fair cut = 0.491143
+Final fair cut = 0.973942
+
+Running instance congress-bills_10 | p=4 | Runtype=Aon
+Gamma shape: (18, 4)
+Beta shape: (120, 4)
+Total parameters: 552
+Initial fair cut = 0.474735
+Final fair cut = 0.655842
+
+Running instance congress-bills_10 | p=5 | Runtype=Aon
+Gamma shape: (18, 5)
+Beta shape: (120, 5)
+Total parameters: 690
+Initial fair cut = 0.486071
+Final fair cut = 0.657242
+
+Running instance congress-bills_10 | p=6 | Runtype=Aon
+Gamma shape: (18, 6)
+Beta shape: (120, 6)
+Total parameters: 828
+Initial fair cut = 0.497634
+Final fair cut = 0.649790
+saved results to: congress_fair_max_bisection_aon_fc_mixer_expanded.csv
