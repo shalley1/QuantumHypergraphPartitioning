@@ -109,7 +109,7 @@ def run_qaoa(
 
     # Build mixer edges and cost terms
     cost_edge_list = qaoa_aux.clique_expansion(hyperedge_list)
-    mixer_edge_list = qaoa_aux.connected_clique_expansion(hyperedge_list, n)
+    mixer_edge_list = qaoa_aux.complete_graph_mixer(n)
     cost_terms = qaoa_aux.build_cost_terms(hyperedge_list,weights)
 
     # Balanced initial state
@@ -300,7 +300,7 @@ for p_file in p_files:
         f"Sizes: {[len(e) for e in hyperedge_list]}"
     )
 #circuit depth
-    for p in [3]:
+    for p in [4]:
 
         print(f"\nRunning instance {instance} | p={p} | Runtype=Aon")
 
@@ -325,7 +325,7 @@ for p_file in p_files:
         
 df_aon = pd.DataFrame(results_aon)
 # df_mc = pd.DataFrame(results_mc)
-csv_path_aon = "enron_fair_max_bisection_aon.csv"
+csv_path_aon = "enron_fair_max_bisection_aon_fc_mixer_p4.csv"
 # csv_path_mc = "poisson_16_12_4_fair_min_bisection_mc.csv"
 
 df_aon.to_csv(csv_path_aon,index=False)
