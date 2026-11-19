@@ -1,0 +1,1645 @@
+Dataset: poisson
+Runtype: aon
+Loss: min
+Mixer: complete
+============================================================
+Running 01 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (103, 3)
+Beta shape: (66, 3)
+Total parameters: 507
+Initial objective = 12.822640
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.616760 | patience = 0/30
+Iteration  10 | objective = 10.574144 | patience = 0/30
+Iteration  20 | objective = 8.958250 | patience = 0/30
+Iteration  30 | objective = 7.671418 | patience = 0/30
+Iteration  40 | objective = 6.836294 | patience = 0/30
+Iteration  50 | objective = 6.504290 | patience = 0/30
+Iteration  60 | objective = 6.343194 | patience = 0/30
+Iteration  70 | objective = 6.245281 | patience = 0/30
+Iteration  80 | objective = 6.196713 | patience = 0/30
+Iteration  90 | objective = 6.166338 | patience = 0/30
+Iteration 100 | objective = 6.143216 | patience = 0/30
+Iteration 110 | objective = 6.124574 | patience = 0/30
+Iteration 120 | objective = 6.108603 | patience = 0/30
+Iteration 130 | objective = 6.095249 | patience = 0/30
+Iteration 140 | objective = 6.084367 | patience = 0/30
+Iteration 150 | objective = 6.075510 | patience = 0/30
+Iteration 160 | objective = 6.068097 | patience = 0/30
+Iteration 170 | objective = 6.061670 | patience = 0/30
+Iteration 180 | objective = 6.055962 | patience = 0/30
+Iteration 190 | objective = 6.050834 | patience = 0/30
+Iteration 200 | objective = 6.046229 | patience = 0/30
+Iteration 210 | objective = 6.042141 | patience = 0/30
+Iteration 220 | objective = 6.038565 | patience = 0/30
+Iteration 230 | objective = 6.037646 | patience = 3/30
+Iteration 240 | objective = 6.033388 | patience = 2/30
+Iteration 250 | objective = 6.030473 | patience = 0/30
+Iteration 260 | objective = 6.028400 | patience = 0/30
+Iteration 270 | objective = 6.026554 | patience = 0/30
+Iteration 280 | objective = 6.024931 | patience = 0/30
+Iteration 290 | objective = 6.023548 | patience = 0/30
+Saved 01 to results/poisson_min_p3.csv
+============================================================
+Running 02 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (58, 3)
+Beta shape: (66, 3)
+Total parameters: 372
+Initial objective = 11.349112
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.125822 | patience = 0/30
+Iteration  10 | objective = 9.342689 | patience = 0/30
+Iteration  20 | objective = 8.425885 | patience = 0/30
+Iteration  30 | objective = 7.805578 | patience = 0/30
+Iteration  40 | objective = 7.154998 | patience = 0/30
+Iteration  50 | objective = 6.689678 | patience = 0/30
+Iteration  60 | objective = 6.395589 | patience = 0/30
+Iteration  70 | objective = 6.247103 | patience = 0/30
+Iteration  80 | objective = 6.160105 | patience = 0/30
+Iteration  90 | objective = 6.115965 | patience = 0/30
+Iteration 100 | objective = 6.089687 | patience = 0/30
+Iteration 110 | objective = 6.072794 | patience = 0/30
+Iteration 120 | objective = 6.061043 | patience = 0/30
+Iteration 130 | objective = 6.052893 | patience = 0/30
+Iteration 140 | objective = 6.046735 | patience = 0/30
+Iteration 150 | objective = 6.041875 | patience = 0/30
+Iteration 160 | objective = 6.037878 | patience = 0/30
+Iteration 170 | objective = 6.034461 | patience = 0/30
+Iteration 180 | objective = 6.031456 | patience = 0/30
+Iteration 190 | objective = 6.028756 | patience = 0/30
+Iteration 200 | objective = 6.026290 | patience = 0/30
+Iteration 210 | objective = 6.024025 | patience = 0/30
+Iteration 220 | objective = 6.021963 | patience = 0/30
+Iteration 230 | objective = 6.020121 | patience = 0/30
+Iteration 240 | objective = 6.018510 | patience = 0/30
+Iteration 250 | objective = 6.017114 | patience = 0/30
+Iteration 260 | objective = 6.019153 | patience = 3/30
+Iteration 270 | objective = 6.015183 | patience = 2/30
+Iteration 280 | objective = 6.014188 | patience = 2/30
+Iteration 290 | objective = 6.013273 | patience = 2/30
+Saved 02 to results/poisson_min_p3.csv
+============================================================
+Running 03 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (58, 3)
+Beta shape: (66, 3)
+Total parameters: 372
+Initial objective = 12.469601
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.310730 | patience = 0/30
+Iteration  10 | objective = 10.902727 | patience = 0/30
+Iteration  20 | objective = 10.060838 | patience = 0/30
+Iteration  30 | objective = 9.587500 | patience = 0/30
+Iteration  40 | objective = 9.111150 | patience = 0/30
+Iteration  50 | objective = 8.727093 | patience = 0/30
+Iteration  60 | objective = 8.475509 | patience = 0/30
+Iteration  70 | objective = 8.321314 | patience = 0/30
+Iteration  80 | objective = 8.237893 | patience = 0/30
+Iteration  90 | objective = 8.190579 | patience = 0/30
+Iteration 100 | objective = 8.155430 | patience = 0/30
+Iteration 110 | objective = 8.128839 | patience = 0/30
+Iteration 120 | objective = 8.106678 | patience = 0/30
+Iteration 130 | objective = 8.089809 | patience = 0/30
+Iteration 140 | objective = 8.077887 | patience = 0/30
+Iteration 150 | objective = 8.069232 | patience = 0/30
+Iteration 160 | objective = 8.062490 | patience = 0/30
+Iteration 170 | objective = 8.056965 | patience = 0/30
+Iteration 180 | objective = 8.052300 | patience = 0/30
+Iteration 190 | objective = 8.048287 | patience = 0/30
+Iteration 200 | objective = 8.044884 | patience = 0/30
+Iteration 210 | objective = 8.041823 | patience = 0/30
+Iteration 220 | objective = 8.038986 | patience = 0/30
+Iteration 230 | objective = 8.036456 | patience = 0/30
+Iteration 240 | objective = 8.034198 | patience = 0/30
+Iteration 250 | objective = 8.032146 | patience = 0/30
+Iteration 260 | objective = 8.030279 | patience = 0/30
+Iteration 270 | objective = 8.028803 | patience = 1/30
+Iteration 280 | objective = 8.027051 | patience = 0/30
+Iteration 290 | objective = 8.025596 | patience = 0/30
+Saved 03 to results/poisson_min_p3.csv
+============================================================
+Running 04 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (96, 3)
+Beta shape: (66, 3)
+Total parameters: 486
+Initial objective = 12.950043
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.827867 | patience = 0/30
+Iteration  10 | objective = 11.815412 | patience = 0/30
+Iteration  20 | objective = 11.297865 | patience = 0/30
+Iteration  30 | objective = 10.980747 | patience = 0/30
+Iteration  40 | objective = 10.742597 | patience = 0/30
+Iteration  50 | objective = 10.538135 | patience = 0/30
+Iteration  60 | objective = 10.403348 | patience = 0/30
+Iteration  70 | objective = 10.301998 | patience = 0/30
+Iteration  80 | objective = 10.223201 | patience = 0/30
+Iteration  90 | objective = 10.169943 | patience = 0/30
+Iteration 100 | objective = 10.133048 | patience = 0/30
+Iteration 110 | objective = 10.105840 | patience = 0/30
+Iteration 120 | objective = 10.085348 | patience = 0/30
+Iteration 130 | objective = 10.069459 | patience = 0/30
+Iteration 140 | objective = 10.057103 | patience = 0/30
+Iteration 150 | objective = 10.047818 | patience = 0/30
+Iteration 160 | objective = 10.040878 | patience = 0/30
+Iteration 170 | objective = 10.035470 | patience = 0/30
+Iteration 180 | objective = 10.031118 | patience = 0/30
+Iteration 190 | objective = 10.027598 | patience = 0/30
+Iteration 200 | objective = 10.024933 | patience = 1/30
+Iteration 210 | objective = 10.022525 | patience = 0/30
+Iteration 220 | objective = 10.020520 | patience = 0/30
+Iteration 230 | objective = 10.018952 | patience = 0/30
+Iteration 240 | objective = 10.017597 | patience = 0/30
+Iteration 250 | objective = 10.016397 | patience = 0/30
+Iteration 260 | objective = 10.015305 | patience = 0/30
+Iteration 270 | objective = 10.014313 | patience = 0/30
+Iteration 280 | objective = 10.013506 | patience = 2/30
+Iteration 290 | objective = 10.012807 | patience = 0/30
+Saved 04 to results/poisson_min_p3.csv
+============================================================
+Running 05 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (52, 3)
+Beta shape: (66, 3)
+Total parameters: 354
+Initial objective = 12.086574
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.912278 | patience = 0/30
+Iteration  10 | objective = 10.372629 | patience = 0/30
+Iteration  20 | objective = 9.562400 | patience = 0/30
+Iteration  30 | objective = 9.041934 | patience = 0/30
+Iteration  40 | objective = 8.491290 | patience = 0/30
+Iteration  50 | objective = 8.008097 | patience = 0/30
+Iteration  60 | objective = 7.681196 | patience = 0/30
+Iteration  70 | objective = 7.505306 | patience = 0/30
+Iteration  80 | objective = 7.397002 | patience = 0/30
+Iteration  90 | objective = 7.321447 | patience = 0/30
+Iteration 100 | objective = 7.256661 | patience = 0/30
+Iteration 110 | objective = 7.207979 | patience = 0/30
+Iteration 120 | objective = 7.173353 | patience = 0/30
+Iteration 130 | objective = 7.147440 | patience = 0/30
+Iteration 140 | objective = 7.128237 | patience = 0/30
+Iteration 150 | objective = 7.113930 | patience = 0/30
+Iteration 160 | objective = 7.102368 | patience = 0/30
+Iteration 170 | objective = 7.092267 | patience = 0/30
+Iteration 180 | objective = 7.083393 | patience = 0/30
+Iteration 190 | objective = 7.075864 | patience = 0/30
+Iteration 200 | objective = 7.069597 | patience = 0/30
+Iteration 210 | objective = 7.064254 | patience = 0/30
+Iteration 220 | objective = 7.059585 | patience = 0/30
+Iteration 230 | objective = 7.055953 | patience = 1/30
+Iteration 240 | objective = 7.052148 | patience = 0/30
+Iteration 250 | objective = 7.049423 | patience = 0/30
+Iteration 260 | objective = 7.046500 | patience = 1/30
+Iteration 270 | objective = 7.043869 | patience = 0/30
+Iteration 280 | objective = 7.041604 | patience = 0/30
+Iteration 290 | objective = 7.039502 | patience = 0/30
+Saved 05 to results/poisson_min_p3.csv
+============================================================
+Running 06 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (86, 3)
+Beta shape: (66, 3)
+Total parameters: 456
+Initial objective = 13.416241
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.269244 | patience = 0/30
+Iteration  10 | objective = 12.008338 | patience = 0/30
+Iteration  20 | objective = 11.237524 | patience = 0/30
+Iteration  30 | objective = 10.817644 | patience = 0/30
+Iteration  40 | objective = 10.566847 | patience = 0/30
+Iteration  50 | objective = 10.394224 | patience = 0/30
+Iteration  60 | objective = 10.270509 | patience = 0/30
+Iteration  70 | objective = 10.187766 | patience = 0/30
+Iteration  80 | objective = 10.131216 | patience = 0/30
+Iteration  90 | objective = 10.096844 | patience = 0/30
+Iteration 100 | objective = 10.072666 | patience = 0/30
+Iteration 110 | objective = 10.056233 | patience = 0/30
+Iteration 120 | objective = 10.045467 | patience = 0/30
+Iteration 130 | objective = 10.038249 | patience = 0/30
+Iteration 140 | objective = 10.032871 | patience = 0/30
+Iteration 150 | objective = 10.028678 | patience = 0/30
+Iteration 160 | objective = 10.025409 | patience = 0/30
+Iteration 170 | objective = 10.022824 | patience = 0/30
+Iteration 180 | objective = 10.020734 | patience = 0/30
+Iteration 190 | objective = 10.019025 | patience = 0/30
+Iteration 200 | objective = 10.017618 | patience = 0/30
+Iteration 210 | objective = 10.016467 | patience = 1/30
+Iteration 220 | objective = 10.015874 | patience = 1/30
+Iteration 230 | objective = 10.014654 | patience = 0/30
+Iteration 240 | objective = 10.013966 | patience = 2/30
+Iteration 250 | objective = 10.013179 | patience = 1/30
+Iteration 260 | objective = 10.012538 | patience = 1/30
+Iteration 270 | objective = 10.011912 | patience = 1/30
+Iteration 280 | objective = 10.011314 | patience = 1/30
+Iteration 290 | objective = 10.010733 | patience = 1/30
+Saved 06 to results/poisson_min_p3.csv
+============================================================
+Running 07 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (78, 3)
+Beta shape: (66, 3)
+Total parameters: 432
+Initial objective = 12.303278
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.150029 | patience = 0/30
+Iteration  10 | objective = 10.879060 | patience = 0/30
+Iteration  20 | objective = 10.084747 | patience = 0/30
+Iteration  30 | objective = 9.572445 | patience = 0/30
+Iteration  40 | objective = 9.163348 | patience = 0/30
+Iteration  50 | objective = 8.805476 | patience = 0/30
+Iteration  60 | objective = 8.503704 | patience = 0/30
+Iteration  70 | objective = 8.320677 | patience = 0/30
+Iteration  80 | objective = 8.230117 | patience = 0/30
+Iteration  90 | objective = 8.176588 | patience = 0/30
+Iteration 100 | objective = 8.143773 | patience = 0/30
+Iteration 110 | objective = 8.121471 | patience = 0/30
+Iteration 120 | objective = 8.105437 | patience = 0/30
+Iteration 130 | objective = 8.093284 | patience = 0/30
+Iteration 140 | objective = 8.083480 | patience = 0/30
+Iteration 150 | objective = 8.075406 | patience = 0/30
+Iteration 160 | objective = 8.068551 | patience = 0/30
+Iteration 170 | objective = 8.062531 | patience = 0/30
+Iteration 180 | objective = 8.058447 | patience = 1/30
+Iteration 190 | objective = 8.052543 | patience = 0/30
+Iteration 200 | objective = 8.048871 | patience = 0/30
+Iteration 210 | objective = 8.045581 | patience = 0/30
+Iteration 220 | objective = 8.042898 | patience = 0/30
+Iteration 230 | objective = 8.040617 | patience = 0/30
+Iteration 240 | objective = 8.038592 | patience = 0/30
+Iteration 250 | objective = 8.036671 | patience = 0/30
+Iteration 260 | objective = 8.034800 | patience = 0/30
+Iteration 270 | objective = 8.033966 | patience = 0/30
+Iteration 280 | objective = 8.031235 | patience = 0/30
+Iteration 290 | objective = 8.029631 | patience = 0/30
+Saved 07 to results/poisson_min_p3.csv
+============================================================
+Running 08 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (47, 3)
+Beta shape: (66, 3)
+Total parameters: 339
+Initial objective = 11.400437
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.156406 | patience = 0/30
+Iteration  10 | objective = 9.181352 | patience = 0/30
+Iteration  20 | objective = 8.288386 | patience = 0/30
+Iteration  30 | objective = 7.783314 | patience = 0/30
+Iteration  40 | objective = 7.441832 | patience = 0/30
+Iteration  50 | objective = 7.235145 | patience = 0/30
+Iteration  60 | objective = 7.138379 | patience = 0/30
+Iteration  70 | objective = 7.093532 | patience = 0/30
+Iteration  80 | objective = 7.066105 | patience = 0/30
+Iteration  90 | objective = 7.051818 | patience = 0/30
+Iteration 100 | objective = 7.042873 | patience = 0/30
+Iteration 110 | objective = 7.036856 | patience = 0/30
+Iteration 120 | objective = 7.032218 | patience = 0/30
+Iteration 130 | objective = 7.028546 | patience = 0/30
+Iteration 140 | objective = 7.025657 | patience = 0/30
+Iteration 150 | objective = 7.023398 | patience = 0/30
+Iteration 160 | objective = 7.021572 | patience = 0/30
+Iteration 170 | objective = 7.020015 | patience = 0/30
+Iteration 180 | objective = 7.018644 | patience = 0/30
+Iteration 190 | objective = 7.017420 | patience = 0/30
+Iteration 200 | objective = 7.016321 | patience = 0/30
+Iteration 210 | objective = 7.015331 | patience = 0/30
+Iteration 220 | objective = 7.014444 | patience = 0/30
+Iteration 230 | objective = 7.013653 | patience = 0/30
+Iteration 240 | objective = 7.012949 | patience = 0/30
+Iteration 250 | objective = 7.012312 | patience = 0/30
+Iteration 260 | objective = 7.011724 | patience = 0/30
+Iteration 270 | objective = 7.011169 | patience = 0/30
+Iteration 280 | objective = 7.010640 | patience = 0/30
+Iteration 290 | objective = 7.010130 | patience = 0/30
+Saved 08 to results/poisson_min_p3.csv
+============================================================
+Running 09 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (146, 3)
+Beta shape: (66, 3)
+Total parameters: 636
+Initial objective = 12.955174
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.801330 | patience = 0/30
+Iteration  10 | objective = 11.394014 | patience = 0/30
+Iteration  20 | objective = 10.588062 | patience = 0/30
+Iteration  30 | objective = 10.076526 | patience = 0/30
+Iteration  40 | objective = 9.707262 | patience = 0/30
+Iteration  50 | objective = 9.488804 | patience = 0/30
+Iteration  60 | objective = 9.351239 | patience = 0/30
+Iteration  70 | objective = 9.277499 | patience = 0/30
+Iteration  80 | objective = 9.226494 | patience = 0/30
+Iteration  90 | objective = 9.192697 | patience = 0/30
+Iteration 100 | objective = 9.166775 | patience = 0/30
+Iteration 110 | objective = 9.148196 | patience = 0/30
+Iteration 120 | objective = 9.134730 | patience = 0/30
+Iteration 130 | objective = 9.123839 | patience = 0/30
+Iteration 140 | objective = 9.114144 | patience = 0/30
+Iteration 150 | objective = 9.105042 | patience = 0/30
+Iteration 160 | objective = 9.096511 | patience = 0/30
+Iteration 170 | objective = 9.088923 | patience = 0/30
+Iteration 180 | objective = 9.082583 | patience = 0/30
+Iteration 190 | objective = 9.077377 | patience = 0/30
+Iteration 200 | objective = 9.073875 | patience = 1/30
+Iteration 210 | objective = 9.069113 | patience = 0/30
+Iteration 220 | objective = 9.065008 | patience = 0/30
+Iteration 230 | objective = 9.061212 | patience = 0/30
+Iteration 240 | objective = 9.057390 | patience = 0/30
+Iteration 250 | objective = 9.053626 | patience = 0/30
+Iteration 260 | objective = 9.049963 | patience = 0/30
+Iteration 270 | objective = 9.046460 | patience = 0/30
+Iteration 280 | objective = 9.043229 | patience = 0/30
+Iteration 290 | objective = 9.040762 | patience = 1/30
+Saved 09 to results/poisson_min_p3.csv
+============================================================
+Running 10 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (106, 3)
+Beta shape: (66, 3)
+Total parameters: 516
+Initial objective = 11.449431
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.285693 | patience = 0/30
+Iteration  10 | objective = 9.919347 | patience = 0/30
+Iteration  20 | objective = 9.175261 | patience = 0/30
+Iteration  30 | objective = 8.788440 | patience = 0/30
+Iteration  40 | objective = 8.327370 | patience = 0/30
+Iteration  50 | objective = 7.824235 | patience = 0/30
+Iteration  60 | objective = 7.464816 | patience = 0/30
+Iteration  70 | objective = 7.253539 | patience = 0/30
+Iteration  80 | objective = 7.169230 | patience = 0/30
+Iteration  90 | objective = 7.125745 | patience = 0/30
+Iteration 100 | objective = 7.097733 | patience = 0/30
+Iteration 110 | objective = 7.077312 | patience = 0/30
+Iteration 120 | objective = 7.061718 | patience = 0/30
+Iteration 130 | objective = 7.050688 | patience = 0/30
+Iteration 140 | objective = 7.042414 | patience = 0/30
+Iteration 150 | objective = 7.035939 | patience = 0/30
+Iteration 160 | objective = 7.030834 | patience = 0/30
+Iteration 170 | objective = 7.026900 | patience = 0/30
+Iteration 180 | objective = 7.023916 | patience = 0/30
+Iteration 190 | objective = 7.021636 | patience = 0/30
+Iteration 200 | objective = 7.019842 | patience = 0/30
+Iteration 210 | objective = 7.018382 | patience = 0/30
+Iteration 220 | objective = 7.017277 | patience = 0/30
+Iteration 230 | objective = 7.016669 | patience = 2/30
+Iteration 240 | objective = 7.015484 | patience = 2/30
+Iteration 250 | objective = 7.014512 | patience = 0/30
+Iteration 260 | objective = 7.013774 | patience = 0/30
+Iteration 270 | objective = 7.013093 | patience = 1/30
+Iteration 280 | objective = 7.012521 | patience = 1/30
+Iteration 290 | objective = 7.011993 | patience = 1/30
+Saved 10 to results/poisson_min_p3.csv
+============================================================
+Running 11 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (38, 3)
+Beta shape: (66, 3)
+Total parameters: 312
+Initial objective = 10.646451
+Runtype = aon | Loss = min
+Iteration   0 | objective = 10.508583 | patience = 0/30
+Iteration  10 | objective = 9.257817 | patience = 0/30
+Iteration  20 | objective = 8.511822 | patience = 0/30
+Iteration  30 | objective = 8.083865 | patience = 0/30
+Iteration  40 | objective = 7.728510 | patience = 0/30
+Iteration  50 | objective = 7.500301 | patience = 0/30
+Iteration  60 | objective = 7.326189 | patience = 0/30
+Iteration  70 | objective = 7.225402 | patience = 0/30
+Iteration  80 | objective = 7.169586 | patience = 0/30
+Iteration  90 | objective = 7.138318 | patience = 0/30
+Iteration 100 | objective = 7.118238 | patience = 0/30
+Iteration 110 | objective = 7.102901 | patience = 0/30
+Iteration 120 | objective = 7.091786 | patience = 0/30
+Iteration 130 | objective = 7.083622 | patience = 0/30
+Iteration 140 | objective = 7.077480 | patience = 0/30
+Iteration 150 | objective = 7.072544 | patience = 0/30
+Iteration 160 | objective = 7.068171 | patience = 0/30
+Iteration 170 | objective = 7.063914 | patience = 0/30
+Iteration 180 | objective = 7.059752 | patience = 0/30
+Iteration 190 | objective = 7.055959 | patience = 0/30
+Iteration 200 | objective = 7.052635 | patience = 0/30
+Iteration 210 | objective = 7.049707 | patience = 0/30
+Iteration 220 | objective = 7.047112 | patience = 0/30
+Iteration 230 | objective = 7.044795 | patience = 0/30
+Iteration 240 | objective = 7.042789 | patience = 0/30
+Iteration 250 | objective = 7.041348 | patience = 1/30
+Iteration 260 | objective = 7.039127 | patience = 0/30
+Iteration 270 | objective = 7.037602 | patience = 0/30
+Iteration 280 | objective = 7.036090 | patience = 0/30
+Iteration 290 | objective = 7.034762 | patience = 0/30
+Saved 11 to results/poisson_min_p3.csv
+============================================================
+Running 12 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (77, 3)
+Beta shape: (66, 3)
+Total parameters: 429
+Initial objective = 11.519704
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.284017 | patience = 0/30
+Iteration  10 | objective = 9.413294 | patience = 0/30
+Iteration  20 | objective = 8.567616 | patience = 0/30
+Iteration  30 | objective = 8.111802 | patience = 0/30
+Iteration  40 | objective = 7.780952 | patience = 0/30
+Iteration  50 | objective = 7.553857 | patience = 0/30
+Iteration  60 | objective = 7.408864 | patience = 0/30
+Iteration  70 | objective = 7.315688 | patience = 0/30
+Iteration  80 | objective = 7.256548 | patience = 0/30
+Iteration  90 | objective = 7.215681 | patience = 0/30
+Iteration 100 | objective = 7.185201 | patience = 0/30
+Iteration 110 | objective = 7.162954 | patience = 0/30
+Iteration 120 | objective = 7.144429 | patience = 0/30
+Iteration 130 | objective = 7.128156 | patience = 0/30
+Iteration 140 | objective = 7.112272 | patience = 0/30
+Iteration 150 | objective = 7.097683 | patience = 0/30
+Iteration 160 | objective = 7.085702 | patience = 0/30
+Iteration 170 | objective = 7.076580 | patience = 0/30
+Iteration 180 | objective = 7.069563 | patience = 0/30
+Iteration 190 | objective = 7.064245 | patience = 0/30
+Iteration 200 | objective = 7.060125 | patience = 0/30
+Iteration 210 | objective = 7.056737 | patience = 0/30
+Iteration 220 | objective = 7.053823 | patience = 0/30
+Iteration 230 | objective = 7.051249 | patience = 0/30
+Iteration 240 | objective = 7.051272 | patience = 3/30
+Iteration 250 | objective = 7.047887 | patience = 1/30
+Iteration 260 | objective = 7.045265 | patience = 1/30
+Iteration 270 | objective = 7.043143 | patience = 0/30
+Iteration 280 | objective = 7.041413 | patience = 0/30
+Iteration 290 | objective = 7.039780 | patience = 0/30
+Saved 12 to results/poisson_min_p3.csv
+============================================================
+Running 13 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (100, 3)
+Beta shape: (66, 3)
+Total parameters: 498
+Initial objective = 13.478132
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.329559 | patience = 0/30
+Iteration  10 | objective = 11.982822 | patience = 0/30
+Iteration  20 | objective = 11.174207 | patience = 0/30
+Iteration  30 | objective = 10.712349 | patience = 0/30
+Iteration  40 | objective = 10.411201 | patience = 0/30
+Iteration  50 | objective = 10.243791 | patience = 0/30
+Iteration  60 | objective = 10.154503 | patience = 0/30
+Iteration  70 | objective = 10.108604 | patience = 0/30
+Iteration  80 | objective = 10.082324 | patience = 0/30
+Iteration  90 | objective = 10.066825 | patience = 0/30
+Iteration 100 | objective = 10.057590 | patience = 0/30
+Iteration 110 | objective = 10.051596 | patience = 0/30
+Iteration 120 | objective = 10.047066 | patience = 0/30
+Iteration 130 | objective = 10.043261 | patience = 0/30
+Iteration 140 | objective = 10.039751 | patience = 0/30
+Iteration 150 | objective = 10.036772 | patience = 1/30
+Iteration 160 | objective = 10.033024 | patience = 0/30
+Iteration 170 | objective = 10.029983 | patience = 0/30
+Iteration 180 | objective = 10.027252 | patience = 0/30
+Iteration 190 | objective = 10.024931 | patience = 0/30
+Iteration 200 | objective = 10.023007 | patience = 0/30
+Iteration 210 | objective = 10.021359 | patience = 0/30
+Iteration 220 | objective = 10.019931 | patience = 0/30
+Iteration 230 | objective = 10.019270 | patience = 4/30
+Iteration 240 | objective = 10.017777 | patience = 0/30
+Iteration 250 | objective = 10.016687 | patience = 0/30
+Iteration 260 | objective = 10.015822 | patience = 1/30
+Iteration 270 | objective = 10.015056 | patience = 1/30
+Iteration 280 | objective = 10.014374 | patience = 1/30
+Iteration 290 | objective = 10.013765 | patience = 0/30
+Saved 13 to results/poisson_min_p3.csv
+============================================================
+Running 14 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (64, 3)
+Beta shape: (66, 3)
+Total parameters: 390
+Initial objective = 12.158142
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.935763 | patience = 0/30
+Iteration  10 | objective = 9.922292 | patience = 0/30
+Iteration  20 | objective = 8.940375 | patience = 0/30
+Iteration  30 | objective = 8.452583 | patience = 0/30
+Iteration  40 | objective = 8.045449 | patience = 0/30
+Iteration  50 | objective = 7.698486 | patience = 0/30
+Iteration  60 | objective = 7.442255 | patience = 0/30
+Iteration  70 | objective = 7.309130 | patience = 0/30
+Iteration  80 | objective = 7.243619 | patience = 0/30
+Iteration  90 | objective = 7.194743 | patience = 0/30
+Iteration 100 | objective = 7.156558 | patience = 0/30
+Iteration 110 | objective = 7.124671 | patience = 0/30
+Iteration 120 | objective = 7.099734 | patience = 0/30
+Iteration 130 | objective = 7.081244 | patience = 0/30
+Iteration 140 | objective = 7.067085 | patience = 0/30
+Iteration 150 | objective = 7.056319 | patience = 0/30
+Iteration 160 | objective = 7.048218 | patience = 0/30
+Iteration 170 | objective = 7.041816 | patience = 0/30
+Iteration 180 | objective = 7.036533 | patience = 0/30
+Iteration 190 | objective = 7.032145 | patience = 0/30
+Iteration 200 | objective = 7.028557 | patience = 0/30
+Iteration 210 | objective = 7.025675 | patience = 0/30
+Iteration 220 | objective = 7.025186 | patience = 2/30
+Iteration 230 | objective = 7.022457 | patience = 1/30
+Iteration 240 | objective = 7.020107 | patience = 0/30
+Iteration 250 | objective = 7.018983 | patience = 0/30
+Iteration 260 | objective = 7.017761 | patience = 0/30
+Iteration 270 | objective = 7.016807 | patience = 1/30
+Iteration 280 | objective = 7.015949 | patience = 0/30
+Iteration 290 | objective = 7.015214 | patience = 0/30
+Saved 14 to results/poisson_min_p3.csv
+============================================================
+Running 15 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (70, 3)
+Beta shape: (66, 3)
+Total parameters: 408
+Initial objective = 12.202922
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.025816 | patience = 0/30
+Iteration  10 | objective = 10.657125 | patience = 0/30
+Iteration  20 | objective = 9.889334 | patience = 0/30
+Iteration  30 | objective = 9.450315 | patience = 0/30
+Iteration  40 | objective = 9.116387 | patience = 0/30
+Iteration  50 | objective = 8.858870 | patience = 0/30
+Iteration  60 | objective = 8.672042 | patience = 0/30
+Iteration  70 | objective = 8.513589 | patience = 0/30
+Iteration  80 | objective = 8.384618 | patience = 0/30
+Iteration  90 | objective = 8.285020 | patience = 0/30
+Iteration 100 | objective = 8.210895 | patience = 0/30
+Iteration 110 | objective = 8.163880 | patience = 0/30
+Iteration 120 | objective = 8.132884 | patience = 0/30
+Iteration 130 | objective = 8.110451 | patience = 0/30
+Iteration 140 | objective = 8.092845 | patience = 0/30
+Iteration 150 | objective = 8.079439 | patience = 0/30
+Iteration 160 | objective = 8.069171 | patience = 0/30
+Iteration 170 | objective = 8.060975 | patience = 0/30
+Iteration 180 | objective = 8.053937 | patience = 0/30
+Iteration 190 | objective = 8.047507 | patience = 0/30
+Iteration 200 | objective = 8.042284 | patience = 1/30
+Iteration 210 | objective = 8.036471 | patience = 0/30
+Iteration 220 | objective = 8.032329 | patience = 0/30
+Iteration 230 | objective = 8.028340 | patience = 0/30
+Iteration 240 | objective = 8.025208 | patience = 0/30
+Iteration 250 | objective = 8.022635 | patience = 0/30
+Iteration 260 | objective = 8.020578 | patience = 0/30
+Iteration 270 | objective = 8.018944 | patience = 0/30
+Iteration 280 | objective = 8.017631 | patience = 0/30
+Iteration 290 | objective = 8.016575 | patience = 0/30
+Saved 15 to results/poisson_min_p3.csv
+============================================================
+Running 16 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (82, 3)
+Beta shape: (66, 3)
+Total parameters: 444
+Initial objective = 12.215294
+Runtype = aon | Loss = min
+Iteration   0 | objective = 12.054060 | patience = 0/30
+Iteration  10 | objective = 10.659108 | patience = 0/30
+Iteration  20 | objective = 9.902406 | patience = 0/30
+Iteration  30 | objective = 9.460823 | patience = 0/30
+Iteration  40 | objective = 9.052945 | patience = 0/30
+Iteration  50 | objective = 8.691150 | patience = 0/30
+Iteration  60 | objective = 8.443708 | patience = 0/30
+Iteration  70 | objective = 8.273958 | patience = 0/30
+Iteration  80 | objective = 8.179355 | patience = 0/30
+Iteration  90 | objective = 8.120671 | patience = 0/30
+Iteration 100 | objective = 8.085608 | patience = 0/30
+Iteration 110 | objective = 8.064126 | patience = 0/30
+Iteration 120 | objective = 8.050728 | patience = 0/30
+Iteration 130 | objective = 8.041531 | patience = 0/30
+Iteration 140 | objective = 8.034742 | patience = 0/30
+Iteration 150 | objective = 8.029688 | patience = 0/30
+Iteration 160 | objective = 8.025940 | patience = 0/30
+Iteration 170 | objective = 8.023122 | patience = 0/30
+Iteration 180 | objective = 8.020945 | patience = 0/30
+Iteration 190 | objective = 8.019239 | patience = 0/30
+Iteration 200 | objective = 8.017875 | patience = 0/30
+Iteration 210 | objective = 8.017029 | patience = 1/30
+Iteration 220 | objective = 8.015722 | patience = 0/30
+Iteration 230 | objective = 8.014866 | patience = 1/30
+Iteration 240 | objective = 8.014056 | patience = 1/30
+Iteration 250 | objective = 8.013312 | patience = 1/30
+Iteration 260 | objective = 8.012635 | patience = 1/30
+Iteration 270 | objective = 8.011995 | patience = 1/30
+Iteration 280 | objective = 8.011391 | patience = 1/30
+Iteration 290 | objective = 8.010882 | patience = 0/30
+Saved 16 to results/poisson_min_p3.csv
+============================================================
+Running 17 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (36, 3)
+Beta shape: (66, 3)
+Total parameters: 306
+Initial objective = 10.643717
+Runtype = aon | Loss = min
+Iteration   0 | objective = 10.439989 | patience = 0/30
+Iteration  10 | objective = 8.793889 | patience = 0/30
+Iteration  20 | objective = 7.901681 | patience = 0/30
+Iteration  30 | objective = 7.270368 | patience = 0/30
+Iteration  40 | objective = 6.552835 | patience = 0/30
+Iteration  50 | objective = 5.935796 | patience = 0/30
+Iteration  60 | objective = 5.586151 | patience = 0/30
+Iteration  70 | objective = 5.417859 | patience = 0/30
+Iteration  80 | objective = 5.332873 | patience = 0/30
+Iteration  90 | objective = 5.267274 | patience = 0/30
+Iteration 100 | objective = 5.216423 | patience = 0/30
+Iteration 110 | objective = 5.181440 | patience = 0/30
+Iteration 120 | objective = 5.157108 | patience = 0/30
+Iteration 130 | objective = 5.138096 | patience = 0/30
+Iteration 140 | objective = 5.123477 | patience = 0/30
+Iteration 150 | objective = 5.111779 | patience = 0/30
+Iteration 160 | objective = 5.101977 | patience = 0/30
+Iteration 170 | objective = 5.095703 | patience = 0/30
+Iteration 180 | objective = 5.087113 | patience = 0/30
+Iteration 190 | objective = 5.081656 | patience = 0/30
+Iteration 200 | objective = 5.076878 | patience = 0/30
+Iteration 210 | objective = 5.072742 | patience = 0/30
+Iteration 220 | objective = 5.069090 | patience = 0/30
+Iteration 230 | objective = 5.065862 | patience = 0/30
+Iteration 240 | objective = 5.062998 | patience = 0/30
+Iteration 250 | objective = 5.060400 | patience = 0/30
+Iteration 260 | objective = 5.057990 | patience = 0/30
+Iteration 270 | objective = 5.056932 | patience = 5/30
+Iteration 280 | objective = 5.053821 | patience = 0/30
+Iteration 290 | objective = 5.051588 | patience = 0/30
+Saved 17 to results/poisson_min_p3.csv
+============================================================
+Running 18 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (60, 3)
+Beta shape: (66, 3)
+Total parameters: 378
+Initial objective = 11.103973
+Runtype = aon | Loss = min
+Iteration   0 | objective = 10.942446 | patience = 0/30
+Iteration  10 | objective = 9.455098 | patience = 0/30
+Iteration  20 | objective = 8.594251 | patience = 0/30
+Iteration  30 | objective = 8.130151 | patience = 0/30
+Iteration  40 | objective = 7.758896 | patience = 0/30
+Iteration  50 | objective = 7.487012 | patience = 0/30
+Iteration  60 | objective = 7.304966 | patience = 0/30
+Iteration  70 | objective = 7.216838 | patience = 0/30
+Iteration  80 | objective = 7.158656 | patience = 0/30
+Iteration  90 | objective = 7.124473 | patience = 0/30
+Iteration 100 | objective = 7.100964 | patience = 0/30
+Iteration 110 | objective = 7.085785 | patience = 0/30
+Iteration 120 | objective = 7.074682 | patience = 0/30
+Iteration 130 | objective = 7.065860 | patience = 0/30
+Iteration 140 | objective = 7.058884 | patience = 0/30
+Iteration 150 | objective = 7.053129 | patience = 0/30
+Iteration 160 | objective = 7.048043 | patience = 0/30
+Iteration 170 | objective = 7.043291 | patience = 0/30
+Iteration 180 | objective = 7.038765 | patience = 0/30
+Iteration 190 | objective = 7.034469 | patience = 0/30
+Iteration 200 | objective = 7.030502 | patience = 0/30
+Iteration 210 | objective = 7.027008 | patience = 0/30
+Iteration 220 | objective = 7.024052 | patience = 0/30
+Iteration 230 | objective = 7.021675 | patience = 0/30
+Iteration 240 | objective = 7.019834 | patience = 0/30
+Iteration 250 | objective = 7.017999 | patience = 1/30
+Iteration 260 | objective = 7.016247 | patience = 1/30
+Iteration 270 | objective = 7.014818 | patience = 0/30
+Iteration 280 | objective = 7.013615 | patience = 0/30
+Iteration 290 | objective = 7.012543 | patience = 0/30
+Saved 18 to results/poisson_min_p3.csv
+============================================================
+Running 19 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (45, 3)
+Beta shape: (66, 3)
+Total parameters: 333
+Initial objective = 11.950105
+Runtype = aon | Loss = min
+Iteration   0 | objective = 11.777645 | patience = 0/30
+Iteration  10 | objective = 10.317315 | patience = 0/30
+Iteration  20 | objective = 9.510547 | patience = 0/30
+Iteration  30 | objective = 8.910856 | patience = 0/30
+Iteration  40 | objective = 8.470502 | patience = 0/30
+Iteration  50 | objective = 8.077233 | patience = 0/30
+Iteration  60 | objective = 7.769303 | patience = 0/30
+Iteration  70 | objective = 7.583863 | patience = 0/30
+Iteration  80 | objective = 7.438077 | patience = 0/30
+Iteration  90 | objective = 7.338711 | patience = 0/30
+Iteration 100 | objective = 7.270140 | patience = 0/30
+Iteration 110 | objective = 7.216419 | patience = 0/30
+Iteration 120 | objective = 7.171527 | patience = 0/30
+Iteration 130 | objective = 7.133816 | patience = 0/30
+Iteration 140 | objective = 7.104845 | patience = 0/30
+Iteration 150 | objective = 7.083907 | patience = 0/30
+Iteration 160 | objective = 7.069391 | patience = 0/30
+Iteration 170 | objective = 7.059610 | patience = 0/30
+Iteration 180 | objective = 7.052439 | patience = 0/30
+Iteration 190 | objective = 7.046739 | patience = 0/30
+Iteration 200 | objective = 7.041958 | patience = 0/30
+Iteration 210 | objective = 7.037770 | patience = 0/30
+Iteration 220 | objective = 7.034069 | patience = 0/30
+Iteration 230 | objective = 7.032396 | patience = 3/30
+Iteration 240 | objective = 7.028318 | patience = 1/30
+Iteration 250 | objective = 7.025780 | patience = 1/30
+Iteration 260 | objective = 7.023567 | patience = 0/30
+Iteration 270 | objective = 7.021695 | patience = 0/30
+Iteration 280 | objective = 7.020161 | patience = 0/30
+Iteration 290 | objective = 7.018872 | patience = 0/30
+Saved 19 to results/poisson_min_p3.csv
+============================================================
+Running 20 | Dataset=poisson_16_12_3
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (41, 3)
+Beta shape: (66, 3)
+Total parameters: 321
+Initial objective = 11.030023
+Runtype = aon | Loss = min
+Iteration   0 | objective = 10.806990 | patience = 0/30
+Iteration  10 | objective = 9.022722 | patience = 0/30
+Iteration  20 | objective = 8.055549 | patience = 0/30
+Iteration  30 | objective = 7.460078 | patience = 0/30
+Iteration  40 | objective = 7.004664 | patience = 0/30
+Iteration  50 | objective = 6.682334 | patience = 0/30
+Iteration  60 | objective = 6.460894 | patience = 0/30
+Iteration  70 | objective = 6.327519 | patience = 0/30
+Iteration  80 | objective = 6.245591 | patience = 0/30
+Iteration  90 | objective = 6.190775 | patience = 0/30
+Iteration 100 | objective = 6.156354 | patience = 0/30
+Iteration 110 | objective = 6.133799 | patience = 0/30
+Iteration 120 | objective = 6.116852 | patience = 0/30
+Iteration 130 | objective = 6.102645 | patience = 0/30
+Iteration 140 | objective = 6.089985 | patience = 0/30
+Iteration 150 | objective = 6.078543 | patience = 0/30
+Iteration 160 | objective = 6.068430 | patience = 0/30
+Iteration 170 | objective = 6.059767 | patience = 0/30
+Iteration 180 | objective = 6.052597 | patience = 0/30
+Iteration 190 | objective = 6.046884 | patience = 0/30
+Iteration 200 | objective = 6.042452 | patience = 0/30
+Iteration 210 | objective = 6.038983 | patience = 0/30
+Iteration 220 | objective = 6.036142 | patience = 0/30
+Iteration 230 | objective = 6.033698 | patience = 0/30
+Iteration 240 | objective = 6.031519 | patience = 0/30
+Iteration 250 | objective = 6.029545 | patience = 0/30
+Iteration 260 | objective = 6.027813 | patience = 0/30
+Iteration 270 | objective = 6.026311 | patience = 1/30
+Iteration 280 | objective = 6.024910 | patience = 0/30
+Iteration 290 | objective = 6.023683 | patience = 0/30
+Saved 20 to results/poisson_min_p3.csv
+============================================================
+Running 01 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (114, 3)
+Beta shape: (66, 3)
+Total parameters: 540
+Initial objective = 14.092955
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.960751 | patience = 0/30
+Iteration  10 | objective = 12.550024 | patience = 0/30
+Iteration  20 | objective = 11.482041 | patience = 0/30
+Iteration  30 | objective = 10.851783 | patience = 0/30
+Iteration  40 | objective = 10.474132 | patience = 0/30
+Iteration  50 | objective = 10.286737 | patience = 0/30
+Iteration  60 | objective = 10.191309 | patience = 0/30
+Iteration  70 | objective = 10.141745 | patience = 0/30
+Iteration  80 | objective = 10.115225 | patience = 0/30
+Iteration  90 | objective = 10.097943 | patience = 0/30
+Iteration 100 | objective = 10.085517 | patience = 0/30
+Iteration 110 | objective = 10.076058 | patience = 0/30
+Iteration 120 | objective = 10.068275 | patience = 0/30
+Iteration 130 | objective = 10.061516 | patience = 0/30
+Iteration 140 | objective = 10.055425 | patience = 0/30
+Iteration 150 | objective = 10.050436 | patience = 0/30
+Iteration 160 | objective = 10.044981 | patience = 0/30
+Iteration 170 | objective = 10.040623 | patience = 0/30
+Iteration 180 | objective = 10.036882 | patience = 0/30
+Iteration 190 | objective = 10.033915 | patience = 0/30
+Iteration 200 | objective = 10.031448 | patience = 0/30
+Iteration 210 | objective = 10.029372 | patience = 0/30
+Iteration 220 | objective = 10.027553 | patience = 0/30
+Iteration 230 | objective = 10.025903 | patience = 0/30
+Iteration 240 | objective = 10.024394 | patience = 0/30
+Iteration 250 | objective = 10.023420 | patience = 1/30
+Iteration 260 | objective = 10.021595 | patience = 0/30
+Iteration 270 | objective = 10.020342 | patience = 1/30
+Iteration 280 | objective = 10.019103 | patience = 0/30
+Iteration 290 | objective = 10.017962 | patience = 1/30
+Saved 01 to results/poisson_min_p3.csv
+============================================================
+Running 02 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (194, 3)
+Beta shape: (66, 3)
+Total parameters: 780
+Initial objective = 13.616520
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.502183 | patience = 0/30
+Iteration  10 | objective = 12.447011 | patience = 0/30
+Iteration  20 | objective = 11.823176 | patience = 0/30
+Iteration  30 | objective = 11.491550 | patience = 0/30
+Iteration  40 | objective = 11.227515 | patience = 0/30
+Iteration  50 | objective = 11.001008 | patience = 0/30
+Iteration  60 | objective = 10.797708 | patience = 0/30
+Iteration  70 | objective = 10.553037 | patience = 0/30
+Iteration  80 | objective = 10.359784 | patience = 0/30
+Iteration  90 | objective = 10.239035 | patience = 0/30
+Iteration 100 | objective = 10.164371 | patience = 0/30
+Iteration 110 | objective = 10.121598 | patience = 0/30
+Iteration 120 | objective = 10.096677 | patience = 0/30
+Iteration 130 | objective = 10.079714 | patience = 0/30
+Iteration 140 | objective = 10.067302 | patience = 0/30
+Iteration 150 | objective = 10.057906 | patience = 0/30
+Iteration 160 | objective = 10.050442 | patience = 0/30
+Iteration 170 | objective = 10.045151 | patience = 0/30
+Iteration 180 | objective = 10.039605 | patience = 0/30
+Iteration 190 | objective = 10.035731 | patience = 0/30
+Iteration 200 | objective = 10.032358 | patience = 0/30
+Iteration 210 | objective = 10.029464 | patience = 0/30
+Iteration 220 | objective = 10.026975 | patience = 0/30
+Iteration 230 | objective = 10.024770 | patience = 0/30
+Iteration 240 | objective = 10.022802 | patience = 0/30
+Iteration 250 | objective = 10.021066 | patience = 0/30
+Iteration 260 | objective = 10.019486 | patience = 0/30
+Iteration 270 | objective = 10.018280 | patience = 1/30
+Iteration 280 | objective = 10.016848 | patience = 0/30
+Iteration 290 | objective = 10.015618 | patience = 0/30
+Saved 02 to results/poisson_min_p3.csv
+============================================================
+Running 03 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (132, 3)
+Beta shape: (66, 3)
+Total parameters: 594
+Initial objective = 13.318163
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.217884 | patience = 0/30
+Iteration  10 | objective = 12.221037 | patience = 0/30
+Iteration  20 | objective = 11.430380 | patience = 0/30
+Iteration  30 | objective = 10.900713 | patience = 0/30
+Iteration  40 | objective = 10.447877 | patience = 0/30
+Iteration  50 | objective = 10.255799 | patience = 0/30
+Iteration  60 | objective = 10.168232 | patience = 0/30
+Iteration  70 | objective = 10.123412 | patience = 0/30
+Iteration  80 | objective = 10.097503 | patience = 0/30
+Iteration  90 | objective = 10.081555 | patience = 0/30
+Iteration 100 | objective = 10.069630 | patience = 0/30
+Iteration 110 | objective = 10.060498 | patience = 0/30
+Iteration 120 | objective = 10.053124 | patience = 0/30
+Iteration 130 | objective = 10.046637 | patience = 0/30
+Iteration 140 | objective = 10.040910 | patience = 0/30
+Iteration 150 | objective = 10.035980 | patience = 0/30
+Iteration 160 | objective = 10.031844 | patience = 0/30
+Iteration 170 | objective = 10.028390 | patience = 0/30
+Iteration 180 | objective = 10.025467 | patience = 0/30
+Iteration 190 | objective = 10.022980 | patience = 0/30
+Iteration 200 | objective = 10.020856 | patience = 0/30
+Iteration 210 | objective = 10.019024 | patience = 0/30
+Iteration 220 | objective = 10.017418 | patience = 0/30
+Iteration 230 | objective = 10.017372 | patience = 3/30
+Iteration 240 | objective = 10.015240 | patience = 1/30
+Iteration 250 | objective = 10.013646 | patience = 1/30
+Iteration 260 | objective = 10.012519 | patience = 0/30
+Iteration 270 | objective = 10.011620 | patience = 1/30
+Iteration 280 | objective = 10.010808 | patience = 1/30
+Iteration 290 | objective = 10.010121 | patience = 1/30
+Saved 03 to results/poisson_min_p3.csv
+============================================================
+Running 04 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (232, 3)
+Beta shape: (66, 3)
+Total parameters: 894
+Initial objective = 14.022446
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.896718 | patience = 0/30
+Iteration  10 | objective = 12.713230 | patience = 0/30
+Iteration  20 | objective = 11.983023 | patience = 0/30
+Iteration  30 | objective = 11.536471 | patience = 0/30
+Iteration  40 | objective = 11.109474 | patience = 0/30
+Iteration  50 | objective = 10.746130 | patience = 0/30
+Iteration  60 | objective = 10.505238 | patience = 0/30
+Iteration  70 | objective = 10.370188 | patience = 0/30
+Iteration  80 | objective = 10.280653 | patience = 0/30
+Iteration  90 | objective = 10.216524 | patience = 0/30
+Iteration 100 | objective = 10.169969 | patience = 0/30
+Iteration 110 | objective = 10.135999 | patience = 0/30
+Iteration 120 | objective = 10.111244 | patience = 0/30
+Iteration 130 | objective = 10.092913 | patience = 0/30
+Iteration 140 | objective = 10.078536 | patience = 0/30
+Iteration 150 | objective = 10.066792 | patience = 0/30
+Iteration 160 | objective = 10.057194 | patience = 0/30
+Iteration 170 | objective = 10.049347 | patience = 0/30
+Iteration 180 | objective = 10.043671 | patience = 0/30
+Iteration 190 | objective = 10.037650 | patience = 0/30
+Iteration 200 | objective = 10.033414 | patience = 0/30
+Iteration 210 | objective = 10.029774 | patience = 0/30
+Iteration 220 | objective = 10.026766 | patience = 0/30
+Iteration 230 | objective = 10.024264 | patience = 0/30
+Iteration 240 | objective = 10.022151 | patience = 0/30
+Iteration 250 | objective = 10.020335 | patience = 0/30
+Iteration 260 | objective = 10.018786 | patience = 0/30
+Iteration 270 | objective = 10.017638 | patience = 0/30
+Iteration 280 | objective = 10.016357 | patience = 2/30
+Iteration 290 | objective = 10.015132 | patience = 1/30
+Saved 04 to results/poisson_min_p3.csv
+============================================================
+Running 05 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (204, 3)
+Beta shape: (66, 3)
+Total parameters: 810
+Initial objective = 13.826803
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.684499 | patience = 0/30
+Iteration  10 | objective = 12.336844 | patience = 0/30
+Iteration  20 | objective = 11.454344 | patience = 0/30
+Iteration  30 | objective = 10.936738 | patience = 0/30
+Iteration  40 | objective = 10.379092 | patience = 0/30
+Iteration  50 | objective = 9.733340 | patience = 0/30
+Iteration  60 | objective = 9.368953 | patience = 0/30
+Iteration  70 | objective = 9.207272 | patience = 0/30
+Iteration  80 | objective = 9.136512 | patience = 0/30
+Iteration  90 | objective = 9.094210 | patience = 0/30
+Iteration 100 | objective = 9.068917 | patience = 0/30
+Iteration 110 | objective = 9.052834 | patience = 0/30
+Iteration 120 | objective = 9.042295 | patience = 0/30
+Iteration 130 | objective = 9.035095 | patience = 0/30
+Iteration 140 | objective = 9.030020 | patience = 0/30
+Iteration 150 | objective = 9.026314 | patience = 0/30
+Iteration 160 | objective = 9.023546 | patience = 0/30
+Iteration 170 | objective = 9.021427 | patience = 0/30
+Iteration 180 | objective = 9.020174 | patience = 1/30
+Iteration 190 | objective = 9.018566 | patience = 0/30
+Iteration 200 | objective = 9.017277 | patience = 0/30
+Iteration 210 | objective = 9.016295 | patience = 0/30
+Iteration 220 | objective = 9.015446 | patience = 1/30
+Iteration 230 | objective = 9.014669 | patience = 1/30
+Iteration 240 | objective = 9.013981 | patience = 1/30
+Iteration 250 | objective = 9.013353 | patience = 1/30
+Iteration 260 | objective = 9.013009 | patience = 2/30
+Iteration 270 | objective = 9.012516 | patience = 0/30
+Iteration 280 | objective = 9.012078 | patience = 2/30
+Iteration 290 | objective = 9.011334 | patience = 0/30
+Saved 05 to results/poisson_min_p3.csv
+============================================================
+Running 06 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (132, 3)
+Beta shape: (66, 3)
+Total parameters: 594
+Initial objective = 14.015146
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.893125 | patience = 0/30
+Iteration  10 | objective = 12.763331 | patience = 0/30
+Iteration  20 | objective = 12.088978 | patience = 0/30
+Iteration  30 | objective = 11.684750 | patience = 0/30
+Iteration  40 | objective = 11.356346 | patience = 0/30
+Iteration  50 | objective = 11.180270 | patience = 0/30
+Iteration  60 | objective = 11.109435 | patience = 0/30
+Iteration  70 | objective = 11.072992 | patience = 0/30
+Iteration  80 | objective = 11.052409 | patience = 0/30
+Iteration  90 | objective = 11.040682 | patience = 0/30
+Iteration 100 | objective = 11.033553 | patience = 0/30
+Iteration 110 | objective = 11.028605 | patience = 0/30
+Iteration 120 | objective = 11.024878 | patience = 0/30
+Iteration 130 | objective = 11.021994 | patience = 0/30
+Iteration 140 | objective = 11.019696 | patience = 0/30
+Iteration 150 | objective = 11.017836 | patience = 0/30
+Iteration 160 | objective = 11.016284 | patience = 0/30
+Iteration 170 | objective = 11.014952 | patience = 0/30
+Iteration 180 | objective = 11.013778 | patience = 0/30
+Iteration 190 | objective = 11.012720 | patience = 0/30
+Iteration 200 | objective = 11.011745 | patience = 1/30
+Iteration 210 | objective = 11.011121 | patience = 1/30
+Iteration 220 | objective = 11.009992 | patience = 0/30
+Iteration 230 | objective = 11.009245 | patience = 2/30
+Iteration 240 | objective = 11.008434 | patience = 1/30
+Iteration 250 | objective = 11.007696 | patience = 0/30
+Iteration 260 | objective = 11.007060 | patience = 0/30
+Iteration 270 | objective = 11.006509 | patience = 0/30
+Iteration 280 | objective = 11.006020 | patience = 2/30
+Iteration 290 | objective = 11.005589 | patience = 0/30
+Saved 06 to results/poisson_min_p3.csv
+============================================================
+Running 07 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (288, 3)
+Beta shape: (66, 3)
+Total parameters: 1062
+Initial objective = 14.115798
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.007438 | patience = 0/30
+Iteration  10 | objective = 13.036154 | patience = 0/30
+Iteration  20 | objective = 12.501495 | patience = 0/30
+Iteration  30 | objective = 12.275567 | patience = 0/30
+Iteration  40 | objective = 12.170334 | patience = 0/30
+Iteration  50 | objective = 12.112239 | patience = 0/30
+Iteration  60 | objective = 12.081056 | patience = 0/30
+Iteration  70 | objective = 12.058878 | patience = 0/30
+Iteration  80 | objective = 12.043629 | patience = 0/30
+Iteration  90 | objective = 12.033812 | patience = 0/30
+Iteration 100 | objective = 12.027609 | patience = 0/30
+Iteration 110 | objective = 12.023423 | patience = 0/30
+Iteration 120 | objective = 12.020398 | patience = 0/30
+Iteration 130 | objective = 12.018081 | patience = 0/30
+Iteration 140 | objective = 12.016217 | patience = 0/30
+Iteration 150 | objective = 12.014662 | patience = 0/30
+Iteration 160 | objective = 12.013328 | patience = 0/30
+Iteration 170 | objective = 12.012173 | patience = 0/30
+Iteration 180 | objective = 12.011172 | patience = 1/30
+Iteration 190 | objective = 12.010306 | patience = 1/30
+Iteration 200 | objective = 12.009736 | patience = 3/30
+Iteration 210 | objective = 12.009023 | patience = 0/30
+Iteration 220 | objective = 12.008549 | patience = 4/30
+Iteration 230 | objective = 12.007901 | patience = 1/30
+Iteration 240 | objective = 12.007373 | patience = 0/30
+Iteration 250 | objective = 12.006963 | patience = 1/30
+Iteration 260 | objective = 12.006578 | patience = 2/30
+Iteration 270 | objective = 12.006223 | patience = 0/30
+Iteration 280 | objective = 12.005899 | patience = 2/30
+Iteration 290 | objective = 12.005595 | patience = 0/30
+Saved 07 to results/poisson_min_p3.csv
+============================================================
+Running 08 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (105, 3)
+Beta shape: (66, 3)
+Total parameters: 513
+Initial objective = 13.850213
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.717971 | patience = 0/30
+Iteration  10 | objective = 12.468866 | patience = 0/30
+Iteration  20 | objective = 11.718183 | patience = 0/30
+Iteration  30 | objective = 11.224410 | patience = 0/30
+Iteration  40 | objective = 10.796540 | patience = 0/30
+Iteration  50 | objective = 10.449720 | patience = 0/30
+Iteration  60 | objective = 10.268113 | patience = 0/30
+Iteration  70 | objective = 10.179894 | patience = 0/30
+Iteration  80 | objective = 10.133712 | patience = 0/30
+Iteration  90 | objective = 10.103984 | patience = 0/30
+Iteration 100 | objective = 10.083503 | patience = 0/30
+Iteration 110 | objective = 10.068036 | patience = 0/30
+Iteration 120 | objective = 10.056614 | patience = 0/30
+Iteration 130 | objective = 10.047767 | patience = 0/30
+Iteration 140 | objective = 10.040948 | patience = 0/30
+Iteration 150 | objective = 10.035579 | patience = 0/30
+Iteration 160 | objective = 10.031193 | patience = 0/30
+Iteration 170 | objective = 10.027551 | patience = 0/30
+Iteration 180 | objective = 10.024775 | patience = 0/30
+Iteration 190 | objective = 10.022288 | patience = 0/30
+Iteration 200 | objective = 10.019947 | patience = 0/30
+Iteration 210 | objective = 10.018102 | patience = 0/30
+Iteration 220 | objective = 10.016532 | patience = 0/30
+Iteration 230 | objective = 10.015125 | patience = 0/30
+Iteration 240 | objective = 10.013880 | patience = 0/30
+Iteration 250 | objective = 10.012735 | patience = 0/30
+Iteration 260 | objective = 10.012046 | patience = 3/30
+Iteration 270 | objective = 10.010720 | patience = 0/30
+Iteration 280 | objective = 10.009951 | patience = 2/30
+Iteration 290 | objective = 10.009102 | patience = 1/30
+Saved 08 to results/poisson_min_p3.csv
+============================================================
+Running 09 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (236, 3)
+Beta shape: (66, 3)
+Total parameters: 906
+Initial objective = 13.208072
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.073397 | patience = 0/30
+Iteration  10 | objective = 11.943349 | patience = 0/30
+Iteration  20 | objective = 11.232396 | patience = 0/30
+Iteration  30 | objective = 10.712298 | patience = 0/30
+Iteration  40 | objective = 10.378381 | patience = 0/30
+Iteration  50 | objective = 10.197147 | patience = 0/30
+Iteration  60 | objective = 10.119971 | patience = 0/30
+Iteration  70 | objective = 10.082396 | patience = 0/30
+Iteration  80 | objective = 10.062601 | patience = 0/30
+Iteration  90 | objective = 10.050468 | patience = 0/30
+Iteration 100 | objective = 10.042527 | patience = 0/30
+Iteration 110 | objective = 10.036868 | patience = 0/30
+Iteration 120 | objective = 10.032511 | patience = 0/30
+Iteration 130 | objective = 10.028913 | patience = 0/30
+Iteration 140 | objective = 10.025880 | patience = 0/30
+Iteration 150 | objective = 10.023330 | patience = 0/30
+Iteration 160 | objective = 10.021203 | patience = 0/30
+Iteration 170 | objective = 10.019430 | patience = 0/30
+Iteration 180 | objective = 10.017935 | patience = 0/30
+Iteration 190 | objective = 10.016656 | patience = 0/30
+Iteration 200 | objective = 10.015554 | patience = 0/30
+Iteration 210 | objective = 10.014598 | patience = 0/30
+Iteration 220 | objective = 10.013765 | patience = 0/30
+Iteration 230 | objective = 10.013033 | patience = 0/30
+Iteration 240 | objective = 10.013845 | patience = 2/30
+Iteration 250 | objective = 10.011921 | patience = 3/30
+Iteration 260 | objective = 10.011333 | patience = 0/30
+Iteration 270 | objective = 10.010917 | patience = 1/30
+Iteration 280 | objective = 10.010425 | patience = 0/30
+Iteration 290 | objective = 10.010030 | patience = 1/30
+Saved 09 to results/poisson_min_p3.csv
+============================================================
+Running 10 | Dataset=poisson_16_12_4
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (288, 3)
+Beta shape: (66, 3)
+Total parameters: 1062
+Initial objective = 14.086690
+Runtype = aon | Loss = min
+Iteration   0 | objective = 13.971265 | patience = 0/30
+Iteration  10 | objective = 12.754042 | patience = 0/30
+Iteration  20 | objective = 11.679054 | patience = 0/30
+Iteration  30 | objective = 10.926666 | patience = 0/30
+Iteration  40 | objective = 10.440133 | patience = 0/30
+Iteration  50 | objective = 10.215278 | patience = 0/30
+Iteration  60 | objective = 10.120500 | patience = 0/30
+Iteration  70 | objective = 10.074837 | patience = 0/30
+Iteration  80 | objective = 10.054236 | patience = 0/30
+Iteration  90 | objective = 10.041210 | patience = 0/30
+Iteration 100 | objective = 10.031759 | patience = 0/30
+Iteration 110 | objective = 10.024934 | patience = 0/30
+Iteration 120 | objective = 10.020051 | patience = 0/30
+Iteration 130 | objective = 10.016554 | patience = 0/30
+Iteration 140 | objective = 10.014046 | patience = 0/30
+Iteration 150 | objective = 10.012195 | patience = 0/30
+Iteration 160 | objective = 10.010769 | patience = 0/30
+Iteration 170 | objective = 10.009634 | patience = 0/30
+Iteration 180 | objective = 10.008707 | patience = 1/30
+Iteration 190 | objective = 10.007953 | patience = 1/30
+Iteration 200 | objective = 10.007343 | patience = 0/30
+Iteration 210 | objective = 10.007044 | patience = 2/30
+Iteration 220 | objective = 10.006338 | patience = 1/30
+Iteration 230 | objective = 10.005921 | patience = 2/30
+Iteration 240 | objective = 10.005527 | patience = 3/30
+Iteration 250 | objective = 10.005205 | patience = 1/30
+Iteration 260 | objective = 10.004909 | patience = 3/30
+Iteration 270 | objective = 10.004646 | patience = 1/30
+Iteration 280 | objective = 10.004407 | patience = 1/30
+Iteration 290 | objective = 10.004189 | patience = 1/30
+Saved 10 to results/poisson_min_p3.csv
+============================================================
+Running 01 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (358, 3)
+Beta shape: (66, 3)
+Total parameters: 1272
+Initial objective = 14.726750
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.630224 | patience = 0/30
+Iteration  10 | objective = 13.525468 | patience = 0/30
+Iteration  20 | objective = 12.817758 | patience = 0/30
+Iteration  30 | objective = 12.503294 | patience = 0/30
+Iteration  40 | objective = 12.321967 | patience = 0/30
+Iteration  50 | objective = 12.196730 | patience = 0/30
+Iteration  60 | objective = 12.123682 | patience = 0/30
+Iteration  70 | objective = 12.082986 | patience = 0/30
+Iteration  80 | objective = 12.058439 | patience = 0/30
+Iteration  90 | objective = 12.042855 | patience = 0/30
+Iteration 100 | objective = 12.032755 | patience = 0/30
+Iteration 110 | objective = 12.026036 | patience = 0/30
+Iteration 120 | objective = 12.021256 | patience = 0/30
+Iteration 130 | objective = 12.017748 | patience = 0/30
+Iteration 140 | objective = 12.015136 | patience = 0/30
+Iteration 150 | objective = 12.013140 | patience = 0/30
+Iteration 160 | objective = 12.011648 | patience = 1/30
+Iteration 170 | objective = 12.010788 | patience = 1/30
+Iteration 180 | objective = 12.009318 | patience = 0/30
+Iteration 190 | objective = 12.008398 | patience = 1/30
+Iteration 200 | objective = 12.007617 | patience = 1/30
+Iteration 210 | objective = 12.006923 | patience = 1/30
+Iteration 220 | objective = 12.006334 | patience = 1/30
+Iteration 230 | objective = 12.005814 | patience = 1/30
+Iteration 240 | objective = 12.005362 | patience = 2/30
+Iteration 250 | objective = 12.005201 | patience = 2/30
+Iteration 260 | objective = 12.004642 | patience = 0/30
+Iteration 270 | objective = 12.004422 | patience = 2/30
+Iteration 280 | objective = 12.004065 | patience = 4/30
+Iteration 290 | objective = 12.003820 | patience = 4/30
+Saved 01 to results/poisson_min_p3.csv
+============================================================
+Running 02 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (1168, 3)
+Beta shape: (66, 3)
+Total parameters: 3702
+Initial objective = 15.543316
+Runtype = aon | Loss = min
+Iteration   0 | objective = 15.503036 | patience = 0/30
+Iteration  10 | objective = 15.030685 | patience = 0/30
+Iteration  20 | objective = 14.490347 | patience = 0/30
+Iteration  30 | objective = 14.003854 | patience = 0/30
+Iteration  40 | objective = 13.608146 | patience = 0/30
+Iteration  50 | objective = 13.342202 | patience = 0/30
+Iteration  60 | objective = 13.196403 | patience = 0/30
+Iteration  70 | objective = 13.118824 | patience = 0/30
+Iteration  80 | objective = 13.075649 | patience = 0/30
+Iteration  90 | objective = 13.050960 | patience = 0/30
+Iteration 100 | objective = 13.036327 | patience = 0/30
+Iteration 110 | objective = 13.027310 | patience = 0/30
+Iteration 120 | objective = 13.021033 | patience = 0/30
+Iteration 130 | objective = 13.016446 | patience = 0/30
+Iteration 140 | objective = 13.013165 | patience = 0/30
+Iteration 150 | objective = 13.010706 | patience = 0/30
+Iteration 160 | objective = 13.008817 | patience = 0/30
+Iteration 170 | objective = 13.007361 | patience = 0/30
+Iteration 180 | objective = 13.006200 | patience = 0/30
+Iteration 190 | objective = 13.005263 | patience = 1/30
+Iteration 200 | objective = 13.004516 | patience = 1/30
+Iteration 210 | objective = 13.004416 | patience = 2/30
+Iteration 220 | objective = 13.003454 | patience = 2/30
+Iteration 230 | objective = 13.002893 | patience = 0/30
+Iteration 240 | objective = 13.002511 | patience = 2/30
+Iteration 250 | objective = 13.002183 | patience = 1/30
+Iteration 260 | objective = 13.001896 | patience = 3/30
+Iteration 270 | objective = 13.001652 | patience = 4/30
+Iteration 280 | objective = 13.001445 | patience = 4/30
+Iteration 290 | objective = 13.001590 | patience = 8/30
+Saved 02 to results/poisson_min_p3.csv
+============================================================
+Running 03 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (878, 3)
+Beta shape: (66, 3)
+Total parameters: 2832
+Initial objective = 14.916599
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.845595 | patience = 0/30
+Iteration  10 | objective = 14.143735 | patience = 0/30
+Iteration  20 | objective = 13.619492 | patience = 0/30
+Iteration  30 | objective = 13.334572 | patience = 0/30
+Iteration  40 | objective = 13.188135 | patience = 0/30
+Iteration  50 | objective = 13.118333 | patience = 0/30
+Iteration  60 | objective = 13.081393 | patience = 0/30
+Iteration  70 | objective = 13.058759 | patience = 0/30
+Iteration  80 | objective = 13.043772 | patience = 0/30
+Iteration  90 | objective = 13.033690 | patience = 0/30
+Iteration 100 | objective = 13.026603 | patience = 0/30
+Iteration 110 | objective = 13.021529 | patience = 0/30
+Iteration 120 | objective = 13.017787 | patience = 0/30
+Iteration 130 | objective = 13.014935 | patience = 0/30
+Iteration 140 | objective = 13.012693 | patience = 0/30
+Iteration 150 | objective = 13.011353 | patience = 2/30
+Iteration 160 | objective = 13.009416 | patience = 0/30
+Iteration 170 | objective = 13.008271 | patience = 1/30
+Iteration 180 | objective = 13.007157 | patience = 0/30
+Iteration 190 | objective = 13.006216 | patience = 1/30
+Iteration 200 | objective = 13.005426 | patience = 1/30
+Iteration 210 | objective = 13.004743 | patience = 1/30
+Iteration 220 | objective = 13.004156 | patience = 1/30
+Iteration 230 | objective = 13.003644 | patience = 2/30
+Iteration 240 | objective = 13.003202 | patience = 0/30
+Iteration 250 | objective = 13.003048 | patience = 6/30
+Iteration 260 | objective = 13.002661 | patience = 2/30
+Iteration 270 | objective = 13.002219 | patience = 3/30
+Iteration 280 | objective = 13.001953 | patience = 3/30
+Iteration 290 | objective = 13.001732 | patience = 3/30
+Saved 03 to results/poisson_min_p3.csv
+============================================================
+Running 04 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (440, 3)
+Beta shape: (66, 3)
+Total parameters: 1518
+Initial objective = 15.294152
+Runtype = aon | Loss = min
+Iteration   0 | objective = 15.239308 | patience = 0/30
+Iteration  10 | objective = 14.683115 | patience = 0/30
+Iteration  20 | objective = 14.227818 | patience = 0/30
+Iteration  30 | objective = 13.887802 | patience = 0/30
+Iteration  40 | objective = 13.617779 | patience = 0/30
+Iteration  50 | objective = 13.434397 | patience = 0/30
+Iteration  60 | objective = 13.302809 | patience = 0/30
+Iteration  70 | objective = 13.211455 | patience = 0/30
+Iteration  80 | objective = 13.154188 | patience = 0/30
+Iteration  90 | objective = 13.117554 | patience = 0/30
+Iteration 100 | objective = 13.093185 | patience = 0/30
+Iteration 110 | objective = 13.075768 | patience = 0/30
+Iteration 120 | objective = 13.062796 | patience = 0/30
+Iteration 130 | objective = 13.052335 | patience = 0/30
+Iteration 140 | objective = 13.043942 | patience = 0/30
+Iteration 150 | objective = 13.037420 | patience = 0/30
+Iteration 160 | objective = 13.032438 | patience = 0/30
+Iteration 170 | objective = 13.028565 | patience = 0/30
+Iteration 180 | objective = 13.025490 | patience = 0/30
+Iteration 190 | objective = 13.022995 | patience = 0/30
+Iteration 200 | objective = 13.020973 | patience = 0/30
+Iteration 210 | objective = 13.019256 | patience = 0/30
+Iteration 220 | objective = 13.017682 | patience = 0/30
+Iteration 230 | objective = 13.016350 | patience = 0/30
+Iteration 240 | objective = 13.015208 | patience = 0/30
+Iteration 250 | objective = 13.014133 | patience = 0/30
+Iteration 260 | objective = 13.013205 | patience = 0/30
+Iteration 270 | objective = 13.012364 | patience = 0/30
+Iteration 280 | objective = 13.011746 | patience = 2/30
+Iteration 290 | objective = 13.011203 | patience = 3/30
+Saved 04 to results/poisson_min_p3.csv
+============================================================
+Running 05 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=15
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (409, 3)
+Beta shape: (66, 3)
+Total parameters: 1425
+Initial objective = 14.330480
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.246114 | patience = 0/30
+Iteration  10 | objective = 13.359083 | patience = 0/30
+Iteration  20 | objective = 12.746416 | patience = 0/30
+Iteration  30 | objective = 12.430282 | patience = 0/30
+Iteration  40 | objective = 12.248154 | patience = 0/30
+Iteration  50 | objective = 12.132004 | patience = 0/30
+Iteration  60 | objective = 12.070986 | patience = 0/30
+Iteration  70 | objective = 12.039902 | patience = 0/30
+Iteration  80 | objective = 12.025164 | patience = 0/30
+Iteration  90 | objective = 12.017834 | patience = 0/30
+Iteration 100 | objective = 12.013345 | patience = 0/30
+Iteration 110 | objective = 12.010677 | patience = 1/30
+Iteration 120 | objective = 12.008564 | patience = 0/30
+Iteration 130 | objective = 12.006959 | patience = 0/30
+Iteration 140 | objective = 12.005865 | patience = 0/30
+Iteration 150 | objective = 12.005039 | patience = 1/30
+Iteration 160 | objective = 12.004355 | patience = 1/30
+Iteration 170 | objective = 12.003819 | patience = 0/30
+Iteration 180 | objective = 12.003374 | patience = 1/30
+Iteration 190 | objective = 12.003345 | patience = 8/30
+Iteration 200 | objective = 12.002684 | patience = 0/30
+Iteration 210 | objective = 12.002448 | patience = 1/30
+Iteration 220 | objective = 12.002190 | patience = 1/30
+Iteration 230 | objective = 12.001975 | patience = 0/30
+Iteration 240 | objective = 12.001827 | patience = 4/30
+Iteration 250 | objective = 12.001650 | patience = 0/30
+Iteration 260 | objective = 12.001542 | patience = 3/30
+Iteration 270 | objective = 12.001419 | patience = 5/30
+Iteration 280 | objective = 12.001238 | patience = 4/30
+Iteration 290 | objective = 12.001694 | patience = 5/30
+Saved 05 to results/poisson_min_p3.csv
+============================================================
+Running 06 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (408, 3)
+Beta shape: (66, 3)
+Total parameters: 1422
+Initial objective = 14.778100
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.680779 | patience = 0/30
+Iteration  10 | objective = 13.673596 | patience = 0/30
+Iteration  20 | objective = 13.062312 | patience = 0/30
+Iteration  30 | objective = 12.748607 | patience = 0/30
+Iteration  40 | objective = 12.504878 | patience = 0/30
+Iteration  50 | objective = 12.356392 | patience = 0/30
+Iteration  60 | objective = 12.263061 | patience = 0/30
+Iteration  70 | objective = 12.196708 | patience = 0/30
+Iteration  80 | objective = 12.138281 | patience = 0/30
+Iteration  90 | objective = 12.097242 | patience = 0/30
+Iteration 100 | objective = 12.070577 | patience = 0/30
+Iteration 110 | objective = 12.052691 | patience = 0/30
+Iteration 120 | objective = 12.040478 | patience = 0/30
+Iteration 130 | objective = 12.031831 | patience = 0/30
+Iteration 140 | objective = 12.025609 | patience = 0/30
+Iteration 150 | objective = 12.020772 | patience = 0/30
+Iteration 160 | objective = 12.016871 | patience = 0/30
+Iteration 170 | objective = 12.014004 | patience = 0/30
+Iteration 180 | objective = 12.011694 | patience = 0/30
+Iteration 190 | objective = 12.009881 | patience = 0/30
+Iteration 200 | objective = 12.008469 | patience = 0/30
+Iteration 210 | objective = 12.007336 | patience = 0/30
+Iteration 220 | objective = 12.006421 | patience = 0/30
+Iteration 230 | objective = 12.005683 | patience = 0/30
+Iteration 240 | objective = 12.005763 | patience = 2/30
+Iteration 250 | objective = 12.004756 | patience = 2/30
+Iteration 260 | objective = 12.004151 | patience = 2/30
+Iteration 270 | objective = 12.003690 | patience = 1/30
+Iteration 280 | objective = 12.003322 | patience = 0/30
+Iteration 290 | objective = 12.003017 | patience = 2/30
+Saved 06 to results/poisson_min_p3.csv
+============================================================
+Running 07 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (282, 3)
+Beta shape: (66, 3)
+Total parameters: 1044
+Initial objective = 14.142553
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.037014 | patience = 0/30
+Iteration  10 | objective = 13.024352 | patience = 0/30
+Iteration  20 | objective = 12.335121 | patience = 0/30
+Iteration  30 | objective = 11.859229 | patience = 0/30
+Iteration  40 | objective = 11.518065 | patience = 0/30
+Iteration  50 | objective = 11.303356 | patience = 0/30
+Iteration  60 | objective = 11.191646 | patience = 0/30
+Iteration  70 | objective = 11.121523 | patience = 0/30
+Iteration  80 | objective = 11.081150 | patience = 0/30
+Iteration  90 | objective = 11.058858 | patience = 0/30
+Iteration 100 | objective = 11.044498 | patience = 0/30
+Iteration 110 | objective = 11.034906 | patience = 0/30
+Iteration 120 | objective = 11.028331 | patience = 0/30
+Iteration 130 | objective = 11.023703 | patience = 0/30
+Iteration 140 | objective = 11.020276 | patience = 0/30
+Iteration 150 | objective = 11.017650 | patience = 0/30
+Iteration 160 | objective = 11.015602 | patience = 0/30
+Iteration 170 | objective = 11.013959 | patience = 0/30
+Iteration 180 | objective = 11.012598 | patience = 0/30
+Iteration 190 | objective = 11.011439 | patience = 0/30
+Iteration 200 | objective = 11.010436 | patience = 1/30
+Iteration 210 | objective = 11.009557 | patience = 1/30
+Iteration 220 | objective = 11.010012 | patience = 3/30
+Iteration 230 | objective = 11.008556 | patience = 2/30
+Iteration 240 | objective = 11.007551 | patience = 0/30
+Iteration 250 | objective = 11.007032 | patience = 2/30
+Iteration 260 | objective = 11.006506 | patience = 0/30
+Iteration 270 | objective = 11.006072 | patience = 1/30
+Iteration 280 | objective = 11.005679 | patience = 2/30
+Iteration 290 | objective = 11.005313 | patience = 0/30
+Saved 07 to results/poisson_min_p3.csv
+============================================================
+Running 08 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (706, 3)
+Beta shape: (66, 3)
+Total parameters: 2316
+Initial objective = 15.292343
+Runtype = aon | Loss = min
+Iteration   0 | objective = 15.251568 | patience = 0/30
+Iteration  10 | objective = 14.845333 | patience = 0/30
+Iteration  20 | objective = 14.488395 | patience = 0/30
+Iteration  30 | objective = 14.194348 | patience = 0/30
+Iteration  40 | objective = 13.868675 | patience = 0/30
+Iteration  50 | objective = 13.570867 | patience = 0/30
+Iteration  60 | objective = 13.354987 | patience = 0/30
+Iteration  70 | objective = 13.240133 | patience = 0/30
+Iteration  80 | objective = 13.166816 | patience = 0/30
+Iteration  90 | objective = 13.120178 | patience = 0/30
+Iteration 100 | objective = 13.089640 | patience = 0/30
+Iteration 110 | objective = 13.069050 | patience = 0/30
+Iteration 120 | objective = 13.054811 | patience = 0/30
+Iteration 130 | objective = 13.045013 | patience = 0/30
+Iteration 140 | objective = 13.037734 | patience = 0/30
+Iteration 150 | objective = 13.032243 | patience = 0/30
+Iteration 160 | objective = 13.027751 | patience = 0/30
+Iteration 170 | objective = 13.024124 | patience = 0/30
+Iteration 180 | objective = 13.021145 | patience = 0/30
+Iteration 190 | objective = 13.018711 | patience = 0/30
+Iteration 200 | objective = 13.016696 | patience = 0/30
+Iteration 210 | objective = 13.014920 | patience = 0/30
+Iteration 220 | objective = 13.013674 | patience = 0/30
+Iteration 230 | objective = 13.012228 | patience = 1/30
+Iteration 240 | objective = 13.010963 | patience = 0/30
+Iteration 250 | objective = 13.009945 | patience = 1/30
+Iteration 260 | objective = 13.009018 | patience = 1/30
+Iteration 270 | objective = 13.008212 | patience = 1/30
+Iteration 280 | objective = 13.007513 | patience = 0/30
+Iteration 290 | objective = 13.006856 | patience = 1/30
+Saved 08 to results/poisson_min_p3.csv
+============================================================
+Running 09 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (1898, 3)
+Beta shape: (66, 3)
+Total parameters: 5892
+Initial objective = 14.897638
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.825314 | patience = 0/30
+Iteration  10 | objective = 13.975338 | patience = 0/30
+Iteration  20 | objective = 13.107067 | patience = 0/30
+Iteration  30 | objective = 12.439839 | patience = 0/30
+Iteration  40 | objective = 11.872918 | patience = 0/30
+Iteration  50 | objective = 11.521001 | patience = 0/30
+Iteration  60 | objective = 11.304831 | patience = 0/30
+Iteration  70 | objective = 11.173910 | patience = 0/30
+Iteration  80 | objective = 11.105963 | patience = 0/30
+Iteration  90 | objective = 11.070283 | patience = 0/30
+Iteration 100 | objective = 11.049874 | patience = 0/30
+Iteration 110 | objective = 11.037906 | patience = 0/30
+Iteration 120 | objective = 11.029461 | patience = 0/30
+Iteration 130 | objective = 11.023537 | patience = 0/30
+Iteration 140 | objective = 11.019159 | patience = 0/30
+Iteration 150 | objective = 11.015774 | patience = 0/30
+Iteration 160 | objective = 11.013120 | patience = 0/30
+Iteration 170 | objective = 11.011035 | patience = 0/30
+Iteration 180 | objective = 11.011627 | patience = 2/30
+Iteration 190 | objective = 11.008127 | patience = 0/30
+Iteration 200 | objective = 11.007346 | patience = 2/30
+Iteration 210 | objective = 11.006058 | patience = 0/30
+Iteration 220 | objective = 11.005280 | patience = 0/30
+Iteration 230 | objective = 11.004649 | patience = 1/30
+Iteration 240 | objective = 11.004064 | patience = 1/30
+Iteration 250 | objective = 11.003581 | patience = 1/30
+Iteration 260 | objective = 11.003159 | patience = 2/30
+Iteration 270 | objective = 11.004488 | patience = 9/30
+Iteration 280 | objective = 11.003268 | patience = 1/30
+Iteration 290 | objective = 11.002385 | patience = 3/30
+Saved 09 to results/poisson_min_p3.csv
+============================================================
+Running 10 | Dataset=poisson_16_12_5
+Vertices=12 | Hyperedges=16
+Runtype=aon | Loss=min
+============================================================
+Gamma shape: (1012, 3)
+Beta shape: (66, 3)
+Total parameters: 3234
+Initial objective = 15.053535
+Runtype = aon | Loss = min
+Iteration   0 | objective = 14.948397 | patience = 0/30
+Iteration  10 | objective = 13.774698 | patience = 0/30
+Iteration  20 | objective = 12.866511 | patience = 0/30
+Iteration  30 | objective = 12.271337 | patience = 0/30
+Iteration  40 | objective = 11.885027 | patience = 0/30
+Iteration  50 | objective = 11.621387 | patience = 0/30
+Iteration  60 | objective = 11.439685 | patience = 0/30
+Iteration  70 | objective = 11.308881 | patience = 0/30
+Iteration  80 | objective = 11.228358 | patience = 0/30
+Iteration  90 | objective = 11.175143 | patience = 0/30
+Iteration 100 | objective = 11.138219 | patience = 0/30
+Iteration 110 | objective = 11.111295 | patience = 0/30
+Iteration 120 | objective = 11.090810 | patience = 0/30
+Iteration 130 | objective = 11.075051 | patience = 0/30
+Iteration 140 | objective = 11.062870 | patience = 0/30
+Iteration 150 | objective = 11.053230 | patience = 0/30
+Iteration 160 | objective = 11.045504 | patience = 0/30
+Iteration 170 | objective = 11.039927 | patience = 1/30
+Iteration 180 | objective = 11.034188 | patience = 0/30
+Iteration 190 | objective = 11.030024 | patience = 0/30
+Iteration 200 | objective = 11.026363 | patience = 0/30
+Iteration 210 | objective = 11.023284 | patience = 0/30
+Iteration 220 | objective = 11.020620 | patience = 0/30
+Iteration 230 | objective = 11.018307 | patience = 0/30
+Iteration 240 | objective = 11.016271 | patience = 0/30
+Iteration 250 | objective = 11.014524 | patience = 0/30
+Iteration 260 | objective = 11.013680 | patience = 1/30
+Iteration 270 | objective = 11.011563 | patience = 0/30
+Iteration 280 | objective = 11.010372 | patience = 1/30
+Iteration 290 | objective = 11.009214 | patience = 0/30
+Saved 10 to results/poisson_min_p3.csv
+All experiments completed!
